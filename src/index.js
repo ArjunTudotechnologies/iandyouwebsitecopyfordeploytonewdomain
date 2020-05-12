@@ -4,6 +4,9 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/assets/scss/theme/theme.scss';
+
 // pages
 import HomePage from '../src/pages/Home/Home.js';
 import AboutPage from "../src/pages/About/About.js";
