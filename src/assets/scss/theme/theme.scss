@@ -13,7 +13,13 @@ Description: I And You Website Theme Styles
 3. Cards
 */
 //----------------------------------//
+
 @import "../variables/variables";
+@import "../../fonts/samarkan/stylesheet.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 h1 {
   // Minimum font-size
@@ -71,10 +77,8 @@ p {
 .special-title {
   font-family: "Niconne", cursive;
 }
- 
-// 2. Buttons
 
-@import "../variables/variables";
+// 2. Buttons
 
 .btn {
   border-radius: 35px;
@@ -120,4 +124,36 @@ p {
 .btn-secondary:not(:disabled):not(.disabled):active:focus {
   border: 0;
   box-shadow: unset;
+}
+
+// Header
+.header {
+  background-color: $color-white;
+}
+.logo {
+  height: 60px;
+}
+.logo-text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: "samarkan_____normal";
+  vertical-align: middle;
+}
+.navbar-nav {
+  .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    &:hover {
+      color: $color-orange-dark !important;
+    }
+  }
+  .dropdown-menu {
+    border: 0;
+    box-shadow: $shadow;
+    .dropdown-item {
+      font-size: 14px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
 }
