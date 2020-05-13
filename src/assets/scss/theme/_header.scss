@@ -1,0 +1,39 @@
+@import "../variables/variables";
+@import "../../fonts/samarkan/stylesheet";
+.header {
+  background-color: $color-white;
+}
+.logo {
+  height: 60px;
+}
+.logo-text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: "samarkan_____normal";
+  vertical-align: middle;
+  background-color: #3b3e85;
+  background-image: linear-gradient(135deg, #3b3e85 10%, #000dff 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.navbar-nav {
+  .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    &:hover {
+      color: $color-orange-dark !important;
+    }
+  }
+  .dropdown-menu {
+    border: 0;
+    box-shadow: $shadow;
+    .dropdown-item {
+      font-size: 14px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

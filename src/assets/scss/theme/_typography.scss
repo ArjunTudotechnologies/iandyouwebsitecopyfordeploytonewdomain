@@ -1,0 +1,61 @@
+@import "../variables/variables";
+
+/*--------------------Default-------------------------*/
+p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    color: $color-light-black;
+    @media (min-width: 576px) {
+      $map: (
+        576px: 14px,
+        768px: 14px,
+      );
+      font-size: linear-interpolation($map);
+    }
+    @media (min-width: 768px) {
+      $map: (
+        768px: 14px,
+        992px: 16px,
+      );
+      font-size: linear-interpolation($map);
+    }
+    @media (min-width: 992px) {
+      font-size: 16px;
+    }
+  }
+  
+
+/*--------------------title-------------------------*/
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: $color-charcoal;
+  font-family: "Roboto", sans-serif;
+  @media (min-width: 576px) {
+    $map: (
+      576px: 22px,
+      768px: 24px,
+    );
+    font-size: linear-interpolation($map);
+  }
+  @media (min-width: 768px) {
+    $map: (
+      768px: 24px,
+      992px: 34px,
+    );
+    font-size: linear-interpolation($map);
+  }
+  @media (min-width: 992px) {
+    font-size: 34px;
+  }
+}
+.sub-small-title {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.special-title {
+  font-family: "Niconne", cursive;
+}
+

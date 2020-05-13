@@ -5,7 +5,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../src/assets/scss/theme/theme.scss';
+import '../src/assets/scss/iandyou.scss';
 
 // pages
 import HomePage from '../src/pages/Home/Home.js';
