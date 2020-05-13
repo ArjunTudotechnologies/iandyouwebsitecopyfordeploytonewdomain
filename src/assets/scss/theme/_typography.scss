@@ -1,6 +1,31 @@
 @import "../variables/variables";
 
 /*--------------------Default-------------------------*/
+.color-white{
+  color:$color-white!important;
+}
+.image-overlay {
+  position:relative;
+  
+}
+.image-overlay img {
+  width:100%;
+  vertical-align:top;
+}
+.image-overlay:after {
+  content:'\A';
+  position:absolute;
+  width:100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.7);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity:1;
+
+}
+ 
+
 p {
     font-family: "Noto Sans", sans-serif;
     font-size: 14px;
