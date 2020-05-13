@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Navbar, NavDropdown, Row, Col, Form, Button, Nav, Container } from 'react-bootstrap';
+import { Navbar, Form, Button, Nav, Container } from 'react-bootstrap';
 import Logo from "../../assets/img/logo.png";
 
-// export default function Header() {
-// export class Header extends React.Component {
 export default class Header extends Component {
     render() {
         return (
@@ -24,7 +22,7 @@ export default class Header extends Component {
                                 <Nav.Link href="#home" className="mr-5">Shop</Nav.Link>
                             </Nav>
                             <Form inline>
-                                <Button variant="primary">Search Programs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </Button>
+                                <Button variant="primary">Programs</Button>
                             </Form>
                         </Navbar.Collapse>
                     </Container>

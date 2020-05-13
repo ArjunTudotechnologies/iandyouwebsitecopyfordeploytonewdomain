@@ -12,6 +12,7 @@ import HomePage from '../src/pages/Home/Home.js';
 import AboutPage from "../src/pages/About/About.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
 
+
 var hist = createBrowserHistory();
 
 ReactDOM.render(
