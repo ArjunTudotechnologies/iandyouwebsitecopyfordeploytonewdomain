@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Heading from '.././../../components/Heading/Heading';
 import EventsCard from '../../../components/EventsCard/EventsCard';
-import { Row, Col, Card, Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Slider from "react-slick";
-import Banner1 from '../../../assets/img/banners/banner-1.jpg';
 
 
 const slides = [
@@ -129,7 +128,6 @@ export default class EventsSection extends Component {
         const settings = {
             dots: true,
             infinite: true,
-            speed: 500,
             slidesToShow: 4,
             slidesToScroll: 1,
             speed: 2000,
