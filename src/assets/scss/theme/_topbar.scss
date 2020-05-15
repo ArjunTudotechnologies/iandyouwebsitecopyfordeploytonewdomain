@@ -1,8 +1,49 @@
 @import "../variables/variables";
 
-.top-bar{
-    background-color: $color-charcoal;
-    color: $color-white;
-    font-size: 12px;
-    padding: 10px;
+.top-bar {
+  background-color: $color-charcoal;
+  color: $color-white;
+  padding: 10px;
+  svg {
+    margin-top: -3px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    li {
+      list-style: none;
+      padding-right: 10px;
+      display: inline-block;
+    }
+    a {
+      color: $color-white;
+      span {
+        padding-left: 5px;
+      }
+    }
+  }
 }
+
+@media (max-width: 575.98px) {
+  .social-icons,
+  .email-phone,
+  .signup-languge {
+    text-align: center !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .social-icons,
+  .email-phone,
+  .signup-languge {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 768px)  {
+  .signup-languge {
+    text-align: right !important;
+  }
+}
+
+ 

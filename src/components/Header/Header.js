@@ -10,10 +10,10 @@ export default class Header extends Component {
             <div>
                 <Topbar />
                 <Navbar className="shadow header" bg="light" expand="lg"  >
-                    <Container fluid>
+                    <Container>
                         <Navbar.Brand href="#home">
                             <img className="logo" alt="I And You Foundation" src={Logo} />
-                            {/* <span className="logo-text">i and you being together foundation</span> */}
+                            <span className="logo-text">i and you being together foundation</span>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
