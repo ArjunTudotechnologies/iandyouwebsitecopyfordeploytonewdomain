@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
+import CustomCarousel from '../../components/CustomCarousel/CustomCarousel';
 import CovidBanner from '../../components/CovidBanner/CovidBanner';
-import {WOW} from 'wowjs';
+import { WOW } from 'wowjs';
+import EventsSection from './Sections/EventsSection';
+import { Container, Carousel } from 'react-bootstrap';
 
 
 
@@ -19,20 +22,11 @@ export default class Home extends Component {
         return (
             <div>
                 <Header />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <CustomCarousel />
+                <EventsSection />
                 <CovidBanner />
+
+
             </div>
         )
     }
