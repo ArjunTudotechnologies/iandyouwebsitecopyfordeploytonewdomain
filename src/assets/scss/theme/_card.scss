@@ -12,7 +12,7 @@
   }
   .card-body {
     padding: 0;
-    p{
+    p {
       color: #eeeaea;
     }
     .banner-content {
@@ -30,5 +30,19 @@
     &::after {
       border-radius: 10px;
     }
+  }
+}
+
+.events-card {
+  border:0;
+  box-shadow:$shadow;
+  
+  .card-title {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 24px;
+  }
+  .card-text{
+    font-family: "Noto Sans", sans-serif;
   }
 }

@@ -7,7 +7,7 @@
   height: 60px;
 }
 .logo-text {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: "samarkan_____normal";
   vertical-align: middle;
@@ -36,4 +36,17 @@
       color: rgba(0, 0, 0, 0.5);
     }
   }
+}
+
+.dropdown {
+  &:hover {
+    .dropdown-menu {
+      display: block!important;
+    }
+  }
+}
+
+.banner-img {
+  height: 100vh;
+  object-fit: cover;
 }
