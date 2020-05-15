@@ -5,12 +5,13 @@ import { Router, Route, Switch } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../src/assets/scss/theme/theme.scss';
+import '../src/assets/scss/iandyou.scss';
 
 // pages
 import HomePage from '../src/pages/Home/Home.js';
 import AboutPage from "../src/pages/About/About.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
+
 
 var hist = createBrowserHistory();
 
