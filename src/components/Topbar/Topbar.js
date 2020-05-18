@@ -53,3 +53,6 @@ export default function Topbar() {
         </div>
     )
 }
+const linkBtn = {
+    color: "#fff"
+};
