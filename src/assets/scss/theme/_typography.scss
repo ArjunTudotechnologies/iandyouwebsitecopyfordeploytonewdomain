@@ -82,6 +82,34 @@ section {
     font-size: 34px;
   }
 }
+
+.big-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: $color-charcoal;
+  font-family: "Lora", serif;
+  font-style: italic;
+  @media (min-width: 576px) {
+    $map: (
+      576px: 22px,
+      768px: 24px,
+    );
+    font-size: linear-interpolation($map);
+  }
+  @media (min-width: 768px) {
+    $map: (
+      768px: 24px,
+      992px: 3.5rem,
+    );
+    font-size: linear-interpolation($map);
+  }
+  @media (min-width: 992px) {
+    font-size: 3.5rem;
+  }
+}
+
+
+
 .sub-small-title {
   font-size: 12px;
   font-family: "Roboto", sans-serif;

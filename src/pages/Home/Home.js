@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import { WOW } from 'wowjs';
 import EventsSection from './Sections/EventsSection';
 import ProgramsSection from './Sections/ProgramsSection';
+import VideoSection from './Sections/VideoSection';
 
 
 
@@ -22,12 +23,26 @@ export default class Home extends Component {
             <div>
                 <Header />
                 <EventsSection />
+                <VideoSection/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/><br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/><br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/><br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <ProgramsSection />
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                
                 <Footer/>
 
             </div>
