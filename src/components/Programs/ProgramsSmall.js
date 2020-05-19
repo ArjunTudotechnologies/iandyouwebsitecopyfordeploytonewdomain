@@ -1,6 +1,4 @@
 import React from 'react';
-import Banner2 from '../../assets/img/banners/banner-2.jpg';
-import Img1 from '../../assets/img/programs/img-1.jpg';
 import Img2 from '../../assets/img/programs/img-2.jpg';
 
 
