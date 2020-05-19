@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 import { WOW } from 'wowjs';
 import EventsSection from './Sections/EventsSection';
 import ProgramsSection from './Sections/ProgramsSection';
@@ -27,6 +28,7 @@ export default class Home extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
+                <Footer/>
 
             </div>
         )
