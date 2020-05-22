@@ -68,11 +68,12 @@
     top: 50px;
     margin: 50px;
     color: $color-white;
-    h2{
+
+    h2 {
       color: $color-white;
       width: 60%;
       font-family: $lora;
-      span{
+      span {
         font-style: italic;
       }
     }
@@ -231,5 +232,23 @@
   }
   30% {
     transform: scale(1);
+  }
+}
+@media (max-width: 575.98px) {
+    .slick-arrow{
+      display: none!important;
+    }
+    .video-card-content {
+    top:0px !important;
+    margin-left: 30px!important;
+    margin-right: 30px!important;
+    margin-top: 70px!important;
+    h2 {
+      width: 100%!important;
+    }
+  }
+  .play-video-button {
+    right: 0%!important;
+    
   }
 }

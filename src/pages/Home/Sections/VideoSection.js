@@ -20,7 +20,7 @@ export default class VideoSection extends Component {
                                             <img src={VidoImage} alt="Eshwari Kriya" />
                                         </div>
                                         <div className="video-card-content">
-                                            <h2 classNam="title">Eshwari Kriya <br/> <span>Celebrate Life</span></h2>
+                                            <h2 className="title">Eshwari Kriya <br/> <span>Celebrate Life</span></h2>
                                             <p>Most people say that their act was Crying and i hope most of us will agree with that but if you ask me,</p>
                                             <Button variant="primary" size="lg">Register Now</Button>
                                             <div className="play-video-button">
