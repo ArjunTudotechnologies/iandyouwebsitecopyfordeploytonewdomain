@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import CovidBanner from "../../components/CovidBanner/CovidBanner";
 import { WOW } from "wowjs";
 import EventsSection from "./Sections/EventsSection";
-import ProgramsSection from "./Sections/ProgramsSection";
+// import ProgramsSection from "./Sections/ProgramsSection";
 import VideoSection from "./Sections/VideoSection";
 import TestimonialsSection from "./Sections/TestimonialsSection";
+import TwitterSection from "./Sections/TwitterSection";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -24,28 +26,9 @@ export default class Home extends Component {
         <EventsSection />
         <VideoSection />
         <TestimonialsSection />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <ProgramsSection />
-
+        <TwitterSection />
+        <CovidBanner />
+        {/* <ProgramsSection /> */}
         <Footer />
       </div>
     );

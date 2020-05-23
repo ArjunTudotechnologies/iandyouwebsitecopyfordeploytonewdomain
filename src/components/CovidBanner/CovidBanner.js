@@ -11,7 +11,7 @@ export default function CovidBanner() {
     <div className="wow fadeInUp" data-wow-delay="0s">
       <section>
         <Container fluid>
-          <Card className="covid-card shadow">
+          <Card className="covid-card shadow-lg">
             <Card.Body>
               <div className="image-overlay">
                 <img
