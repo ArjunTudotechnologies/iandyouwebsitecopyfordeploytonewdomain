@@ -57,6 +57,14 @@ section {
   background: rgb(253,128,45);
   background: linear-gradient(0deg, rgba(253,128,45,0.32816876750700286) 0%, rgba(253,128,45,0.0844712885154062) 100%);
 }
+.wave{
+  width: 100%;
+  object-fit: cover;
+}
+.rotate-180{
+  transform: rotate(180deg);
+  margin-top: -1px;
+}
 /*--------------------title-------------------------*/
 .title {
   font-size: 22px;

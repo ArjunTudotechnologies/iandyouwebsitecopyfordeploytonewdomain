@@ -5,49 +5,48 @@
   ul {
     margin: 0;
     padding: 0;
-    li{
+    li {
       list-style: none;
       display: inline-block;
     }
   }
-  .footer-logo{
+  .footer-logo {
     height: 60px;
   }
-  .logo-header{
+  .logo-header {
     border-bottom: 1px solid #ffffff17;
     margin-bottom: 20px;
   }
-  .footer-logo-text{
+  .footer-logo-text {
     font-weight: 600;
     color: $color-white-light;
     font-size: 20px;
     font-family: "samarkan_____normal";
   }
-  .footer-content{
-    p{
-      color:$colr-light-gray;
+  .footer-content {
+    p {
+      color: $colr-light-gray;
       font-size: 14px;
-      span{
+      span {
         padding-right: 10px;
-        svg{
+        svg {
           margin-top: -5px;
         }
       }
     }
-    .menu-links{
-      li{
-      font-size: 14px;
-      display: block;
+    .menu-links {
+      li {
+        font-size: 14px;
+        display: block;
       }
     }
   }
   .socialMediaLinks {
-     li{
-       color:$colr-light-gray;
-       font-size: 20px;
+    li {
+      color: $colr-light-gray;
+      font-size: 20px;
       padding-right: 10px;
-
-     }
+    }
   }
   h2 {
     font-family: $lora;
