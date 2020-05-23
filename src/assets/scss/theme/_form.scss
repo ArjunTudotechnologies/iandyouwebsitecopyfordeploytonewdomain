@@ -1,0 +1,22 @@
+@import "../variables/variables";
+
+.form-control {
+  border: 2px solid $color-gray-light;
+}
+.form-control::-webkit-input-placeholder {
+  color: $color-gray-light !important;
+}
+.form-control::-moz-placeholder {
+  color: $color-gray-light !important;
+}
+.form-control:-ms-input-placeholder {
+  color: $color-gray-light !important;
+}
+.form-control:-moz-placeholder {
+  color: $color-gray-light !important;
+}
+
+.form-control:focus {
+  border-color: $color-orange-light;
+  box-shadow: 0 0 0 0.2rem rgba(239, 132, 61, 0.15);
+}
