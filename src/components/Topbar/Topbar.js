@@ -40,11 +40,11 @@ export default function Topbar() {
             <ul>
               <li>
                 <FaEnvelopeOpen />
-                info@iandyou.org
+                <span className="pl-2">info@iandyou.org</span>
               </li>
               <li>
                 <FaPhoneAlt />
-                +91 990 002 2506
+                <span className="pl-2">+91 990 002 2506</span>
               </li>
             </ul>
           </Col>
