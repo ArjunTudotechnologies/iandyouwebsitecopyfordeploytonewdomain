@@ -15,12 +15,13 @@ export default function RegistrationForm() {
   };
 
   return (
-    <div>
-      <h2 className="title pt-5 pb-5">Registration</h2>
+    <div className="m-3 mb-5">
+      <p className="sub-small-title pt-5">Sri Yog Teacher...</p>
+      <h2 className="title pb-3">Registration</h2>
 
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Row>
-          <Form.Group as={Col} md="9" controlId="exampleForm.SelectCustom">
+          <Form.Group as={Col} md="9" lg={12} xl={9} controlId="exampleForm.SelectCustom">
             <Form.Label>Select Program</Form.Label>
             <Form.Control as="select">
               <option>Select Program</option>
@@ -31,7 +32,7 @@ export default function RegistrationForm() {
               <option>5</option>
             </Form.Control>
           </Form.Group>
-          <Form.Group as={Col} md="5" controlId="validationCustom01">
+          <Form.Group as={Col} md="5" lg={12} xl={5} controlId="validationCustom01">
             <Form.Label>First name</Form.Label>
             <Form.Control
               required
@@ -41,7 +42,7 @@ export default function RegistrationForm() {
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
           </Form.Group>
-          <Form.Group as={Col} md="4" controlId="validationCustom02">
+          <Form.Group as={Col} md="4" lg={12} xl={4} controlId="validationCustom02">
             <Form.Label>Last name</Form.Label>
             <Form.Control
               required
@@ -51,9 +52,10 @@ export default function RegistrationForm() {
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
           </Form.Group>
-        </Form.Row>
-        <Form.Row>
-          <Form.Group as={Col} md="3" controlId="validationCustom03">
+          <Form.Group as={Col} md="3" lg={12} xl={3} controlId="validationCustom03">
+            
+          </Form.Group>
+          <Form.Group as={Col} md="3" lg={4} xl={3} controlId="validationCustom03">
             <Form.Label>City</Form.Label>
             <Form.Control type="text" placeholder="City" required />
             <Form.Control.Feedback type="invalid">
@@ -61,18 +63,18 @@ export default function RegistrationForm() {
             </Form.Control.Feedback>
           </Form.Group>
 
-          <Form.Group as={Col} md="3" controlId="validationCustom04">
+          <Form.Group as={Col} md="3" lg={4} xl={3} controlId="validationCustom04">
             <Form.Label>State</Form.Label>
             <Form.Control type="text" placeholder="State" required />
             <Form.Control.Feedback type="invalid">
               Please provide a valid state.
             </Form.Control.Feedback>
           </Form.Group>
-          <Form.Group as={Col} md="3" controlId="validationCustom05">
-            <Form.Label>Zip</Form.Label>
-            <Form.Control type="text" placeholder="Zip" required />
+          <Form.Group as={Col} md="3" lg={4} xl={3} controlId="validationCustom05">
+            <Form.Label>Pincode</Form.Label>
+            <Form.Control type="text" placeholder="Pincode" required />
             <Form.Control.Feedback type="invalid">
-              Please provide a valid zip.
+              Please provide a valid pincode.
             </Form.Control.Feedback>
           </Form.Group>
         </Form.Row>

@@ -32,7 +32,6 @@ export default function CovidBanner() {
                   "feels great when you feed someone before your meal"
                 </p>
                 <p className="wow fadeInUp" data-wow-delay="1s">
-                  {" "}
                   || svasti-prajā-bhyaḥ pari-pāla-yaṁtāṁ nyāyena mārgeṇa mahīṁ
                   mahīśāḥ |<br /> go-brāhmaṇebhyaḥ śubham-astu nityaṁ lokāḥ
                   samastāḥ sukhino-bhavaṁtu ||
