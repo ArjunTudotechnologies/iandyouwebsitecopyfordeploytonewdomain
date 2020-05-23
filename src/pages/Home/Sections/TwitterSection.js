@@ -8,7 +8,7 @@ import RegistrationSliderCard from "../../../components/RegistrationSliderCard/R
 export default class TwitterSection extends Component {
   render() {
     return (
-      <div className="mt-5">
+      <div className="mt-5 mb-5">
         <Container fluid>
           <Row>
             <Col md={12} lg={12} xl={4}>
@@ -18,7 +18,7 @@ export default class TwitterSection extends Component {
                 desc="In the magnificent setting of the busy life commence to the soulful wisdom of yogic science, under the esteemed guidance of venerated Sri Prasad Guruji get yourself introduced to the world of spirituality and wellness by submerging deep into the holistic learning of yoga. "
               />
             </Col>
-            <Col md={12} lg={7} xl={4}>
+            <Col md={12} lg={7} xl={4} className="br-3">
               <RegistrationForm />
             </Col>
             <Col md={12} lg={5} xl={3} className="text-center">

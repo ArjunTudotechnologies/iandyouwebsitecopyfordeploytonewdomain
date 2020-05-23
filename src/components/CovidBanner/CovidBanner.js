@@ -9,7 +9,7 @@ export default function CovidBanner() {
 
   return (
     <div className="wow fadeInUp" data-wow-delay="0s">
-      <section>
+      <section className="covid-banner-section">
         <Container fluid>
           <Card className="covid-card shadow-lg">
             <Card.Body>

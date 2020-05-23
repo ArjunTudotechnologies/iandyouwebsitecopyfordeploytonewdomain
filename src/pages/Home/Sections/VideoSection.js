@@ -1,10 +1,21 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import VidoImage from "../../../../src/assets/img/video/bg.jpg";
-
 import { FaPlay } from "react-icons/fa";
+import ModalVideo from "react-modal-video";
 
 export default class VideoSection extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isOpen: false,
+    };
+    this.openModal = this.openModal.bind(this);
+  }
+
+  openModal() {
+    this.setState({ isOpen: true });
+  }
   render() {
     return (
       <>
@@ -37,7 +48,16 @@ export default class VideoSection extends Component {
                       <Button variant="primary" size="lg">
                         Register Now
                       </Button>
-                      <div className="play-video-button">
+                      <ModalVideo
+                        channel="youtube"
+                        isOpen={this.state.isOpen}
+                        videoId="L61p2uyiMSo"
+                        onClose={() => this.setState({ isOpen: false })}
+                      />
+                      <div
+                        className="play-video-button"
+                        onClick={this.openModal}
+                      >
                         <div class="pulse-icon">
                           <div class="icon-wrap">
                             <FaPlay />

@@ -1,14 +1,18 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
 // ---------- Covid Card ---------- //
+.covid-banner-section{
+  background-color: $color-gray;
+}
 .covid-card {
   border-radius: 10px;
   border: 0;
   padding: 0;
   margin: 0;
-  height: 300px;
+  height: auto;
   .covid-banner-image {
     width: 100%;
     object-fit: cover;
-    height: 350px;
+    height: auto;
     border-radius: 10px;
   }
   .card-body {
@@ -95,6 +99,7 @@
     position: absolute;
     top: 50%;
     right: 10%;
+    cursor: pointer;
   }
   .image-overlay {
     &:after {
@@ -279,12 +284,15 @@
 
 // ---------- Twitter Icon ---------- //
 #twitter-widget-0 {
-  border: 1px solid $colr-light-gray !important;
+  border: 1px solid $color-gray!important;
   border-radius: 10px;
   box-shadow: $shadow-lg;
 }
 
 // ---------- Registration Icon ---------- //
+.br-3{
+  border-right:3px solid $color-light-gray-1!important;
+}
 .registration-card {
   border: 0;
   border-radius: 10px;
