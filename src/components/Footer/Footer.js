@@ -32,7 +32,7 @@ export default function Footer() {
           </Col>
         </Row>
         <Row>
-          <Col md={4}>
+          <Col xs={12} md={5} lg={3} xl={4}>
             <h2>Contact</h2>
             <p>
               <b>
@@ -40,7 +40,7 @@ export default function Footer() {
                   <FaMapMarkerAlt />
                 </span>
                 I and You Foundation
-              </b>{" "}
+              </b>
               <br />
               1460, Behind Sri. Vasuki Naga Eshwari Temple, <br />
               HAF (P) Kaveri Layout, Hebbal, Dasarahalli, <br />
@@ -59,7 +59,7 @@ export default function Footer() {
               +91 990 002 2506
             </p>
           </Col>
-          <Col md={2}>
+          <Col xs={4} md={3} lg={2} xl={2}>
             <h2>Usefull Links</h2>
             <ul className="menu-links">
               <li>
@@ -69,22 +69,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Yoga & Meditation
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Projects
+                  I And You
                 </Link>
               </li>
               <li>
@@ -94,12 +79,67 @@ export default function Footer() {
               </li>
               <li>
                 <Link style={linkText} to="/about">
-                  About
+                  Blogs
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Donate
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Contact
                 </Link>
               </li>
             </ul>
           </Col>
-          <Col md={2}>
+          <Col xs={4} md={2} lg={2} xl={2}>
+            <h2>&nbsp;</h2>
+            <ul className="menu-links">
+              <li>
+                <Link style={linkText} to="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  I And You
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Events
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Blogs
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Donate
+                </Link>
+              </li>
+              <li>
+                <Link style={linkText} to="/about">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </Col>
+          <Col xs={4} md={2} lg={2} xl={2}>
             <h2>&nbsp;</h2>
             <ul className="menu-links">
               <li>
@@ -139,63 +179,45 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col md={2}>
-            <h2>&nbsp;</h2>
-            <ul className="menu-links">
-              <li>
-                <Link style={linkText} to="/">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Yoga & Meditation
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-            </ul>
-          </Col>
-          <Col md={2}>
+          <Col xs={8} md={12} lg={3} xl={2}>
             <h2>Social Media</h2>
             <ul className="socialMediaLinks">
               <li>
-                <FaFacebookF />
+                <a
+                  href="https://www.facebook.com/iandyoubeingtogether"
+                  target="blank"
+                >
+                  <FaFacebookF />
+                </a>
               </li>
               <li>
-                <FaTwitter />
+                <a href="https://twitter.com" target="blank">
+                  <FaTwitter />
+                </a>
               </li>
               <li>
-                <FaLinkedinIn />
+                <a
+                  href="https://www.linkedin.com/in/sri-prasad-548896107/"
+                  target="blank"
+                >
+                  <FaLinkedinIn />
+                </a>
               </li>
               <li>
-                <FaYoutube />
+                <a
+                  href="https://www.youtube.com/channel/UC5cFun3Kj54ZeiSjShTDghQ"
+                  target="blank"
+                >
+                  <FaYoutube />
+                </a>
               </li>
               <li>
-                <FaInstagram />
+                <a
+                  href="https://www.instagram.com/iandyoubeingtogether/"
+                  target="blank"
+                >
+                  <FaInstagram />
+                </a>
               </li>
             </ul>
             <hr />

@@ -22,16 +22,16 @@ export default function CovidBanner() {
               </div>
               <div className="banner-content">
                 <h2
-                  className="title color-white wow fadeInUp"
+                  className="title color-white wow fadeInUp mt-4"
                   data-wow-delay="1s"
                 >
                   COVID-19 relief efforts
                 </h2>
                 <hr className="line wow fadeInUp" data-wow-delay="1s" />
-                <p className="wow fadeInUp" data-wow-delay="1s">
+                <p className="wow fadeInUp mt-4" data-wow-delay="1s">
                   "feels great when you feed someone before your meal"
                 </p>
-                <p className="wow fadeInUp" data-wow-delay="1s">
+                <p className="wow fadeInUp mb-5" data-wow-delay="1s">
                   || svasti-prajā-bhyaḥ pari-pāla-yaṁtāṁ nyāyena mārgeṇa mahīṁ
                   mahīśāḥ |<br /> go-brāhmaṇebhyaḥ śubham-astu nityaṁ lokāḥ
                   samastāḥ sukhino-bhavaṁtu ||
