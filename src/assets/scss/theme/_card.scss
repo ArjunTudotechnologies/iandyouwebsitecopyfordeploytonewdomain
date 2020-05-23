@@ -1,3 +1,4 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
 // ---------- Covid Card ---------- //
 .covid-banner-section{
   background-color: $color-gray;
@@ -98,6 +99,7 @@
     position: absolute;
     top: 50%;
     right: 10%;
+    cursor: pointer;
   }
   .image-overlay {
     &:after {
