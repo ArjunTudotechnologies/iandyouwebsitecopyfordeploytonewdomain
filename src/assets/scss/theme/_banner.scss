@@ -1,0 +1,17 @@
+@import "../variables/variables";
+
+.secondary-banner {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  img {
+    height: calc(100vh - 125px);
+    object-fit: cover;
+    width: 100%;
+  }
+}
+.banner-slider {
+    h1,h2{
+        color: $color-white;
+    }
+}
