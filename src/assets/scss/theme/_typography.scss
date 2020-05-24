@@ -93,7 +93,7 @@ section {
 
 .big-title {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 900;
   color: $color-charcoal;
   font-family: "Lora", serif;
   font-style: italic;
@@ -121,7 +121,6 @@ section {
   font-weight: bold;
   color: $color-charcoal;
   font-family: "Lora", serif;
-  font-style: italic;
   @media (min-width: 576px) {
     $map: (
       576px: 25px,

@@ -31,11 +31,13 @@ export default class SecondaryBanner extends Component {
       swipeToSlide: false,
       autoplay: true,
       autoplaySpeed: 4000,
+      speed:1000,
       adaptiveHeight: true,
       arrows:false,
       useCSS:true,
       useTransform:true,
       fade:true,
+      easing:"linear",
       beforeChange: function (currentSlide, nextSlide) {
         console.log("before change", currentSlide, nextSlide);
       },
@@ -48,12 +50,12 @@ export default class SecondaryBanner extends Component {
       <div>
         <div className="secondary-banner">
           <div className="image-overlay">
-            <img src={this.props.bannerImg} alt="banner" />
+            <img src={this.props.bannerImg} alt="banner" className="zoom-img-" />
           </div>
         </div>
         <Container>
           <Row>
-            <Col md={7}>
+            <Col md={10}>
               <div className=" wow bounceIn"> 
                 <Slider {...settings}>
                   {this.state.slides.map(function (slide) {
