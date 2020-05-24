@@ -93,7 +93,7 @@ section {
 
 .big-title {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 900;
   color: $color-charcoal;
   font-family: "Lora", serif;
   font-style: italic;
@@ -113,6 +113,30 @@ section {
   }
   @media (min-width: 992px) {
     font-size: 3.5rem;
+  }
+}
+
+.big-special-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: $color-charcoal;
+  font-family: "Lora", serif;
+  @media (min-width: 576px) {
+    $map: (
+      576px: 25px,
+      768px: 30px,
+    );
+    font-size: linear-interpolation($map);
+  }
+  @media (min-width: 768px) {
+    $map: (
+      768px: 30px,
+      992px: 6rem,
+    );
+    font-size: linear-interpolation($map);
+  }
+  @media (min-width: 992px) {
+    font-size: 6rem;
   }
 }
 

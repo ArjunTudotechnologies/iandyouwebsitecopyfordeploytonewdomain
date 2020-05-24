@@ -25,9 +25,9 @@ export default class Header extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <Nav.Link
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="#"
                     id="healthDropdown"
                     role="button"
@@ -38,50 +38,50 @@ export default class Header extends Component {
                     Health
                   </Nav.Link>
                   <div
-                    class="dropdown-menu dropdown-menu-left max-menu"
+                    className="dropdown-menu dropdown-menu-left max-menu"
                     aria-labelledby="healthDropdown"
                   >
-                    <div class="d-md-flex align-items-start justify-content-start p-2">
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
-                        <div class="dropdown-header p-2">
+                        <div className="dropdown-header p-2">
                           Yoga chikistha centre
                         </div>
                         <NavDropdown.Divider />
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Eshwari Ayurveda hospital
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Eshwari holistic health
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           centre Nirmalikarana centre
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Yoga chikistha centre
                         </Nav.Link>
                       </div>
                       <div className="p-1">
-                        <div class="dropdown-header p-2">
+                        <div className="dropdown-header p-2">
                           Yoga chikistha centre
                         </div>
                         <NavDropdown.Divider />
 
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Hormones imbalance
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Weight loss
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Joints and musculoskeletal disorder
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Diabetic management
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Hypertension management
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - General wellness
                         </Nav.Link>
                       </div>
@@ -89,9 +89,9 @@ export default class Header extends Component {
                   </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <Nav.Link
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="#"
                     id="healthDropdown"
                     role="button"
@@ -102,25 +102,25 @@ export default class Header extends Component {
                     Kids Wellness
                   </Nav.Link>
                   <div
-                    class="dropdown-menu dropdown-menu-left max-menu-small"
+                    className="dropdown-menu dropdown-menu-left max-menu-small"
                     aria-labelledby="healthDropdown"
                   >
-                    <div class="d-md-flex align-items-start justify-content-start p-2">
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Sanskar: </span>Personality and behavior
                           development
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Kids Kriya
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Eahwari Kids Hata yoga
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Sanskar Teacher training
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Kids Social and Nature awareness program
                         </Nav.Link>
                       </div>
@@ -128,9 +128,9 @@ export default class Header extends Component {
                   </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <Nav.Link
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="#"
                     id="healthDropdown"
                     role="button"
@@ -141,57 +141,57 @@ export default class Header extends Component {
                     Sadhana & Dhyana
                   </Nav.Link>
                   <div
-                    class="dropdown-menu dropdown-menu-left max-menu-small"
+                    className="dropdown-menu dropdown-menu-left max-menu-small"
                     aria-labelledby="healthDropdown"
                   >
-                    <div class="d-md-flex align-items-start justify-content-start p-2">
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           -Eshwari Kriya
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           -Eshwari Shakthi kendra sadhana
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Dhyana
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Sidha Dhyana -level 1&2
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Srividhya sadhana- level 1&2
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Immortal process
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Know your purpose
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Mounik sadhana
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Manaprakshalya
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Nirmali karana kriya- level 1&2
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Jyothismathi
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Astro & Vastu
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Eshwari shodhana kriya
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Amrut sadhana
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Guru pooja
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           - Sri yog teacher Training
                         </Nav.Link>
                       </div>
@@ -199,9 +199,9 @@ export default class Header extends Component {
                   </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <Nav.Link
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="#"
                     id="eventsDropdown"
                     role="button"
@@ -212,57 +212,57 @@ export default class Header extends Component {
                     Events
                   </Nav.Link>
                   <div
-                    class="dropdown-menu dropdown-menu-left max-menu-large"
+                    className="dropdown-menu dropdown-menu-left max-menu-large"
                     aria-labelledby="eventsDropdown"
                   >
-                    <div class="d-md-flex align-items-start justify-content-start p-2">
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
-                        <div class="dropdown-header p-2">Monthly events</div>
+                        <div className="dropdown-header p-2">Monthly events</div>
                         <NavDropdown.Divider />
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Amavasya Homa
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Poornima Navavarana Dhyana
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Poornima Dhyana (full moon meditation )
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           Rahukalam Aradhana (Sundays, Tuesdays and Fridays )
                         </Nav.Link>
                       </div>
                       <div className="p-1">
-                        <div class="dropdown-header p-2">Annul events</div>
+                        <div className="dropdown-header p-2">Annul events</div>
                         <NavDropdown.Divider />
 
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Aham to shivam: </span>
                           <br />
                           Shivarathri Vigyan Bhirava Tantra Sadhana
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Sharan Navarathri:</span>
                           <br />
                           Sadhana and Homas
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Nagapanchami Dosha:</span>
                           <br />
                           Nivarana prasada
                         </Nav.Link>
                       </div>
                       <div className="p-1">
-                        <div class="dropdown-header p-2">Special events</div>
+                        <div className="dropdown-header p-2">Special events</div>
                         <NavDropdown.Divider />
 
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Sri-</span>Attract abundant of wealth
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Sri Kari -</span> Manifest your intentions
                         </Nav.Link>
-                        <Nav.Link class="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="#">
                           <span>Gratitude week -</span> Guruji's birthday
                           celebration through Seva
                         </Nav.Link>
@@ -275,13 +275,13 @@ export default class Header extends Component {
                 <Button variant="primary">Donate</Button>
                 <ul className="shop-ul">
                   <li>
-                    <Link className="shop-link">
+                    <Link className="shop-link" to="#">
                       <MdShoppingCart />
                       Shop
                     </Link>
                   </li>
                   <li>
-                    <Link className="shop-link">
+                    <Link className="shop-link" to="#">
                       <MdSearch />
                       Search
                     </Link>
