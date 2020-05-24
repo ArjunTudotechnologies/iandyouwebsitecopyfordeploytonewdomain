@@ -31,6 +31,9 @@
   .nav-item {
     padding-right: 10px;
   }
+  .dropdown-item.active, .dropdown-item:active{
+    background-color: $color-white;
+  }
   .dropdown-menu {
     border: 0;
     box-shadow: $shadow;

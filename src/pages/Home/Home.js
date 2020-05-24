@@ -8,6 +8,7 @@ import ProgramsSection from "./Sections/ProgramsSection";
 import VideoSection from "./Sections/VideoSection";
 import TestimonialsSection from "./Sections/TestimonialsSection";
 import TwitterSection from "./Sections/TwitterSection";
+import IandyouCard from "../../components/IandyouCard/IandyouCard";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -23,6 +24,7 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
+        <IandyouCard/>
         <EventsSection />
         <VideoSection />
         <TestimonialsSection />
