@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Banner1 from "../../assets/img/banners/banner-1.jpg";
+import { MdPlace } from "react-icons/md";
 
 export default function EventsCard(props) {
   return (
@@ -10,7 +11,13 @@ export default function EventsCard(props) {
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.desc}</Card.Text>
-          <Button variant="primary">Register</Button>
+          <span className="text-right">
+            <Button variant="primary">Register</Button>
+          </span>
+          <span className="pl-2 text-left">
+            <MdPlace />
+            {props.location}
+          </span>
         </Card.Body>
       </Card>
     </>

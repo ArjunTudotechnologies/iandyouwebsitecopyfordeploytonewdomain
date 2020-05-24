@@ -10,7 +10,7 @@ import {
 import Logo from "../../assets/img/logo.png";
 import Topbar from "../Topbar/Topbar";
 import { Link } from "react-router-dom";
-import { MdShoppingCart, MdSearch } from "react-icons/md";
+import { MdShoppingCart, MdSearch, MdPeople } from "react-icons/md";
 
 export default class Header extends Component {
   render() {
@@ -25,6 +25,9 @@ export default class Header extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#home">About</Nav.Link>
+                <Nav.Link href="#home">Projects</Nav.Link>
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -88,7 +91,6 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -127,7 +129,6 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -198,7 +199,6 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -217,7 +217,9 @@ export default class Header extends Component {
                   >
                     <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
-                        <div className="dropdown-header p-2">Monthly events</div>
+                        <div className="dropdown-header p-2">
+                          Monthly events
+                        </div>
                         <NavDropdown.Divider />
                         <Nav.Link className="dropdown-item" href="#">
                           Amavasya Homa
@@ -253,7 +255,9 @@ export default class Header extends Component {
                         </Nav.Link>
                       </div>
                       <div className="p-1">
-                        <div className="dropdown-header p-2">Special events</div>
+                        <div className="dropdown-header p-2">
+                          Special events
+                        </div>
                         <NavDropdown.Divider />
 
                         <Nav.Link className="dropdown-item" href="#">
@@ -274,6 +278,12 @@ export default class Header extends Component {
               <Form inline>
                 <Button variant="primary">Donate</Button>
                 <ul className="shop-ul">
+                <li>
+                    <Link className="shop-link" to="#">
+                      <MdPeople />
+                      Volunteer
+                    </Link>
+                  </li>
                   <li>
                     <Link className="shop-link" to="#">
                       <MdShoppingCart />
