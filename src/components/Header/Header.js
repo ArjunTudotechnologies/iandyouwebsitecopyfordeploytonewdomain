@@ -241,7 +241,7 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           <span>Aham to shivam: </span>
                           <br />
-                          Shivarathri Vigyan Bhirava Tantra Sadhana
+                          Shivarathri Vigyan<br/> Bhirava Tantra Sadhana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           <span>Sharan Navarathri:</span>
@@ -261,13 +261,13 @@ export default class Header extends Component {
                         <NavDropdown.Divider />
 
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri-</span>Attract abundant of wealth
+                          <span>Sri</span><br/>Attract abundant of wealth
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri Kari -</span> Manifest your intentions
+                          <span>Sri Kari </span> <br/>Manifest your intentions
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Gratitude week -</span> Guruji's birthday
+                          <span>Gratitude week </span><br/> Guruji's birthday<br/>
                           celebration through Seva
                         </Nav.Link>
                       </div>
