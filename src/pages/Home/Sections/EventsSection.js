@@ -135,8 +135,9 @@ export default class EventsSection extends Component {
       slidesToScroll: 1,
       speed: 2000,
       autoplaySpeed: 4000,
-      autoplay: true,
+      autoplay: false,
       pauseOnHover: true,
+      focusOnSelect: false,
       responsive: [
         
         {
@@ -179,6 +180,8 @@ export default class EventsSection extends Component {
                       <EventsCard
                         desc={slide.event_desc}
                         title={slide.event_name}
+                        location={slide.location}
+                        date={slide.start_date}
                       />
                     </div>
                   );

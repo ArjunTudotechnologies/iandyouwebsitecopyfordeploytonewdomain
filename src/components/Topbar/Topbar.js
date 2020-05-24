@@ -51,10 +51,10 @@ export default function Topbar() {
           <Col className="signup-languge" sm={12} md={4}>
             <ul>
               <li>
-                <FaFingerprint /> Sign Up
+                <FaFingerprint /> <span className="pl-2">Sign Up</span>
               </li>
               <li>
-                <MdTranslate /> Language
+                <MdTranslate /> <span className="pl-2">Language</span>
               </li>
             </ul>
           </Col>
