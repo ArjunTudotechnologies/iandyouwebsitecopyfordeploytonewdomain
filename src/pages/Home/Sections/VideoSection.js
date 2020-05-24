@@ -23,17 +23,29 @@ export default class VideoSection extends Component {
           <Container>
             <Row>
               <Col md={7}>
-                <h2 className="big-title mb-4">
+                <h2
+                  className="big-title mb-4 wow fadeInUp"
+                  data-wow-delay="0.5s"
+                  data-wow-duration="1s"
+                >
                   Free Guided Meditation Eshwari Kriya Online
                 </h2>
-                <p>
+                <p
+                  className="wow fadeInUp"
+                  data-wow-delay="0.5s"
+                  data-wow-duration="1s"
+                >
                   Most people say that their act was Crying and i hope most of
                   us will agree with that but if you ask me, I would say it’s a
                   big No, do you know why ? because the 1st immediate act which
                   we perform was Breathing...
                 </p>
                 <div className="position-relative">
-                  <div className="video-card">
+                  <div
+                    className="video-card wow zoomInDown"
+                    data-wow-delay="0.5s"
+                    data-wow-duration="1.5s"
+                  >
                     <div className="image-overlay">
                       <img src={VidoImage} alt="Eshwari Kriya" />
                     </div>
@@ -51,7 +63,7 @@ export default class VideoSection extends Component {
                       <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
-                        videoId="L61p2uyiMSo"
+                        videoId="4vrPXnfl2fE"
                         onClose={() => this.setState({ isOpen: false })}
                       />
                       <div

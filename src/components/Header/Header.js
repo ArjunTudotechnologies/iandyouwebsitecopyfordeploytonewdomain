@@ -10,7 +10,7 @@ import {
 import Logo from "../../assets/img/logo.png";
 import Topbar from "../Topbar/Topbar";
 import { Link } from "react-router-dom";
-import { MdShoppingCart, MdSearch } from "react-icons/md";
+import { MdShoppingCart, MdSearch, MdPeople } from "react-icons/md";
 
 export default class Header extends Component {
   render() {
@@ -239,7 +239,7 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           <span>Aham to shivam: </span>
                           <br />
-                          Shivarathri Vigyan Bhirava Tantra Sadhana
+                          Shivarathri Vigyan<br/> Bhirava Tantra Sadhana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           <span>Sharan Navarathri:</span>
@@ -257,13 +257,13 @@ export default class Header extends Component {
                         <NavDropdown.Divider />
 
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri-</span>Attract abundant of wealth
+                          <span>Sri</span><br/>Attract abundant of wealth
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri Kari -</span> Manifest your intentions
+                          <span>Sri Kari </span> <br/>Manifest your intentions
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Gratitude week -</span> Guruji's birthday
+                          <span>Gratitude week </span><br/> Guruji's birthday<br/>
                           celebration through Seva
                         </Nav.Link>
                       </div>
@@ -274,6 +274,12 @@ export default class Header extends Component {
               <Form inline>
                 <Button variant="primary">Donate</Button>
                 <ul className="shop-ul">
+                <li>
+                    <Link className="shop-link" to="#">
+                      <MdPeople />
+                      Volunteer
+                    </Link>
+                  </li>
                   <li>
                     <Link className="shop-link" to="#">
                       <MdShoppingCart />
