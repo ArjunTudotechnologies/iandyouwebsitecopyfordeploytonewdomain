@@ -55,12 +55,12 @@ export default function IandyouCard() {
         </Row>
 
         <div className="text-center">
-          <h2 className="big-title text-center  mt-5">
+          <h2 className="big-title text-center  mt-5 wow fadeInUp" data-wow-delay="0.5s">
             I And You Being Together
           </h2>
-          <h3 className="special-title">Sangachadwam</h3>
+          <h3 className="special-title wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">Sangachadwam</h3>
           <div className="text-center">
-            <img src={Line} alt="line" className="line" />
+            <img src={Line} alt="line" className="line wow fadeInUp" data-wow-delay="1s"  data-wow-duration="1s"/>
           </div>
         </div>
       </Container>

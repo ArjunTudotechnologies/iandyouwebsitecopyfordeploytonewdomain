@@ -27,7 +27,27 @@ export default class Home extends Component {
         <IandyouCard/>
         <EventsSection />
         <VideoSection />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/> <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2 className="text-center">Comming Soon</h2>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <TestimonialsSection />
+       
         <TwitterSection />
         <CovidBanner />
         <ProgramsSection />
