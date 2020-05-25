@@ -45,6 +45,70 @@ export default class Header extends Component {
                   >
                     <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Eshwari sadhana
+                        </div>
+                        <NavDropdown.Divider />
+                        <Nav.Link className="dropdown-item" href="#">
+                          -Eshwari Kriya
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          -Eshwari Shakthi kendra sadhana
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Eshwari Srividhya sadhana- level 1&2
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Mounik sadhana
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Guru pooja
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Eshwari shodhana kriya
+                        </Nav.Link>
+                      </div>
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Dhanya prakriya
+                        </div>
+                        <NavDropdown.Divider />
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Eshwari Dhyana
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Eshwari Sidha Dhyana -level 1&2
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Immortal process
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Know your purpose
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Amrut sadhana
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Manaprakshalya
+                        </Nav.Link>
+                      </div>
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">&nbsp;</div>
+                        <NavDropdown.Divider />
+                        <Nav.Link className="dropdown-item" href="#">
+                          -Jyothismathi
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                        -Vastu
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                        -Sri yog
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                        - Nirmali karana kriya- level 1&2
+                        </Nav.Link>
+                      </div>
+                      <div className="p-1 hide">
                         <Nav.Link className="dropdown-item" href="#">
                           -Eshwari Kriya
                         </Nav.Link>
@@ -186,9 +250,9 @@ export default class Header extends Component {
                           Sadhana and Homas
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Nagapanchami Dosha:</span>
+                          <span>Nagapanchami:</span>
                           <br />
-                          Nivarana prasada
+                          Dosha Nivarana prasada
                         </Nav.Link>
                       </div>
                       <div className="p-1">

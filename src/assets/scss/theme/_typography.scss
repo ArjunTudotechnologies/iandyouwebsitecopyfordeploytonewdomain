@@ -54,16 +54,23 @@ section {
   background-color: $color-bg-1;
 }
 .bg-color-2 {
-  background: rgb(253,128,45);
-  background: linear-gradient(0deg, rgba(253,128,45,0.32816876750700286) 0%, rgba(253,128,45,0.0844712885154062) 100%);
+  background: rgb(253, 128, 45);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 128, 45, 0.32816876750700286) 0%,
+    rgba(253, 128, 45, 0.0844712885154062) 100%
+  );
 }
-.wave{
+.wave {
   width: 100%;
   object-fit: cover;
 }
-.rotate-180{
+.rotate-180 {
   transform: rotate(180deg);
   margin-top: -1px;
+}
+.hide {
+  display: none;
 }
 /*--------------------title-------------------------*/
 .title {
@@ -139,8 +146,6 @@ section {
     font-size: 6rem;
   }
 }
-
-
 
 .sub-small-title {
   font-size: 12px;
