@@ -27,108 +27,6 @@ export default class Header extends Component {
               <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#home">About</Nav.Link>
-                <Nav.Link href="#home">Projects</Nav.Link>
-                <li className="nav-item dropdown">
-                  <Nav.Link
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    id="healthDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Health
-                  </Nav.Link>
-                  <div
-                    className="dropdown-menu dropdown-menu-left max-menu"
-                    aria-labelledby="healthDropdown"
-                  >
-                    <div className="d-md-flex align-items-start justify-content-start p-2">
-                      <div className="p-1">
-                        <div className="dropdown-header p-2">
-                          Yoga chikistha centre
-                        </div>
-                        <NavDropdown.Divider />
-                        <Nav.Link className="dropdown-item" href="#">
-                          Eshwari Ayurveda hospital
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          Eshwari holistic health
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          centre Nirmalikarana centre
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          Yoga chikistha centre
-                        </Nav.Link>
-                      </div>
-                      <div className="p-1">
-                        <div className="dropdown-header p-2">
-                          Yoga chikistha centre
-                        </div>
-                        <NavDropdown.Divider />
-
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Hormones imbalance
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Weight loss
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Joints and musculoskeletal disorder
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Diabetic management
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Hypertension management
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - General wellness
-                        </Nav.Link>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li className="nav-item dropdown">
-                  <Nav.Link
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    id="healthDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Kids Wellness
-                  </Nav.Link>
-                  <div
-                    className="dropdown-menu dropdown-menu-left max-menu-small"
-                    aria-labelledby="healthDropdown"
-                  >
-                    <div className="d-md-flex align-items-start justify-content-start p-2">
-                      <div className="p-1">
-                        <Nav.Link className="dropdown-item" href="#">
-                          <span>Sanskar: </span>Personality and behavior
-                          development
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Eshwari Kids Kriya
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Eahwari Kids Hata yoga
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Sanskar Teacher training
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Kids Social and Nature awareness program
-                        </Nav.Link>
-                      </div>
-                    </div>
-                  </div>
-                </li>
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -203,6 +101,45 @@ export default class Header extends Component {
                   <Nav.Link
                     className="nav-link dropdown-toggle"
                     href="#"
+                    id="healthDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Kids Wellness
+                  </Nav.Link>
+                  <div
+                    className="dropdown-menu dropdown-menu-left max-menu-small"
+                    aria-labelledby="healthDropdown"
+                  >
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
+                      <div className="p-1">
+                        <Nav.Link className="dropdown-item" href="#">
+                          <span>Sanskar: </span>Personality and behavior
+                          development
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Eshwari Kids Kriya
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Eahwari Kids Hata yoga
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Sanskar Teacher training
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Kids Social and Nature awareness program
+                        </Nav.Link>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li className="nav-item dropdown">
+                  <Nav.Link
+                    className="nav-link dropdown-toggle"
+                    href="#"
                     id="eventsDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -241,7 +178,7 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           <span>Aham to shivam: </span>
                           <br />
-                          Shivarathri Vigyan<br/> Bhirava Tantra Sadhana
+                          Shivarathri Vigyan Bhirava Tantra Sadhana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           <span>Sharan Navarathri:</span>
@@ -261,14 +198,78 @@ export default class Header extends Component {
                         <NavDropdown.Divider />
 
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri</span><br/>Attract abundant of wealth
+                          <span>Sri-</span>Attract abundant of wealth
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri Kari </span> <br/>Manifest your intentions
+                          <span>Sri Kari -</span> Manifest your intentions
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          <span>Gratitude week </span><br/> Guruji's birthday<br/>
+                          <span>Gratitude week -</span> Guruji's birthday
                           celebration through Seva
+                        </Nav.Link>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <Nav.Link href="#home">Projects</Nav.Link>
+                <li className="nav-item dropdown">
+                  <Nav.Link
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="healthDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Health
+                  </Nav.Link>
+                  <div
+                    className="dropdown-menu dropdown-menu-left max-menu"
+                    aria-labelledby="healthDropdown"
+                  >
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Yoga chikistha centre
+                        </div>
+                        <NavDropdown.Divider />
+                        <Nav.Link className="dropdown-item" href="#">
+                          Eshwari Ayurveda hospital
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          Eshwari holistic health
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          centre Nirmalikarana centre
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          Yoga chikistha centre
+                        </Nav.Link>
+                      </div>
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Yoga chikistha centre
+                        </div>
+                        <NavDropdown.Divider />
+
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Hormones imbalance
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Weight loss
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Joints and musculoskeletal disorder
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Diabetic management
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Hypertension management
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - General wellness
                         </Nav.Link>
                       </div>
                     </div>
@@ -278,16 +279,16 @@ export default class Header extends Component {
               <Form inline>
                 <Button variant="primary">Donate</Button>
                 <ul className="shop-ul">
-                <li>
-                    <Link className="shop-link" to="#">
-                      <MdPeople />
-                      Volunteer
-                    </Link>
-                  </li>
                   <li>
                     <Link className="shop-link" to="#">
                       <MdShoppingCart />
                       Shop
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="shop-link" to="#">
+                      <MdPeople />
+                      Volunteer
                     </Link>
                   </li>
                   <li>
