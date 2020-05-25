@@ -56,9 +56,10 @@ export default function IandyouCard() {
 
         <div className="text-center">
           <h2 className="big-title text-center  mt-5 wow fadeInUp" data-wow-delay="0.5s">
-            I And You Being Together
+            I And You Being Together<br/>
+            <span className="gradient-text">Let's move together</span>
           </h2>
-          <h3 className="special-title wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">Sangachadwam</h3>
+          <h3 className="special-title wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s"> - Sangachadwam</h3>
           <div className="text-center">
             <img src={Line} alt="line" className="line wow fadeInUp" data-wow-delay="1s"  data-wow-duration="1s"/>
           </div>
