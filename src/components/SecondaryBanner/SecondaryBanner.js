@@ -48,11 +48,6 @@ export default class SecondaryBanner extends Component {
 
     return (
       <div>
-        <div className="secondary-banner">
-          <div className="image-overlay">
-            <img src={this.props.bannerImg} alt="banner" className="zoom-img-" />
-          </div>
-        </div>
         <Container>
           <Row>
             <Col md={10}>
@@ -64,6 +59,7 @@ export default class SecondaryBanner extends Component {
                         <BannerSlider className="wow bounceIn"
                           title={slide.title}
                           subTitle={slide.subTitle}
+                          bannerImg={slide.bannerImg}
                         />
                       </div>
                     );

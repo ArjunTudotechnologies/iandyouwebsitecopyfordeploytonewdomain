@@ -5,6 +5,7 @@ export default function BannerSlider(props) {
     <div className="banner-slider">
       <h1 className="big-special-title">{props.title}</h1>
       <h2 className="big-title">{props.subTitle}</h2>
+      <img src={props.bannerImg} alt="sda"/>
     </div>
   );
 }

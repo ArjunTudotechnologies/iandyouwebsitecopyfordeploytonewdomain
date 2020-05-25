@@ -8,30 +8,35 @@ const slides = [
     title: "Sanskar",
     subTitle: "Pesonality and behaviour development",
     desc: "",
+    bannerImg:{Image}
   },
   {
     id: "2",
     title: "Eshwari Kids Kriya",
     subTitle: "",
     desc: "",
+    bannerImg:{Image}
   },
   {
     id: "3",
     title: "Eshwari Kids Hata Yoga",
     subTitle: "",
     desc: "",
+    bannerImg:{Image}
   },
   {
     id: "4",
     title: "Sanskar Teacher Training",
     subTitle: "",
     desc: "",
+    bannerImg:{Image}
   },
   {
     id: "5",
     title: "Kids Social and Nature awareness program",
     subTitle: "",
     desc: "",
+    bannerImg:{Image}
   },
 ];
 
