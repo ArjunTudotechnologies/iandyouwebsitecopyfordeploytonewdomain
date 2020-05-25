@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import SecondaryBanner from "../../components/SecondaryBanner/SecondaryBanner";
+import SmallBanner from "../../components/SmallBanner/SmallBanner";
 import Image from "../../assets/img/banners/banner-1.jpg";
 const slides = [
   {
@@ -44,7 +44,7 @@ export default function About() {
   return (
     <div>
       <Header />
-      <SecondaryBanner bannerImg={Image} slickSlides={slides} />
+      <SmallBanner slides={slides}/>
     </div>
   );
 }
