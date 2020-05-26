@@ -1,10 +1,104 @@
 @import "../variables/variables";
+.small-banner-section {
+  .big-title,
+  .title{
+    color: $color-white;
+    opacity: 0.9;
+    font-style: italic;
+    animation: customOne .8s ease-in-out 0s 1 normal none running;
+  }
+  ul{
+    
+    li{
+      color: $color-white;
+    }
+  }
+  
+
+.theme-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.thumbnail img {
+  border-radius: 5px;
+  box-shadow: 0 25px 65px rgba(0,0,0,.10);
+}
+  .slick-next {
+    right: 75px;
+  }
+  .slick-prev {
+    left: 75px;
+  }
+  .slick-dots {
+    bottom: 70px;
+  }
+  .slick-dots li button:before {
+    opacity: 0.6;
+    color: #fff;
+  }
+  .slick-active {
+    button {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid $color-orange-dark;
+      &:before {
+        color: transparent !important;
+      }
+    }
+  }
+  button.slick-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 1;
+    width: 68px;
+    height: 68px;
+    border: 2px solid hsla(0, 0%, 100%, 0.2);
+    border-radius: 100%;
+    
+  }
+  button.slick-arrow.slick-next:before {
+    content: url("../../img/icons/slick-arrow-right-small.png");
+    line-height: 1;
+    opacity: 0.4;
+    position: relative;
+    top: -2px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+  }
+  button.slick-arrow.slick-prev:before {
+    content: url("../../img/icons/slick-arrow-left-small.png");
+    line-height: 1;
+    opacity: 0.4;
+    position: relative;
+    top: -2px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+  }
+  button.slick-arrow:hover {
+    background: $color-orange-dark;
+    border-color:$color-orange-dark;
+    .slick-next:before {
+      opacity: 1 !important;
+    }
+  }
+}
 .small-banner {
-  height: 70vh;
-   width: 100%;
+  height: 60vh;
+  width: 100%;
   background-size: cover !important;
 }
-.slick-slider{
+.slick-slider {
   height: 100%;
 }
 
@@ -19,7 +113,7 @@
 .slick-next {
   right: 0;
 }
- 
+
 // .secondary-banner {
 //   position: absolute;
 //   top: 0;
@@ -51,3 +145,41 @@
 //     transform: scale(1.3, 1.3);
 //   }
 // }
+
+
+/*--------------------
+Custom Animation  
+----------------------*/
+
+@-webkit-keyframes customOne {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 50%, 0);
+      transform: translate3d(0, 50%, 0);
+  }
+
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+
+@keyframes customOne {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 50%, 0);
+      transform: translate3d(0, 50%, 0);
+  }
+
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+
+.customOne {
+  -webkit-animation-name: customOne;
+  animation-name: customOne;
+}
