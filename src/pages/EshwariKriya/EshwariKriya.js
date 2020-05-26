@@ -3,14 +3,15 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import SmallBanner from "../../components/SmallBanner/SmallBanner";
 import RegisterDarkCard from "../../components/RegisterDarkCard/RegisterDarkCard";
-import Image from "../../assets/img/banners/banner-1.jpg";
+
+
 const slides = [
   {
     id: "1",
     title: "Eshwari Kriya",
     subTitle: "Celebrate Life",
     desc: [],
-    bannerImg: { Image },
+    bannerImg: "../../assets/img/banners/kids-5.png",
   },
   {
     id: "2",
@@ -33,7 +34,7 @@ const slides = [
       { id: "4", content: "Provides contentment and peace of mind" },
       { id: "5", content: "Increases memory,skill and creativity." },
     ],
-    bannerImg: { Image },
+    bannerImg: "../../assets/img/banners/kids-5.png",
   },
   {
     id: "3",
@@ -60,7 +61,7 @@ const slides = [
       },
       { id: "5", content: "Strengthens Immunity" },
     ],
-    bannerImg: { Image },
+    bannerImg: "../../assets/img/banners/kids-5.png",
   },
 ];
 
@@ -73,7 +74,7 @@ export default function EshwariKriya() {
         title="Celebrate Life"
         desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that."
       />
-    <Footer/>
+      <Footer />
     </div>
   );
 }

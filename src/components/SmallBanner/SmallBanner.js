@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Container, Col, Row } from "react-bootstrap";
-import Kids from "../../assets/img/banners/kids-5.png";
 import ButtonCustom from "../../components/ButtonCustom/ButtonCustom";
+import Image from "../../assets/img/banners/kids-5.png";
+
 export default class SmallBanner extends Component {
   constructor(props) {
     const slides = props.slides;
@@ -25,12 +26,14 @@ export default class SmallBanner extends Component {
       dots: true,
       infinite: true,
       nav: false,
-      speed: 500,
       fade: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       useCss: true,
       useTransform: true,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
     };
     return (
       <div className="pt-0 small-banner-section">
@@ -40,7 +43,7 @@ export default class SmallBanner extends Component {
               <div key={slide} className="">
                 <div
                   className="small-banner d-flex align-items-center justify-content-center"
-                  style={{ backgroundImage: `url(${Kids})` }}
+                  style={{ backgroundImage: `url(${Image})` }}
                 >
                   <Container>
                     <Row>
