@@ -12,6 +12,7 @@ import HomePage from "../src/pages/Home/Home.js";
 import AboutPage from "../src/pages/About/About.js";
 import EventsPage from "../src/pages/Events/Events.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
+import EshwariKriyaPage from "./pages/EshwariKriya/EshwariKriya";
 
 var hist = createBrowserHistory();
 
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/about" exact component={AboutPage} />
       <Route path="/events" exact component={EventsPage} />
       <Route path="/components" exact component={ComponentsPage} />
+      <Route path="/eshwari-kriya" exact component={EshwariKriyaPage} />
     </Switch>
   </Router>,
   document.getElementById("root")
