@@ -33,7 +33,7 @@ export default class SmallBanner extends Component {
       useTransform: true,
     };
     return (
-      <section className="pt-0 small-banner-section">
+      <div className="pt-0 small-banner-section">
         <Slider {...settings}>
           {this.state.slides.map(function (slide) {
             return (
@@ -65,7 +65,7 @@ export default class SmallBanner extends Component {
             );
           })}
         </Slider>
-      </section>
+      </div>
     );
   }
 }

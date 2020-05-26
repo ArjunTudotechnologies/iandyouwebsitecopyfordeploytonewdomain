@@ -53,8 +53,8 @@
   .card-text {
     font-family: "Noto Sans", sans-serif;
   }
-  span{
-    color:$color-light-black;
+  span {
+    color: $color-light-black;
     font-size: 12px;
   }
 }
@@ -402,7 +402,7 @@
     vertical-align: middle;
     // background-color: #3b3e85;
     // background-image: linear-gradient(135deg, #3b3e85 10%, #000dff 100%);
-    background-image:linear-gradient(135deg, #f17c2b 10%, #DE4313 100%);
+    background-image: linear-gradient(135deg, #f17c2b 10%, #de4313 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -625,6 +625,47 @@
 .hello {
   display: none;
 }
+
+// ---------- Register Card ---------- //
+.gregister-dark-card-bg-img {
+  text-align: right;
+  img {
+    height: 590px;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 70%;
+
+  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 11
+}
+.register-dark-card {
+  max-width: 75%;
+  position: relative;
+  z-index: 1111;
+  width: auto;
+  padding: 100px 80px;
+  background-color: $color-charcoal;
+
+  border-radius: 10px;
+  box-shadow: $shadow-lg;
+  h2 {
+    background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
+    background-size: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: $lora;
+    font-style: italic;
+  }
+  p {
+    color: $color-white;
+  }
+}
 // ---------- Media Queries ---------- //
 @media (max-width: 575.98px) {
   .slick-arrow {
@@ -642,9 +683,16 @@
   .play-video-button {
     right: 0% !important;
   }
+  .register-dark-card{
+  width: 100%;
+  max-width: 80%;
+  }
 }
 @media (max-width: 767.98px) {
   .iandyou-card-section {
     display: none;
+  }
+  .register-dark-card{
+    padding: 50px;
   }
 }
