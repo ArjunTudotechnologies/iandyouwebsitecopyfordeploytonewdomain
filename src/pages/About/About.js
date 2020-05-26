@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import SmallBanner from "../../components/SmallBanner/SmallBanner";
+import RegisterDarkCard from "../../components/RegisterDarkCard/RegisterDarkCard";
 import Image from "../../assets/img/banners/banner-1.jpg";
 const slides = [
   {
@@ -67,6 +69,11 @@ export default function About() {
     <div>
       <Header />
       <SmallBanner slides={slides} />
+      <RegisterDarkCard
+        title="Celebrate Life"
+        desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that."
+      />
+    <Footer/>
     </div>
   );
 }
