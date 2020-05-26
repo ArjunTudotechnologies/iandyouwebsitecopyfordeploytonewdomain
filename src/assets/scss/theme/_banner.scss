@@ -1,30 +1,27 @@
 @import "../variables/variables";
 .small-banner-section {
   .big-title,
-  .title{
+  .title {
     color: $color-white;
     opacity: 0.9;
     font-style: italic;
-    animation: customOne .8s ease-in-out 0s 1 normal none running;
+    animation: customOne 0.8s ease-in-out 0s 1 normal none running;
   }
-  ul{
-    
-    li{
+  ul {
+    li {
       color: $color-white;
     }
   }
-  
-
-.theme-gradient {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-}
-
-.thumbnail img {
-  border-radius: 5px;
-  box-shadow: 0 25px 65px rgba(0,0,0,.10);
-}
+  .theme-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  .thumbnail img {
+    border-radius: 5px;
+    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.1);
+  }
   .slick-next {
     right: 75px;
   }
@@ -32,7 +29,7 @@
     left: 75px;
   }
   .slick-dots {
-    bottom: 70px;
+    bottom: 50px;
   }
   .slick-dots li button:before {
     opacity: 0.6;
@@ -63,7 +60,6 @@
     height: 68px;
     border: 2px solid hsla(0, 0%, 100%, 0.2);
     border-radius: 100%;
-    
   }
   button.slick-arrow.slick-next:before {
     content: url("../../img/icons/slick-arrow-right-small.png");
@@ -87,7 +83,7 @@
   }
   button.slick-arrow:hover {
     background: $color-orange-dark;
-    border-color:$color-orange-dark;
+    border-color: $color-orange-dark;
     .slick-next:before {
       opacity: 1 !important;
     }
@@ -146,40 +142,56 @@
 //   }
 // }
 
-
 /*--------------------
 Custom Animation  
 ----------------------*/
 
 @-webkit-keyframes customOne {
   from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 50%, 0);
-      transform: translate3d(0, 50%, 0);
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
   }
-
   to {
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
   }
 }
-
 @keyframes customOne {
   from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 50%, 0);
-      transform: translate3d(0, 50%, 0);
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
   }
-
   to {
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
   }
 }
-
 .customOne {
   -webkit-animation-name: customOne;
   animation-name: customOne;
+}
+
+@media (max-width: 1280px) {
+  .small-banner-section {
+    .slick-arrow {
+      display: none !important;
+    }
+  }
+}
+@media (min-width: 1281px) and (max-width: 1365.98px) {
+  .small-banner-section {
+    .slick-arrow {
+      display: block !important;
+    }
+    .slick-prev{
+      left: 25px!important;
+    }
+    .slick-next{
+      right: 25px!important;
+    }
+  }
 }
