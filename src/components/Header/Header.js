@@ -49,9 +49,12 @@ export default class Header extends Component {
                           Eshwari sadhana
                         </div>
                         <NavDropdown.Divider />
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="eshwari-kriya"
+                        >
                           -Eshwari Kriya
-                        </Nav.Link>
+                        </Link>
                         <Nav.Link className="dropdown-item" href="#">
                           -Eshwari Shakthi kendra sadhana
                         </Nav.Link>
@@ -99,13 +102,13 @@ export default class Header extends Component {
                           -Jyothismathi
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                        -Vastu
+                          -Vastu
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                        -Sri yog
+                          -Sri yog
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                        - Nirmali karana kriya- level 1&2
+                          - Nirmali karana kriya- level 1&2
                         </Nav.Link>
                       </div>
                       <div className="p-1 hide">
