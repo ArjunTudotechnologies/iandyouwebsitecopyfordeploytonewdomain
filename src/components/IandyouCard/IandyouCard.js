@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import FirstImg from "../../assets/img/cards/1.jpg";
+import FirstImg from "../../assets/img/cards/11.jpg";
 import SecondImg from "../../assets/img/cards/2.jpg";
-import ThirdImg from "../../assets/img/cards/3.jpg";
+import ThirdImg from "../../assets/img/cards/1.jpg";
 import Line from "../../assets/img/others/line-2.png";
 
 export default function IandyouCard() {
@@ -16,7 +16,7 @@ export default function IandyouCard() {
                 <a href="/" class="grid-item">
                   <div
                     class="grid-item__image"
-                    style={{ backgroundImage: `url(${SecondImg})` }}
+                    style={{ backgroundImage: `url(${FirstImg})` }}
                   ></div>
                   <div class="grid-item__hover"></div>
                   <div className="title">I</div>
@@ -30,7 +30,7 @@ export default function IandyouCard() {
                 <a href="/" class="grid-item">
                   <div
                     class="grid-item__image"
-                    style={{ backgroundImage: `url(${ThirdImg})` }}
+                    style={{ backgroundImage: `url(${SecondImg})` }}
                   ></div>
                   <div class="grid-item__hover"></div>
                   <div className="title">You</div>
@@ -44,7 +44,7 @@ export default function IandyouCard() {
                 <a href="/" class="grid-item">
                   <div
                     class="grid-item__image"
-                    style={{ backgroundImage: `url(${FirstImg})` }}
+                    style={{ backgroundImage: `url(${ThirdImg})` }}
                   ></div>
                   <div class="grid-item__hover"></div>
                   <div className="title">We</div>
