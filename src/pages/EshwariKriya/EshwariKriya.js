@@ -8,12 +8,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaBrain, FaUser, FaHeart } from "react-icons/fa";
 import EshawariKriya from "../../assets/img/small-banners/img-1.jpg";
 import ProjectsCard from "../../components/ProjectsCard/ProjectsCard";
+import Gallery from "../../components/Gallery/Gallery";
 const slides = [
   {
     id: "1",
     title: "Eshwari Kriya",
     subTitle: "Celebrate Life",
-    desc: [],
+    desc: [{
+      id: "1",
+      content: "",
+    },],
     bannerImg: "../../assets/img/banners/kids-5.png",
   },
   {
@@ -491,7 +495,7 @@ export default function EshwariKriya() {
             {projects.map(function (slide) {
               return (
                 <Col md={4}>
-                    <ProjectsCard key={slide}
+                    <ProjectsCard key={slide.id}
                       title={slide.title}
                       smallTitle={slide.smallTitle}
                       link={slide.link}
@@ -502,6 +506,8 @@ export default function EshwariKriya() {
           </Row>
         </Container>
       </section>
+
+      <Gallery/>
 
       <Footer />
     </div>

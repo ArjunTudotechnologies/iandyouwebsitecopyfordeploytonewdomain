@@ -6,18 +6,18 @@ import { Button } from "react-bootstrap";
 export default function ProjectsCard(props) {
   return (
      
-          <div class="blog blog-style--1">
-            <div class="thumbnail">
+          <div className="blog blog-style--1">
+            <div className="thumbnail">
               <a href="/blog-details">
-                <img class="w-100" src={Image} alt="Blog Images" />
+                <img className="w-100" src={Image} alt="Blog Images" />
               </a>
             </div>
-            <div class="content">
-              <p class="blogtype">{props.smallTitle}</p>
-              <h4 class="title">
+            <div className="content">
+              <p className="blogtype">{props.smallTitle}</p>
+              <h4 className="title">
                 <a href="/blog-details">{props.title}</a>
               </h4>
-              <div class="blog-btn">
+              <div className="blog-btn">
                
                 <Link to={props.link}>
                 <Button variant="outline-light" className="btnOutline">Read More</Button>
