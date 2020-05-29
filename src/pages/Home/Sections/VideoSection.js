@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import VidoImage from "../../../../src/assets/img/video/bg.jpg";
+import VidoImage from "../../../../src/assets/img/small-banners/img-1.jpg";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
 
