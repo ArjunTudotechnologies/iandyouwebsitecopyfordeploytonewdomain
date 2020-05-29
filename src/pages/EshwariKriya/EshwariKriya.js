@@ -6,6 +6,7 @@ import SmallBanner from "../../components/SmallBanner/SmallBanner";
 import RegisterDarkCard from "../../components/RegisterDarkCard/RegisterDarkCard";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaBrain, FaUser, FaHeart } from "react-icons/fa";
+import EshawariKriya from "../../assets/img/small-banners/img-1.jpg";
 const slides = [
   {
     id: "1",
@@ -191,25 +192,235 @@ export default function EshwariKriya() {
           <p>
             <b>Regular practice of Eshwari Kriya </b>
           </p>
+          <Row className="content-features">
+            <Col md={4}>
+              <div className="content-card">
+                <FaBrain />
+                <h2 className="title">On the mind level </h2>
+                <ul>
+                  <li>Reduces mental fatigue (strain)</li>
+                  <li>
+                    Improvises concentration drastically and keeps you focused
+                  </li>
+                  <li>
+                    Keeps you free of stress and psychosomatic disorders caused
+                    due to stress
+                  </li>
+                  <li>Provides contentment and peace of mind </li>
+                  <li>Increases memory,skill and creativity.</li>
+                </ul>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div className="content-card">
+                <FaUser />
+                <h2 className="title">On the physical level</h2>
+                <ul>
+                  <li>Keeps you healthy and fit.</li>
+                  <li>
+                    Stimulates energy throughout the body and aids inner
+                    balance.
+                  </li>
+                  <li>
+                    Rejuvenates tired cells, helping in reducing early signs of
+                    aging.
+                  </li>
+                  <li>
+                    Keeps you active throughout the day and maintains energy
+                    level for 16 hours in optimum.
+                  </li>
+                  <li>Strengthens Immunity.</li>
+                </ul>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div className="content-card">
+                <FaHeart />
+                <h2 className="title">On interpersonal relationships</h2>
+                <ul>
+                  <li>Maintains harmony in relationships.</li>
+                  <li>
+                    Creates a conducive environment within your surroundings.
+                  </li>
+                  <li>Unfolds unconditional love. </li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="bg-light-gray-1">
+        <Container>
           <Row>
-            <Col md={4}>
-              <FaBrain />
-              <li>Reduces mental fatigue (strain)</li>
-              <li>
-                Improvises concentration drastically and keeps you focused
-              </li>
-              <li>
-                Keeps you free of stress and psychosomatic disorders caused due
-                to stress
-              </li>
-              <li>Provides contentment and peace of mind </li>
-              <li>Increases memory,skill and creativity.</li>
+            <Col md={8}>
+              <h2 className="big-title mb-5">
+                Celebrate life through Eshwari kriya
+              </h2>
             </Col>
-            <Col md={4}>
-              <FaUser />
+            <Col md={4}></Col>
+          </Row>
+          <div className="text-justify">
+            <p>
+              I often tell my Sadhaks to Celebrate life, life is a celebration,
+              it's a celebration by default but, why then are we struggling to
+              lead a happy life ? why are we suffering ? why does it feel as if
+              life is a misery ? It’s because we do not know the management, you
+              may be a management student or an expert in objective world but
+              life is a subjective world, so to celebrate life one must know the
+              management of Body, Mind and Emotions for that one should have
+              five types of strength which are already present but needs to be
+              strengthened consciously without strengthening it one cannot
+              experience the absolute truth, in sanskrit we call it as Bala
+              (Strength) there are basically five types of Bala or Strenght or
+              Power, the first one is Deha Bala which means Physical Strength ,
+              the second one is Mano Bala meaning Psychic Strength , the third
+              one is Budhi Bala means Intellectual strength or Power , the
+              fourth one is Athma Bala meaning the Power of the inner being and
+              fifth one is very important that is Dhiva Bala means the power of
+              the divine.
+            </p>
+            <p>
+              You might be powerful or strong enough physically, mentally and
+              intellectually but weak in terms of power of the inner being, then
+              you cannot experience success in the meantime if you are strong at
+              all above said four types of strengths but missing the cosmic
+              support or divine’s grace and blessings even then one cannot
+              experience success, here i am mentioning success in that context
+              meaning happy, healthy,wealthy and holistic life.
+            </p>
+            <p>
+              To lead a holistic life one must strengthen the above five
+              strengths. Eshwari Kriya is such an unique yogic technique which
+              brings inner alignment in your body, mind, and energy which
+              results in gaining the five strengths and leads to holistic
+              living.
+            </p>
+            <p>
+              Eshwari Kriya is a SHAKTHA method of KUNDALINI activation, Shaktha
+              means the one who follows, practices and reveres the Feminine
+              cosmic energy . There are three types of feminine cosmic energy
+              activation, which is very secret and sacred the activation is only
+              possible through Guru-Shishya Parampara (lineage of master and
+              disciple relationship ) in the scriptures it is said that
+            </p>
+            <p>
+              <b>"TRIVIDHA KUNDALINI SHAKTHI STHREE DEVANAN CHA SRUSTAYE"</b>{" "}
+              there are three types of Kundalini energy the first one is CHITH
+              Kundalini , the second one is PRANA kundalini and the third and
+              ultimate is PARA kundalini so I will explain about the details of
+              Kundalini later, through Eshwari Kriya with the blessings of
+              divine will activate your Chith kundalini first, which gives lead
+              to the other two kundalini activation.
+            </p>
+            <p>
+              Intentionally i do not want to talk more about the Kundalini
+              activation because it has the most corrupted, manipulated and
+              wrongly understood, the western world has manipulated and
+              dissolved the entire method and the purpose of kundalini
+              activation to their limited understanding such as, they ask the
+              sadhaks to imagine the colors, visualize the petals or they use
+              some hypnosis methods etc etc .., i personally and so does our
+              schools of yoga tantra disagree with such incorrect methods of
+              activation, the right method and authentic yoga tantra methods are
+              very secret and sacred techniques, Eshwari Kriya is one among such
+              simple yet powerful and effective technique.
+            </p>
+            <p>
+              To celebrate life and to lead a holistic lifestyle, Eshwari Kriya
+              is a boon to the mankind.
+            </p>
+            <p>
+              <b>
+                <span
+                  clasName="lora-text"
+                  style={{ fontFamily: "Lora", fontSize: "20px" }}
+                >
+                  - Sri Prasad
+                </span>
+              </b>{" "}
+              <br />
+              &nbsp;&nbsp;&nbsp;Jai Guru Dev
+            </p>
+          </div>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row className=" d-flex align-items-center justify-content-center">
+            <Col md={7}>
+              <p>
+                <b>
+                  ESHWARI KRIYA is a time-tested practice that cultivates
+                  boundless levels of Emotional, Psychological and Physical
+                  fitness. It’s a busy and Competitive world we live in today
+                  with increasing demands on employers and employees alike. We
+                  work long hours, often hunched over a computer. We skip meals,
+                  keep a phone glued to our ear, and rarely leave our workspace
+                  for a break. Before long, these work habits begin to take
+                  their toll on our bodies and minds in the form of stress,
+                  tension and sickness and while a mild amount of stress can
+                  help us meet deadlines, too much stress, or constant stress,
+                  can interfere with numerous physical and mental abilities. How
+                  we respond to stress can have a significant impact on our
+                  total health. ESHWARI KRIYA can remove stress from the body
+                  and mind.
+                </b>
+              </p>
             </Col>
-            <Col md={4}>
-              <FaHeart />
+            <Col md={5}>
+              <img
+                className="img-fluid br-10 shadow-lg"
+                src={EshawariKriya}
+                alt="Eshwari Kriya"
+              />
+            </Col>
+            <Col md={12}>
+              <h2 className="title mt-5 mb-4">
+                ESHWARI KRIYA Programs Have Many Benefits, 20 minutes regular
+                practice of Eshwari kriya will create
+              </h2>
+              <ul>
+                <li>
+                  Employees that are happy and full of energy, and as a result,
+                  more productive
+                </li>
+                <li>Decline in stress-related sick occurrences</li>
+                <li>
+                  Improved concentration, decision-making skills and ability to
+                  multi-task
+                </li>
+                <li>
+                  Improves employee alertness and ability to react more calmly
+                  in demanding situations
+                </li>
+                <li>
+                  Relief of head, neck and back strain, carpal tunnel syndrome,
+                  insomnia, high blood pressure and work-related injuries from
+                  repetitive motion
+                </li>
+                <li>Better customer service</li>
+                <li>
+                  one can maintain 16 hours of optimum energy level to perform
+                  well
+                </li>
+                <li>Enhanced employee attitude and outlook</li>
+                <li>
+                  General well-being in the workplace which reduces employee
+                  turnover
+                </li>
+                <li>
+                  The Body , Mind and Emotional management is a part of Kriya
+                </li>
+              </ul>
+              <p>
+                <b>
+                  In simple statement we would say that ESHWARI KRIYA is a
+                  perfect tool for Happy ,Healthy, Prosperous and Successful
+                  life Celebrate life through Eshwari Kriya. To celebrate life
+                  and to lead holistic life style Eshwari Kriya is a boon to the
+                  mankind.
+                </b>
+              </p>
             </Col>
           </Row>
         </Container>

@@ -1,0 +1,39 @@
+.content-features {
+  svg {
+    font-size: 50px;
+    color:$color-orange-dark;
+  }
+  .title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  ul {
+    padding-left: 20px;
+    li {
+      padding-bottom: 5px;
+    }
+  }
+  .content-card {
+    background-color: $color-gray;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: $shadow-sm;
+    &:hover {
+      .title {
+        color: $color-white;
+      }
+      svg{
+          color:$color-white;
+      }
+      color: $color-white;
+      box-shadow: $shadow-lg;
+      background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+    }
+  }
+}
+
+  .lora-text{
+    font-family: $lora!important;
+    font-size: 18px!important;
+}
