@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import Image from "../../assets/img/banners/banner-1.jpg";
+import Image from "../../assets/img/small-banners/img-77.jpg";
 
 export default function RegisterDarkCard(props) {
   return (

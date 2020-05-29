@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Container, Col, Row } from "react-bootstrap";
 import ButtonCustom from "../../components/ButtonCustom/ButtonCustom";
-import Image from "../../assets/img/banners/kids-5.png";
+import Image from "../../assets/img/small-banners/img-4.png";
 
 export default class SmallBanner extends Component {
   constructor(props) {

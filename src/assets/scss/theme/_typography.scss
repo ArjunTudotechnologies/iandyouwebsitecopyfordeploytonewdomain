@@ -64,6 +64,9 @@ section {
 .bg-light-gray{
   background-color: $color-light-gray-1;
 }
+.bg-light-gray-1{
+  background-color: $color-gray;
+}
 .wave {
   width: 100%;
   object-fit: cover;
@@ -74,6 +77,9 @@ section {
 }
 .hide {
   display: none;
+}
+.br-10{
+  border-radius: 10px;
 }
 /*--------------------title-------------------------*/
 .title {
