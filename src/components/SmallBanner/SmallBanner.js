@@ -36,18 +36,18 @@ export default class SmallBanner extends Component {
       autoplaySpeed: 2000,
     };
     return (
-      <div className="pt-0 small-banner-section">
+      <div className="pt-0 small-banner-section" >
         <Slider {...settings}>
           {this.state.slides.map(function (slide) {
             return (
-              <div key={slide} className="">
-                <div
+              <div key={slide.id}>
+                <div key={slide.id}
                   className="small-banner d-flex align-items-center justify-content-center"
                   style={{ backgroundImage: `url(${Image})` }}
                 >
-                  <Container>
+                  <Container key={slide.id}>
                     <Row>
-                      <Col md={12} lg={8} xl={8}>
+                      <Col md={12} lg={8} xl={8} key={slide.id}>
                         <h2 className="big-title wow fadeinDown">
                           {slide.title}
                         </h2>

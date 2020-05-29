@@ -96,7 +96,7 @@ export default class Header extends Component {
                         </Nav.Link>
                       </div>
                       <div className="p-1">
-                        <div className="dropdown-header p-2">&nbsp;</div>
+                        <div className="dropdown-header p-2">Adhika sadhana</div>
                         <NavDropdown.Divider />
                         <Nav.Link className="dropdown-item" href="#">
                           -Jyothismathi
