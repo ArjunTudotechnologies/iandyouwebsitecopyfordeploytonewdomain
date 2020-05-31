@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Container, Col, Row } from "react-bootstrap";
 import ButtonCustom from "../../components/ButtonCustom/ButtonCustom";
-
+const baseUrl = "../../assets/img/small-banners/";
 export default class SmallBanner extends Component {
   constructor(props) {
     const slides = props.slides;
@@ -46,7 +46,7 @@ export default class SmallBanner extends Component {
                   key={slide.id}
                   className="small-banner d-flex align-items-center justify-content-center"
                   style={{
-                    backgroundImage: `url(${require(`../../assets/img/small-banners/${slide.bannerImg}`)})`,
+                    backgroundImage: `url(${'img/smallbanner/'+slide.bannerImg})`,
                   }}
                 >
                   <Container key={slide.id}>

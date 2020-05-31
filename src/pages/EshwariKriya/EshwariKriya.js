@@ -14,7 +14,7 @@ const slides = [
     title: "Eshwari Kriya",
     subTitle: "Celebrate Life",
     desc: [],
-    bannerImg: "kids-5.png",
+    bannerImg: "eshwari-shakthi-kendra-sadhana-1.png",
   },
   {
     id: "2",
@@ -37,7 +37,7 @@ const slides = [
       { id: "4", content: "Provides contentment and peace of mind" },
       { id: "5", content: "Increases memory,skill and creativity." },
     ],
-    bannerImg: "kids-5.png",
+    bannerImg: "eshwari-shakthi-kendra-sadhana.png",
 
   },
   {
@@ -65,7 +65,7 @@ const slides = [
       },
       { id: "5", content: "Strengthens Immunity" },
     ],
-    bannerImg: "kids-5.png",
+    bannerImg: "kids.png",
 
   },
 ];
@@ -429,7 +429,7 @@ export default function EshwariKriya() {
         </Container>
       </section>
       <RegisterDarkCard
-        registerCardBg="img-77.jpg"
+        registerCardBg="celebratelife.jpg"
         title="Celebrate Life"
         desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that."
       />

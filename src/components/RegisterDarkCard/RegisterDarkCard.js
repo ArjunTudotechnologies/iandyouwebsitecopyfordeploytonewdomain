@@ -16,7 +16,7 @@ export default function RegisterDarkCard(props) {
             </div>
           </Container>
           <div className="gregister-dark-card-bg-img">
-            <img src={require(`../../assets/img/small-banners/${props.registerCardBg}`)} alt="" />
+            <img src={`/img/registerCard/`+props.registerCardBg} alt="" />
           </div>
         </div>
       </section>
