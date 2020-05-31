@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import Image from "../../assets/img/small-banners/img-77.jpg";
 
 export default function RegisterDarkCard(props) {
   return (
@@ -17,7 +16,7 @@ export default function RegisterDarkCard(props) {
             </div>
           </Container>
           <div className="gregister-dark-card-bg-img">
-            <img src={Image} alt="" />
+            <img src={require(`../../assets/img/small-banners/${props.registerCardBg}`)} alt="" />
           </div>
         </div>
       </section>

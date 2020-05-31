@@ -652,7 +652,7 @@
   box-shadow: $shadow-lg;
   h2 {
     background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
-    background-size: 50%;
+    background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -677,8 +677,8 @@
   @extend %transition;
   overflow: hidden;
   border-radius: 6px;
-  .btnOutline{
-    border:2px solid $color-white;
+  .btnOutline {
+    border: 2px solid $color-white;
   }
   .thumbnail {
     a {
@@ -795,6 +795,36 @@
       .blog-btn {
         opacity: 1;
         visibility: visible;
+      }
+    }
+  }
+}
+
+// ---------- Benifits Card ---------- //
+.benifits-card {
+  box-shadow: $shadow;
+  img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .benifits-content {
+    flex-direction: column;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: $color-charcoal;
+    padding: 50px;
+    height: 100%;
+    .title-small {
+      color: $color-white;
+    }
+
+    ul {
+      padding-left: 20px;
+      li {
+        color: $color-white;
+        padding-bottom: 10px;
       }
     }
   }

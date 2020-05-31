@@ -94,6 +94,11 @@
   width: 100%;
   background-size: cover !important;
 }
+.full-height{
+  .small-banner{
+    height:calc(100vh - 125px);;
+  }
+}
 .slick-slider {
   height: 100%;
 }

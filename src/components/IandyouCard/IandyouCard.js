@@ -13,12 +13,12 @@ export default function IandyouCard() {
           <Col xs={4} md={4} className="p-0">
             <div className="image-grid">
               <div className="image-grid__item">
-                <a href="/" class="grid-item">
+                <a href="/" className="grid-item">
                   <div
-                    class="grid-item__image"
+                    className="grid-item__image"
                     style={{ backgroundImage: `url(${FirstImg})` }}
                   ></div>
-                  <div class="grid-item__hover"></div>
+                  <div className="grid-item__hover"></div>
                   <div className="title">I</div>
                 </a>
               </div>
@@ -27,12 +27,12 @@ export default function IandyouCard() {
           <Col xs={4} md={4} className="p-0">
             <div className="image-grid">
               <div className="image-grid__item center_item">
-                <a href="/" class="grid-item">
+                <a href="/" className="grid-item">
                   <div
-                    class="grid-item__image"
+                    className="grid-item__image"
                     style={{ backgroundImage: `url(${SecondImg})` }}
                   ></div>
-                  <div class="grid-item__hover"></div>
+                  <div className="grid-item__hover"></div>
                   <div className="title">You</div>
                 </a>
               </div>
@@ -41,12 +41,12 @@ export default function IandyouCard() {
           <Col xs={4} md={4} className="p-0">
             <div className="image-grid">
               <div className="image-grid__item">
-                <a href="/" class="grid-item">
+                <a href="/" className="grid-item">
                   <div
-                    class="grid-item__image"
+                    className="grid-item__image"
                     style={{ backgroundImage: `url(${ThirdImg})` }}
                   ></div>
-                  <div class="grid-item__hover"></div>
+                  <div className="grid-item__hover"></div>
                   <div className="title">We</div>
                 </a>
               </div>

@@ -2,14 +2,15 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Container, Col, Row } from "react-bootstrap";
 import ButtonCustom from "../../components/ButtonCustom/ButtonCustom";
-import Image from "../../assets/img/small-banners/img-4.png";
 
 export default class SmallBanner extends Component {
   constructor(props) {
     const slides = props.slides;
+    const bannerClass = props.bannerClass;
     super(props);
     this.state = {
       slides,
+      bannerClass,
     };
     this.click = this.click.bind(this);
   }
@@ -33,17 +34,20 @@ export default class SmallBanner extends Component {
       useTransform: true,
       autoplay: true,
       speed: 2000,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 5000,
     };
     return (
-      <div className="pt-0 small-banner-section" >
+      <div className={this.state.bannerClass}>
         <Slider {...settings}>
           {this.state.slides.map(function (slide) {
             return (
               <div key={slide.id}>
-                <div key={slide.id}
+                <div
+                  key={slide.id}
                   className="small-banner d-flex align-items-center justify-content-center"
-                  style={{ backgroundImage: `url(${Image})` }}
+                  style={{
+                    backgroundImage: `url(${require(`../../assets/img/small-banners/${slide.bannerImg}`)})`,
+                  }}
                 >
                   <Container key={slide.id}>
                     <Row>
