@@ -7,18 +7,14 @@ import RegisterDarkCard from "../../components/RegisterDarkCard/RegisterDarkCard
 import { Container, Row, Col } from "react-bootstrap";
 import { FaBrain, FaUser, FaHeart } from "react-icons/fa";
 import EshawariKriya from "../../assets/img/small-banners/img-1.jpg";
-import ProjectsCard from "../../components/ProjectsCard/ProjectsCard";
-import Gallery from "../../components/Gallery/Gallery";
+
 const slides = [
   {
     id: "1",
     title: "Eshwari Kriya",
     subTitle: "Celebrate Life",
-    desc: [{
-      id: "1",
-      content: "",
-    },],
-    bannerImg: "../../assets/img/banners/kids-5.png",
+    desc: [],
+    bannerImg: "kids-5.png",
   },
   {
     id: "2",
@@ -41,7 +37,8 @@ const slides = [
       { id: "4", content: "Provides contentment and peace of mind" },
       { id: "5", content: "Increases memory,skill and creativity." },
     ],
-    bannerImg: "../../assets/img/banners/kids-5.png",
+    bannerImg: "kids-5.png",
+
   },
   {
     id: "3",
@@ -68,58 +65,8 @@ const slides = [
       },
       { id: "5", content: "Strengthens Immunity" },
     ],
-    bannerImg: "../../assets/img/banners/kids-5.png",
-  },
-];
+    bannerImg: "kids-5.png",
 
-const projects = [
-  {
-    id: "1",
-    title: "I And You Green",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "2",
-    title: "I And You She's Divine",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "3",
-    title: "Eshwari Bala Vidhya Mandira",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "4",
-    title: "I And You Vidhya",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "5",
-    title: "Sanskar",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "6",
-    title: "I And You Ayurveda",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "7",
-    title: "Monument Restoration Project",
-    smallTitle: "Projects",
-    link:"#"
-  },
-  {
-    id: "8",
-    title: "I And You Sattva",
-    smallTitle: "Projects",
-    link:"#"
   },
 ];
 
@@ -127,7 +74,7 @@ export default function EshwariKriya() {
   return (
     <div>
       <Header />
-      <SmallBanner slides={slides} />
+      <SmallBanner slides={slides} bannerClass="pt-0 small-banner-section" />
       <section>
         <Container>
           <Heading
@@ -393,7 +340,7 @@ export default function EshwariKriya() {
                 >
                   - Sri Prasad
                 </span>
-              </b>{" "}
+              </b>
               <br />
               &nbsp;&nbsp;&nbsp;Jai Guru Dev
             </p>
@@ -482,33 +429,10 @@ export default function EshwariKriya() {
         </Container>
       </section>
       <RegisterDarkCard
+        registerCardBg="img-77.jpg"
         title="Celebrate Life"
         desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that."
       />
-      <section className="bg-light-gray-1">
-        <div className="text-center">
-          <Heading title="Our Projects" smalltitle="projects"/>
-        </div>
-
-        <Container fluid>
-          <Row>
-            {projects.map(function (slide) {
-              return (
-                <Col md={4}>
-                    <ProjectsCard key={slide.id}
-                      title={slide.title}
-                      smallTitle={slide.smallTitle}
-                      link={slide.link}
-                    />
-                </Col>
-              );
-            })}
-          </Row>
-        </Container>
-      </section>
-
-      <Gallery/>
-
       <Footer />
     </div>
   );

@@ -70,16 +70,16 @@ export default class VideoSection extends Component {
                         className="play-video-button"
                         onClick={this.openModal}
                       >
-                        <div class="pulse-icon">
-                          <div class="icon-wrap">
+                        <div className="pulse-icon">
+                          <div className="icon-wrap">
                             <FaPlay />
                           </div>
-                          <div class="elements">
-                            <div class="circle circle-outer"></div>
-                            <div class="circle circle-inner"></div>
-                            <div class="pulse pulse-1"></div>
-                            <div class="pulse pulse-2"></div>
-                            <div class="pulse pulse-3"></div>
+                          <div className="elements">
+                            <div className="circle circle-outer"></div>
+                            <div className="circle circle-inner"></div>
+                            <div className="pulse pulse-1"></div>
+                            <div className="pulse pulse-2"></div>
+                            <div className="pulse pulse-3"></div>
                           </div>
                         </div>
                       </div>

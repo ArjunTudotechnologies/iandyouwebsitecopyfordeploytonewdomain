@@ -19,13 +19,17 @@ export default class Header extends Component {
         <Topbar />
         <Navbar className="shadow header" bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">
-              <img className="logo" alt="I And You Foundation" src={Logo} />
+            <Navbar.Brand href="#">
+              <Link to="/">
+                <img className="logo" alt="I And You Foundation" src={Logo} />
+              </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Link className="nav-link dropdown-item" to="/">
+                  Home
+                </Link>
                 <Nav.Link href="#home">About</Nav.Link>
                 <li className="nav-item dropdown">
                   <Nav.Link
@@ -55,9 +59,13 @@ export default class Header extends Component {
                         >
                           -Eshwari Kriya
                         </Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="eshwari-shakthi-kendra-sadhana"
+                        >
                           -Eshwari Shakthi kendra sadhana
-                        </Nav.Link>
+                        </Link>
+
                         <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Srividhya sadhana- level 1&2
                         </Nav.Link>
@@ -96,7 +104,9 @@ export default class Header extends Component {
                         </Nav.Link>
                       </div>
                       <div className="p-1">
-                        <div className="dropdown-header p-2">Adhika sadhana</div>
+                        <div className="dropdown-header p-2">
+                          Adhika sadhana
+                        </div>
                         <NavDropdown.Divider />
                         <Nav.Link className="dropdown-item" href="#">
                           -Jyothismathi
@@ -278,7 +288,9 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-                <Nav.Link href="#home">Projects</Nav.Link>
+                <Link className="nav-link dropdown-item" to="projects">
+                  Projects
+                </Link>
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
