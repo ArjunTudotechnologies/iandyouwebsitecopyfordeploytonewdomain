@@ -65,10 +65,12 @@ export default class Header extends Component {
                         >
                           -Eshwari Shakthi kendra sadhana
                         </Link>
-
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="eshwari-srividhya-sadhana"
+                        >
                           - Eshwari Srividhya sadhana- level 1&2
-                        </Nav.Link>
+                        </Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Mounik sadhana
                         </Nav.Link>
@@ -90,9 +92,9 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Sidha Dhyana -level 1&2
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Link className="nav-link dropdown-item" to="immortal-process">
                           - Immortal process
-                        </Nav.Link>
+                        </Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Know your purpose
                         </Nav.Link>
@@ -108,9 +110,12 @@ export default class Header extends Component {
                           Adhika sadhana
                         </div>
                         <NavDropdown.Divider />
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="jyothismathi"
+                        >
                           -Jyothismathi
-                        </Nav.Link>
+                        </Link>
                         <Nav.Link className="dropdown-item" href="#">
                           -Vastu
                         </Nav.Link>
@@ -137,9 +142,9 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Srividhya sadhana- level 1&2
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Link className="nav-link dropdown-item" to="imortal-process">
                           - Immortal process
-                        </Nav.Link>
+                        </Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Know your purpose
                         </Nav.Link>

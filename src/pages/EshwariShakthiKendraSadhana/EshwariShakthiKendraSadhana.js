@@ -79,7 +79,7 @@ export default class EshwariShakthiKendraSadhana extends Component {
             <Heading
               smalltitle="Sadhana & Dhyana"
               title="Eshwari Shakthi Kendra Sadhana "
-              specialTitle="(ESSK)"
+              specialTitle="(ESKS)"
             />
             <div className="text-justify">
               <p>

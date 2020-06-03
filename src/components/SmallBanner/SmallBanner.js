@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Container, Col, Row } from "react-bootstrap";
 import ButtonCustom from "../../components/ButtonCustom/ButtonCustom";
-const baseUrl = "../../assets/img/small-banners/";
 export default class SmallBanner extends Component {
   constructor(props) {
     const slides = props.slides;
