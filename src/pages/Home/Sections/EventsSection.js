@@ -170,7 +170,7 @@ export default class EventsSection extends Component {
       <>
         <section className="bg-color-2">
           <Container>
-            <Heading smalltitle="Events" title="Upcoming Events" />
+            <Heading smalltitle="Workshops" title="Upcoming Workshops" />
 
             <div>
               <Slider {...settings}>
