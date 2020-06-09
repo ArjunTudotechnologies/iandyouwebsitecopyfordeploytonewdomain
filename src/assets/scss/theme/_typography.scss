@@ -4,13 +4,16 @@
 .color-white {
   color: $color-white !important;
 }
+
 .image-overlay {
   position: relative;
 }
+
 .image-overlay img {
   width: 100%;
   vertical-align: top;
 }
+
 .image-overlay:after {
   content: "\A";
   position: absolute;
@@ -29,58 +32,67 @@ p {
   font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   color: $color-light-black;
+
   @media (min-width: 576px) {
-    $map: (
-      576px: 14px,
-      768px: 14px,
-    );
+    $map: (576px: 14px,
+        768px: 14px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 768px) {
-    $map: (
-      768px: 14px,
-      992px: 16px,
-    );
+    $map: (768px: 14px,
+        992px: 16px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 992px) {
     font-size: 16px;
   }
 }
+
 section {
   padding: 100px 0;
 }
+
 .bg-color-1 {
   background-color: $color-bg-1;
 }
+
 .bg-color-2 {
   background: rgb(253, 128, 45);
-  background: linear-gradient(
-    0deg,
-    rgba(253, 128, 45, 0.32816876750700286) 0%,
-    rgba(253, 128, 45, 0.0844712885154062) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(253, 128, 45, 0.32816876750700286) 0%,
+      rgba(253, 128, 45, 0.0844712885154062) 100%);
 }
-.bg-light-gray{
+
+.bg-light-gray {
   background-color: $color-light-gray-1;
 }
-.bg-light-gray-1{
+
+.bg-light-gray-1 {
   background-color: $color-gray;
 }
+
 .wave {
   width: 100%;
   object-fit: cover;
 }
+
 .rotate-180 {
   transform: rotate(180deg);
   margin-top: -1px;
 }
+
 .hide {
   display: none;
 }
-.br-10{
+
+.br-10 {
   border-radius: 10px;
 }
+
 /*--------------------title-------------------------*/
 .title {
   font-size: 22px;
@@ -88,24 +100,26 @@ section {
   color: $color-charcoal;
   // font-family: "Roboto", sans-serif;
   font-family: "Lora", serif;
+
   @media (min-width: 576px) {
-    $map: (
-      576px: 22px,
-      768px: 24px,
-    );
+    $map: (576px: 22px,
+        768px: 24px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 768px) {
-    $map: (
-      768px: 24px,
-      992px: 36px,
-    );
+    $map: (768px: 24px,
+        992px: 36px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 992px) {
     font-size: 36px;
   }
-  span{
+
+  span {
     background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
     background-size: 100%;
     background-clip: text;
@@ -116,30 +130,32 @@ section {
   }
 }
 
-.title-small{
+.title-small {
   font-size: 18px;
   font-weight: bold;
   color: $color-charcoal;
   // font-family: "Roboto", sans-serif;
   font-family: "Lora", serif;
+
   @media (min-width: 576px) {
-    $map: (
-      576px: 18px,
-      768px: 20px,
-    );
+    $map: (576px: 18px,
+        768px: 20px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 768px) {
-    $map: (
-      768px: 20px,
-      992px: 24px,
-    );
+    $map: (768px: 20px,
+        992px: 24px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 992px) {
     font-size: 24px;
   }
-  span{
+
+  span {
     background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
     background-size: 100%;
     background-clip: text;
@@ -156,20 +172,21 @@ section {
   color: $color-charcoal;
   font-family: "Lora", serif;
   font-style: italic;
+
   @media (min-width: 576px) {
-    $map: (
-      576px: 22px,
-      768px: 24px,
-    );
+    $map: (576px: 22px,
+        768px: 24px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 768px) {
-    $map: (
-      768px: 24px,
-      992px: 3.5rem,
-    );
+    $map: (768px: 24px,
+        992px: 3.5rem,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 992px) {
     font-size: 3.5rem;
   }
@@ -180,20 +197,21 @@ section {
   font-weight: bold;
   color: $color-charcoal;
   font-family: "Lora", serif;
+
   @media (min-width: 576px) {
-    $map: (
-      576px: 25px,
-      768px: 30px,
-    );
+    $map: (576px: 25px,
+        768px: 30px,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 768px) {
-    $map: (
-      768px: 30px,
-      992px: 6rem,
-    );
+    $map: (768px: 30px,
+        992px: 6rem,
+      );
     font-size: linear-interpolation($map);
   }
+
   @media (min-width: 992px) {
     font-size: 6rem;
   }
@@ -207,6 +225,7 @@ section {
   margin-bottom: 0;
   color: $color-orange-dark;
 }
+
 .special-title {
   font-family: "Niconne", cursive;
 }

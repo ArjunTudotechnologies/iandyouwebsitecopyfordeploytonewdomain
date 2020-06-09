@@ -30,7 +30,9 @@ export default class Header extends Component {
                 <Link className="nav-link dropdown-item" to="/">
                   Home
                 </Link>
-                <Nav.Link href="#home">About</Nav.Link>
+                <Link className="nav-link dropdown-item" to="about">
+                  About
+                </Link>
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"

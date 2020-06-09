@@ -4,7 +4,6 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 import RegistrationForm from "../../../components/RegistrationForm/RegistrationForm";
 import RegistrationSliderCard from "../../../components/RegistrationSliderCard/RegistrationSliderCard";
 
-
 export default class TwitterSection extends Component {
   render() {
     return (
@@ -28,8 +27,8 @@ export default class TwitterSection extends Component {
             <Col md={12} lg={5} xl={3} className="text-center">
               <TwitterTimelineEmbed
                 sourceType="profile"
-                screenName="saurabhnemade"
-                options={{ height: 600,width:350 }}
+                screenName="kishanqr"
+                options={{ height: 600, width: 350 }}
               />
             </Col>
           </Row>
