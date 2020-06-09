@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import FirstImg from "../../assets/img/cards/11.jpg";
 import SecondImg from "../../assets/img/cards/sri-prasad-guruji.jpeg";
 import ThirdImg from "../../assets/img/cards/1.jpg";
+import { Container } from "react-bootstrap";
+import Line from "../../assets/img/others/line-2.png";
 
 export default class IandyouCardMobile extends Component {
   render() {
@@ -62,6 +64,35 @@ export default class IandyouCardMobile extends Component {
             </div>
           </div>
         </Slider>
+        <Container>
+          <div className="text-center">
+            <h2
+              className="big-title text-center  mt-5 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              I And You Being Together
+              <br />
+              <span className="gradient-text">Let's move together</span>
+            </h2>
+            <h3
+              className="special-title wow fadeInUp"
+              data-wow-delay="0.5s"
+              data-wow-duration="1s"
+            >
+              {" "}
+              - Sangachadwam
+            </h3>
+            <div className="text-center">
+              <img
+                src={Line}
+                alt="line"
+                className="line wow fadeInUp"
+                data-wow-delay="1s"
+                data-wow-duration="1s"
+              />
+            </div>
+          </div>
+        </Container>
       </div>
     );
   }

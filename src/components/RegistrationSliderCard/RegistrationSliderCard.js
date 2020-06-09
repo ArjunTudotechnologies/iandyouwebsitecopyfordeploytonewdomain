@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Mandala from "../../assets/img/others/pattern.png";
+import { Link } from "react-router-dom";
 
 export default function RegistrationSliderCard(props) {
   return (
@@ -24,9 +25,11 @@ export default function RegistrationSliderCard(props) {
             </li>
             <li>Increases memory,skill and creativity.</li>
           </ul>
-          <Button variant="outline-light" size="sm">
-            Read More
-          </Button>
+          <Link to="eshwari-kriya">
+            <Button variant="outline-light" size="sm">
+              Read More
+            </Button>
+          </Link>
         </div>
       </Card>
     </div>

@@ -33,8 +33,8 @@ export default class Home extends Component {
         <ProjectsSection />
         <TestimonialsSection />
         <TwitterSection />
+        {/* <ProgramsSection /> */}
         <CovidBanner />
-        <ProgramsSection />
         <Footer />
       </div>
     );
