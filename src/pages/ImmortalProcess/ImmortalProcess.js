@@ -302,6 +302,7 @@ export default class ImmortalProcess extends Component {
             </div>
           </Container>
         </section>
+        <Footer />
       </div>
     );
   }

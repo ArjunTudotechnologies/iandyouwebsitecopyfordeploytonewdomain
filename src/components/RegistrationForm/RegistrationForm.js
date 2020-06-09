@@ -16,7 +16,7 @@ export default function RegistrationForm() {
 
   return (
     <div className="m-3 mb-5">
-      <p className="sub-small-title pt-5">Sri Yog Teacher...</p>
+      <p className="sub-small-title pt-5">Eshwari Kriya</p>
       <h2 className="title pb-3">Registration</h2>
 
       <Form noValidate validated={validated} onSubmit={handleSubmit}>

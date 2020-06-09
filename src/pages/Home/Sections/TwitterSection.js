@@ -13,9 +13,13 @@ export default class TwitterSection extends Component {
           <Row>
             <Col md={12} lg={12} xl={4}>
               <RegistrationSliderCard
-                subtitle="Benefits of the Sriyog HaYTT:"
-                title="Sri Yog Teacher training"
-                desc="In the magnificent setting of the busy life commence to the soulful wisdom of yogic science, under the esteemed guidance of venerated Sri Prasad Guruji get yourself introduced to the world of spirituality and wellness by submerging deep into the holistic learning of yoga. "
+                title="Eshwari Kriya, Celebrate Life"
+                subtitle="Regular practice of Eshwari Kriya:"
+                desc="Eshwari Kriya is designed on the base of profound yogic scientific knowledge the
+                knowledge taken from the good old scripture called Vigyan Bhirava Tantra a chapter
+                from Rudra Yamala Tantra here, Vigyan means science, Bhirava means
+                Transcendental consciousness and the tantra literally means the technology or a
+                technique."
               />
             </Col>
             <Col md={12} lg={7} xl={4} className="br-3">
