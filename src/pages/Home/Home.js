@@ -10,6 +10,7 @@ import TestimonialsSection from "./Sections/TestimonialsSection";
 import TwitterSection from "./Sections/TwitterSection";
 import ProjectsSection from "./Sections/ProjectsSection";
 import IandyouCard from "../../components/IandyouCard/IandyouCard";
+import IandyouCardMobile from "../../components/IandyouCardMobile/IandyouCardMobile";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -26,6 +27,7 @@ export default class Home extends Component {
       <div>
         <Header />
         <IandyouCard />
+        <IandyouCardMobile />
         <EventsSection />
         <VideoSection />
         <ProjectsSection />
