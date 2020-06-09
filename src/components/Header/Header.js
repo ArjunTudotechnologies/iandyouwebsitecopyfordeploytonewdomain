@@ -92,7 +92,10 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Sidha Dhyana -level 1&2
                         </Nav.Link>
-                        <Link className="nav-link dropdown-item" to="immortal-process">
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="immortal-process"
+                        >
                           - Immortal process
                         </Link>
                         <Nav.Link className="dropdown-item" href="#">
@@ -102,7 +105,10 @@ export default class Header extends Component {
                           - Amrut sadhana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          - Manaprakshalya
+                          - Mana prakshalya
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Kala Bhairava Dhyana
                         </Nav.Link>
                       </div>
                       <div className="p-1">
@@ -114,10 +120,10 @@ export default class Header extends Component {
                           className="nav-link dropdown-item"
                           to="jyothismathi"
                         >
-                          -Jyothismathi
+                          <span>Jyothismathi:</span>
                         </Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          -Vastu
+                          -Astrology / Vastu
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           -Sri yog
@@ -142,14 +148,17 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           - Eshwari Srividhya sadhana- level 1&2
                         </Nav.Link>
-                        <Link className="nav-link dropdown-item" to="imortal-process">
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="imortal-process"
+                        >
                           - Immortal process
                         </Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Know your purpose
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          - Mounik sadhana
+                          - Udgamana sadhana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Manaprakshalya
@@ -293,9 +302,46 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-                <Link className="nav-link dropdown-item" to="projects">
-                  Projects
-                </Link>
+                <li className="nav-item dropdown">
+                  <Nav.Link
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="eventsDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Projects
+                  </Nav.Link>
+                  <div
+                    className="dropdown-menu dropdown-menu-left"
+                    aria-labelledby="eventsDropdown"
+                  >
+                    <div className="d-md-flex align-items-start justify-content-start p-2">
+                      <div className="p-1">
+                        <Nav.Link className="dropdown-item" href="#">
+                          I and You Green
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          I and You Vidhya
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          She's Divine
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          Eshwari Bala Vidhya Mandira
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          Eshwari Ayurveda
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          Punarjeevan - Monument Restoration
+                        </Nav.Link>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -322,10 +368,10 @@ export default class Header extends Component {
                           Eshwari Ayurveda hospital
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          Eshwari holistic health
+                          Eshwari holistic health center
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          centre Nirmalikarana centre
+                          Nirmalikarana centre
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           Yoga chikistha centre
