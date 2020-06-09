@@ -1,27 +1,33 @@
 @import "node_modules/react-modal-video/scss/modal-video.scss";
+
 // ---------- Covid Card ---------- //
 .covid-banner-section {
   background-color: $color-gray;
 }
+
 .covid-card {
   border-radius: 10px;
   border: 0;
   padding: 0;
   margin: 0;
   height: auto;
+
   .covid-banner-image {
     width: 100%;
     object-fit: cover;
     height: auto;
     border-radius: 10px;
   }
+
   .card-body {
     padding: 0;
+
     p {
       color: #eeeaeabd;
       font-weight: 900;
       letter-spacing: 1px;
     }
+
     .banner-content {
       position: absolute;
       top: 50%;
@@ -29,10 +35,12 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
+
     .line {
       border-top: 1px solid rgb(255, 255, 255);
     }
   }
+
   .image-overlay {
     &::after {
       border-radius: 10px;
@@ -50,9 +58,11 @@
     font-style: italic;
     font-size: 24px;
   }
+
   .card-text {
     font-family: "Noto Sans", sans-serif;
   }
+
   span {
     color: $color-light-black;
     font-size: 12px;
@@ -61,21 +71,25 @@
 
 // ---------- Video Card ---------- //
 .video-section {
-  background-image: url("../../img/video/test.png");
+  background-image: url("../../img/backgrounds/iandyou.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 1000px;
+  height: 1115px;
+  background-size: 100%;
 }
+
 .video-card {
   margin-top: 60px;
   border-radius: 10px;
   box-shadow: $shadow;
+
   img {
     width: 100%;
     height: 400px;
     border-radius: 10px;
     object-fit: cover;
   }
+
   .video-card-content {
     position: absolute;
     top: 50px;
@@ -86,18 +100,22 @@
       color: $color-white;
       width: 60%;
       font-family: $lora;
+
       span {
         font-style: italic;
       }
     }
+
     p {
       color: $color-white;
       width: 60%;
     }
+
     p {
       margin-bottom: 30px;
     }
   }
+
   .play-video-button {
     transform: translateY(-50%);
     position: absolute;
@@ -105,6 +123,7 @@
     right: 10%;
     cursor: pointer;
   }
+
   .image-overlay {
     &:after {
       border-radius: 10px !important;
@@ -119,6 +138,7 @@
   position: relative;
   display: inline-block;
 }
+
 /*icon styling here*/
 .pulse-icon .icon-wrap {
   position: relative;
@@ -135,6 +155,7 @@
   line-height: 3.6;
   color: $color-orange-dark;
 }
+
 .pulse-icon .icon {
   line-height: 60px;
   font-size: 1.75em;
@@ -148,30 +169,29 @@
   left: 0px;
   z-index: 1;
 }
+
 .pulse-icon .circle {
   border-radius: 50%;
   position: absolute;
 }
+
 .pulse-icon .circle-inner {
   width: 80px;
   height: 80px;
   top: -10px;
   left: -10px;
-  background: linear-gradient(
-    -180deg,
-    rgba(255, 255, 255, 0.12) 0%,
-    rgba(255, 255, 255, 0.1) 100%
-  );
+  background: linear-gradient(-180deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.1) 100%);
   animation: grow-circles 4s linear infinite both;
 }
+
 .pulse-icon .circle-outer {
   width: 100px;
   height: 100px;
-  background: linear-gradient(
-    -180deg,
-    rgba(255, 255, 255, 0.12) 0%,
-    rgba(255, 255, 255, 0.1) 100%
-  );
+  background: linear-gradient(-180deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.1) 100%);
   top: -20px;
   left: -20px;
   animation: grow-circles 4s linear infinite both;
@@ -183,6 +203,7 @@
   animation: pulse-wave 4s linear infinite both;
   border-radius: 50%;
 }
+
 .pulse-icon .pulse-1 {
   border: solid 1px rgba(255, 255, 255, 0.25);
   width: 200px;
@@ -190,6 +211,7 @@
   top: -70px;
   left: -70px;
 }
+
 .pulse-icon .pulse-2 {
   border: solid 1px rgba(255, 255, 255, 0.35);
   width: 300px;
@@ -197,6 +219,7 @@
   top: -120px;
   left: -120px;
 }
+
 .pulse-icon .pulse-3 {
   border: solid 1px rgba(255, 255, 255, 0.45);
   width: 400px;
@@ -211,10 +234,12 @@
     opacity: 0;
     transform: scale(0.1);
   }
+
   50% {
     opacity: 1;
     transform: scale(0.5);
   }
+
   100% {
     opacity: 0;
     transform: scale(1);
@@ -227,10 +252,12 @@
     opacity: 0.85;
     transform: scale(1);
   }
+
   15% {
     opacity: 1;
     transform: scale(1.05);
   }
+
   30% {
     opacity: 0.85;
     transform: scale(1);
@@ -242,9 +269,11 @@
   0% {
     transform: scale(1);
   }
+
   15% {
     transform: scale(1.1);
   }
+
   30% {
     transform: scale(1);
   }
@@ -254,30 +283,36 @@
 .testimonials-section {
   background-color: $color-bg-2;
 }
+
 .testimonials-card {
   padding: 20px;
   border: 0;
   box-shadow: $shadow;
   border-radius: 10px;
+
   img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
   }
+
   .content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+
     p {
       margin-bottom: 0;
       padding-left: 10px;
     }
+
     .client {
       font-family: $nato;
       font-weight: 700;
     }
+
     .designation {
       font-size: 12px;
       font-family: $nato;
@@ -297,43 +332,52 @@
 .br-3 {
   border-right: 3px solid $color-light-gray-1 !important;
 }
+
 .registration-card {
   border: 0;
   border-radius: 10px;
   box-shadow: $shadow-lg;
   background-image: linear-gradient(135deg, #de4313 10%, #fec163 100%);
   height: auto;
+
   h2 {
     color: $color-white;
     text-align: left;
     padding-bottom: 20px;
   }
+
   h3 {
     font-family: $nato;
     font-weight: 600;
     color: $color-white;
     font-size: 16px;
   }
+
   p,
   li {
     color: $color-white;
     font-size: 14px;
   }
+
   padding: 50px;
+
   .btn {
     width: 150px;
     border: 1px solid $color-white;
   }
+
   .pattern-bg {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 11;
+
     img {
       opacity: 0.1;
     }
   }
+
   .content {
     z-index: 111;
     position: relative;
@@ -363,34 +407,42 @@
   -o-animation-iteration-count: infinite;
   -o-animation-timing-function: linear;
 }
+
 @keyframes rotateme {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 @-webkit-keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @-moz-keyframes rotateme {
   from {
     -moz-transform: rotate(0deg);
   }
+
   to {
     -moz-transform: rotate(360deg);
   }
 }
+
 @-o-keyframes rotateme {
   from {
     -o-transform: rotate(0deg);
   }
+
   to {
     -o-transform: rotate(360deg);
   }
@@ -409,10 +461,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
   }
+
   .line {
     width: 275px;
   }
+
   background-color: $color-gray;
+
   .title {
     font-family: $lora;
     font-style: italic;
@@ -426,10 +481,12 @@
     transform: translateX(-50%);
     text-shadow: 2px 2px 4px #000000;
   }
+
   h3 {
     font-size: 4rem;
   }
 }
+
 .i-and-you-card {
   img {
     height: 450px;
@@ -481,6 +538,7 @@
   transition: transform 0.14s ease-in, text-shadow 0.1s ease-in,
     -webkit-transform 0.14s ease-in;
 }
+
 .image-grid__item:before {
   content: "";
   visibility: hidden;
@@ -497,6 +555,7 @@
   transition: visibility 0.1s ease-out, opacity 0.1s ease-out;
   opacity: 0;
 }
+
 .image-grid__item:hover:before {
   visibility: visible;
   opacity: 1;
@@ -520,14 +579,17 @@
   color: #eeeeee;
   overflow: hidden;
 }
+
 .grid-item:hover .grid-item__image {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
 .grid-item:hover .grid-item__hover {
   visibility: visible;
   opacity: 1;
 }
+
 .grid-item:hover .grid-item__name {
   visibility: visible;
   -webkit-transform: scale(1);
@@ -546,8 +608,7 @@
   -webkit-transform: scale(1);
   transform: scale(1);
   will-change: transform;
-  -webkit-transition: -webkit-transform 0.35s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
@@ -605,6 +666,7 @@
     transform 0.24s ease, -webkit-transform 0.24s ease;
   opacity: 0;
 }
+
 .center_item {
   flex-basis: 400px;
   height: 600px;
@@ -617,6 +679,7 @@
     width: 100%;
     margin: 20px 0px;
   }
+
   .wrapper {
     padding: 20px 20px;
   }
@@ -629,17 +692,20 @@
 // ---------- Register Card ---------- //
 .gregister-dark-card-bg-img {
   text-align: right;
+
   img {
     height: 590px;
     border-radius: 10px;
     object-fit: cover;
     width: 70%;
   }
+
   position: absolute;
   top: 0;
   right: 0;
   z-index: 11;
 }
+
 .register-dark-card {
   max-width: 75%;
   position: relative;
@@ -650,6 +716,7 @@
 
   border-radius: 10px;
   box-shadow: $shadow-lg;
+
   h2 {
     background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
     background-size: 100%;
@@ -661,6 +728,7 @@
     font-family: $lora;
     font-style: italic;
   }
+
   p {
     color: $color-white;
   }
@@ -677,17 +745,21 @@
   @extend %transition;
   overflow: hidden;
   border-radius: 6px;
+
   .btnOutline {
     border: 2px solid $color-white;
   }
+
   .thumbnail {
     a {
       display: block;
       position: relative;
       z-index: 1;
+
       img {
         @extend %transition;
       }
+
       &::after {
         // background: linear-gradient(to bottom, #f55555, #000000 100%);
         background: linear-gradient(to bottom, #fc004d 0, #000000 100%);
@@ -707,6 +779,7 @@
       }
     }
   }
+
   .content {
     position: absolute;
     bottom: -92px;
@@ -714,6 +787,7 @@
     padding: 50px 35px;
     z-index: 3;
     @extend %transition;
+
     // @media #{$large-mobile} {
     //     bottom: 0;
     // }
@@ -735,6 +809,7 @@
       //     opacity: 0;
       // }
     }
+
     p {
       &.blogtype {
         font-size: 14px;
@@ -742,9 +817,11 @@
         color: #c6c9d8;
       }
     }
+
     h4 {
       &.title {
         margin-bottom: 0;
+
         a {
           color: #ffffff;
           font-size: 24px;
@@ -754,6 +831,7 @@
         }
       }
     }
+
     .blog-btn {
       @extend %transition;
       margin-top: 35px;
@@ -770,27 +848,33 @@
       // }
     }
   }
+
   &:hover {
     .content {
       bottom: 0;
+
       &::before {
         opacity: 0;
       }
     }
+
     .thumbnail {
       a {
         img {
           transform: scale(1.1);
         }
+
         &::before {
           opacity: 0;
         }
+
         &::after {
           opacity: 0.85;
           top: 0;
         }
       }
     }
+
     .content {
       .blog-btn {
         opacity: 1;
@@ -803,12 +887,14 @@
 // ---------- Benifits Card ---------- //
 .benifits-card {
   box-shadow: $shadow;
+
   img {
     width: 100%;
     height: 100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+
   .benifits-content {
     flex-direction: column;
     border-top-left-radius: 5px;
@@ -816,12 +902,14 @@
     background-color: $color-charcoal;
     padding: 50px;
     height: 100%;
+
     .title-small {
       color: $color-white;
     }
 
     ul {
       padding-left: 20px;
+
       li {
         color: $color-white;
         padding-bottom: 10px;
@@ -835,28 +923,53 @@
   .slick-arrow {
     display: none !important;
   }
+
   .video-card-content {
     top: 0px !important;
     margin-left: 30px !important;
     margin-right: 30px !important;
     margin-top: 70px !important;
+
     h2 {
       width: 100% !important;
     }
   }
+
   .play-video-button {
     right: 0% !important;
   }
+
   .register-dark-card {
     width: 100%;
     max-width: 80%;
   }
+
+  .video-section {
+    height: 930px;
+    background-size: 100%;
+  }
 }
+
 @media (max-width: 767.98px) {
   .iandyou-card-section {
     display: none;
   }
+
   .register-dark-card {
     padding: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .video-section {
+    height: 930px;
+    background-size: 100%;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .video-section {
+    height: auto;
+    background-size: 100%;
   }
 }

@@ -16,12 +16,13 @@ export default function RegistrationSliderCard(props) {
           <p>{props.desc}</p>
           <h3>{props.subtitle}</h3>
           <ul className="m-0 pl-3 pb-5">
-            <li>Ability to synergize one’s mind, body and inner being</li>
-            <li>Holistic understanding of the philosophy of yoga</li>
+            <li>Reduces mental fatigue (strain)</li>
+            <li>Improvises concentration drastically and keeps you focused</li>
             <li>
-              Understanding Yogic Stress management, prevention of stressrelated
-              ailments
+              Keeps you free of stress and psychosomatic disorders caused due to
+              stress
             </li>
+            <li>Increases memory,skill and creativity.</li>
           </ul>
           <Button variant="outline-light" size="sm">
             Read More
