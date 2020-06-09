@@ -27,7 +27,7 @@ export default class TwitterSection extends Component {
             <Col md={12} lg={5} xl={3} className="text-center">
               <TwitterTimelineEmbed
                 sourceType="profile"
-                screenName="kishanqr"
+                screenName="WithSriMNPrasad"
                 options={{ height: 600, width: 350 }}
               />
             </Col>

@@ -31,7 +31,6 @@ export default function RegistrationSliderCard(props) {
             </Button>
           </Link>
         </div>
-        z
       </Card>
     </div>
   );
