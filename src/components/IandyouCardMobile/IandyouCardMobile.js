@@ -7,7 +7,7 @@ import ThirdImg from "../../assets/img/cards/1.jpg";
 export default class IandyouCardMobile extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 2500,
       slidesToShow: 1,
