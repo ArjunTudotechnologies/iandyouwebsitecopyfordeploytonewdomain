@@ -8,7 +8,7 @@ import ProgramsSection from "./Sections/ProgramsSection";
 import VideoSection from "./Sections/VideoSection";
 import TestimonialsSection from "./Sections/TestimonialsSection";
 import TwitterSection from "./Sections/TwitterSection";
-import ProjectsSection from "./Sections/ProjectsSection";
+import UpcomingEventsSection from "./Sections/UpcomingEventsSection";
 import IandyouCard from "../../components/IandyouCard/IandyouCard";
 import IandyouCardMobile from "../../components/IandyouCardMobile/IandyouCardMobile";
 
@@ -30,10 +30,11 @@ export default class Home extends Component {
         <IandyouCardMobile />
         <EventsSection />
         <VideoSection />
-        <ProjectsSection />
+        <UpcomingEventsSection />
+        {/* <ProjectsSection /> */}
         <TestimonialsSection />
         <TwitterSection />
-        {/* <ProgramsSection /> */}
+        <ProgramsSection />
         <CovidBanner />
         <Footer />
       </div>
