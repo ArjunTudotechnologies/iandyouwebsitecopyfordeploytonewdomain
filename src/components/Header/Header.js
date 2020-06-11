@@ -211,7 +211,10 @@ export default class Header extends Component {
                           Poornima Dhyana (full moon meditation )
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          Rahukalam Aradhana (Sundays, Tuesdays and Fridays )
+                          Astami Kalabairava dhyana
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          Poornima Gurupooja with navavarana Dhyana
                         </Nav.Link>
                       </div>
                       <div className="p-1">
@@ -264,7 +267,7 @@ export default class Header extends Component {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Projects New
+                    Projects
                   </Nav.Link>
                   <div
                     className="dropdown-menu dropdown-menu-left max-menu-small"
