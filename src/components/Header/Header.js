@@ -74,7 +74,10 @@ export default class Header extends Component {
                           - Eshwari Srividhya sadhana- level 1&2
                         </Link>
                         <Nav.Link className="dropdown-item" href="#">
-                          - Mounik sadhana
+                          - Udgamana sadhana
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          - Kala Bhairava Dhyana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Guru pooja
@@ -132,59 +135,6 @@ export default class Header extends Component {
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Nirmali karana kriya- level 1&2
-                        </Nav.Link>
-                      </div>
-                      <div className="p-1 hide">
-                        <Nav.Link className="dropdown-item" href="#">
-                          -Eshwari Kriya
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          -Eshwari Shakthi kendra sadhana
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Eshwari Dhyana
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Eshwari Sidha Dhyana -level 1&2
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Eshwari Srividhya sadhana- level 1&2
-                        </Nav.Link>
-                        <Link
-                          className="nav-link dropdown-item"
-                          to="imortal-process"
-                        >
-                          - Immortal process
-                        </Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Know your purpose
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Udgamana sadhana
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Manaprakshalya
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Nirmali karana kriya- level 1&2
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Jyothismathi
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Astro & Vastu
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Eshwari shodhana kriya
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Amrut sadhana
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Guru pooja
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Sri yog teacher Training
                         </Nav.Link>
                       </div>
                     </div>
@@ -308,42 +258,101 @@ export default class Header extends Component {
                   <Nav.Link
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="eventsDropdown"
+                    id="healthDropdown"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Projects
+                    Projects New
                   </Nav.Link>
                   <div
-                    className="dropdown-menu dropdown-menu-left"
-                    aria-labelledby="eventsDropdown"
+                    className="dropdown-menu dropdown-menu-left max-menu-small"
+                    aria-labelledby="healthDropdown"
                   >
                     <div className="d-md-flex align-items-start justify-content-start p-2">
                       <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Each one Educate one
+                        </div>
+                        <NavDropdown.Divider />
+                        <Link
+                          className="nav-link dropdown-item"
+                          to="eshwari-kriya"
+                        >
+                          <span>I and you Vidhya </span>
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Educate and Empower a girl child
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Educate and Empower a dumb and deaf child
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Educate and Empower a blind Chid
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Educate and Empower a orphan child
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Educate and Support government schools
+                        </Link>
+                      </div>
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Initiative towards Environment
+                        </div>
+                        <NavDropdown.Divider />
                         <Nav.Link className="dropdown-item" href="#">
-                          I and You Green
+                          <span>I and you green</span>
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          I and You Vidhya
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          She's Divine
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          Eshwari Bala Vidhya Mandira
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          Eshwari Ayurveda
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          Punarjeevan - Monument Restoration
-                        </Nav.Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - MiNi forest formations
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Neem Saplings plantations
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Lake rejuvenation
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - farmers borewell recharge
+                        </Link>
+                      </div>
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">She's Divine</div>
+                        <NavDropdown.Divider />
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Awards and honoring <br />
+                          women achivers every year
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Skilled job oriented workshops
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Handicraft training
+                        </Link>
+                      </div>
+                      <div className="p-1">
+                        <div className="dropdown-header p-2">
+                          Monuments restoration
+                        </div>
+                        <NavDropdown.Divider />
+                        <Link className="nav-link dropdown-iem" to="#">
+                          - Maha Nandhikeshawara (Monolithic)
+                        </Link>
+                        <Link className="nav-link dropdown-iem" to="#">
+                          - Madeshwara Monument of Ganga dynasty
+                        </Link>
+                        <Link className="nav-link dropdown-iem" to="#">
+                          - Olden clan styled deities temple renovations and
+                          constructions
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </li>
+
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
