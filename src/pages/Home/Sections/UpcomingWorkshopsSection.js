@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import Heading from ".././../../components/Heading/Heading";
+import Heading from "../../../components/Heading/Heading";
 import EventsCard from "../../../components/EventsCard/EventsCard";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
+import WorkshopsCard from "../../../components/WorkshopsCard/WorkshopsCard";
 
 const slides = [
   {
     id: "1",
-    event_name: "Sri",
+    event_name: "Sri Vidhya Sadhana level 1",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -28,7 +29,7 @@ const slides = [
   },
   {
     id: "2",
-    event_name: "Event Two",
+    event_name: "Kalabhairava Dhyana",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -49,7 +50,7 @@ const slides = [
   },
   {
     id: "3",
-    event_name: "Event Three",
+    event_name: "Guru Puja",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -70,7 +71,7 @@ const slides = [
   },
   {
     id: "4",
-    event_name: "Event Three",
+    event_name: "Udgamana",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -91,7 +92,7 @@ const slides = [
   },
   {
     id: "5",
-    event_name: "Event Three",
+    event_name: "Sanskar",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -112,7 +113,7 @@ const slides = [
   },
 ];
 
-export default class EventsSection extends Component {
+export default class UpcomingWorkshops extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -176,7 +177,7 @@ export default class EventsSection extends Component {
                 {this.state.slides.map(function (slide) {
                   return (
                     <div key={slide}>
-                      <EventsCard
+                      <WorkshopsCard
                         desc={slide.event_desc}
                         title={slide.event_name}
                         location={slide.location}

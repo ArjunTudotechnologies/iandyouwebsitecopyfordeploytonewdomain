@@ -48,6 +48,7 @@
   }
 }
 
+
 // ---------- Events Card ---------- //
 .events-card {
   border: 0;
@@ -67,7 +68,20 @@
     color: $color-light-black;
     font-size: 12px;
   }
+
+  .card-body {
+    svg {
+      font-size: 16px;
+      margin-right: 5px;
+      margin-top: -3px;
+    }
+  }
+
+  .card-footer {
+    background-color: #fff;
+  }
 }
+
 
 // ---------- Video Card ---------- //
 .video-section {
@@ -289,6 +303,11 @@
   border: 0;
   box-shadow: $shadow;
   border-radius: 10px;
+
+  .testimonials {
+    height: 200px;
+
+  }
 
   .br-1 {
     border-right: 3px solid #dddbdb4d !important;

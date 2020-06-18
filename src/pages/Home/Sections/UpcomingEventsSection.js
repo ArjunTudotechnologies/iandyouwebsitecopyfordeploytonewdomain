@@ -7,7 +7,7 @@ import Slider from "react-slick";
 const slides = [
   {
     id: "1",
-    event_name: "Event One",
+    event_name: "I And You green",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -28,7 +28,7 @@ const slides = [
   },
   {
     id: "2",
-    event_name: "Event Two",
+    event_name: "I And You Vidhya",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -49,7 +49,7 @@ const slides = [
   },
   {
     id: "3",
-    event_name: "Event Three",
+    event_name: "Sri",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -70,7 +70,7 @@ const slides = [
   },
   {
     id: "4",
-    event_name: "Event Three",
+    event_name: "Nagara Panchami",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -91,7 +91,28 @@ const slides = [
   },
   {
     id: "5",
-    event_name: "Event Three",
+    event_name: "Navarathri",
+    event_desc:
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    event_images: [
+      {
+        img_id: "1",
+        img_name: "img1.jpg",
+      },
+      {
+        img_id: "2",
+        img_name: "img2.jpg",
+      },
+    ],
+    start_date: "2020/05/14",
+    end_date: "2020/05/14",
+    start_time: "15:01:27",
+    end_time: "15:01:27",
+    location: "Banglore",
+  },
+  {
+    id: "6",
+    event_name: "Sri",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     event_images: [
@@ -167,9 +188,9 @@ export default class UpcomingEventsSection extends Component {
     };
     return (
       <>
-        <section className="bg-color-2">
+        <section>
           <Container>
-            <Heading smalltitle="Workshops" title="Upcoming Workshops" />
+            <Heading smalltitle="Events" title="Upcoming Events" />
 
             <div>
               <Slider {...settings}>

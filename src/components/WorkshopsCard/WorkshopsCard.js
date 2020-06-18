@@ -6,9 +6,9 @@ import { MdPlace } from "react-icons/md";
 export default function WorkshopsCard(props) {
   return (
     <>
-      <Card className="events-card m-3 wow fadeInUp">
+      <Card className="events-card workshop-card m-3 wow fadeInUp">
         <Card.Img variant="top" src={Banner1} />
-        <Card.Body>
+        <Card.Body className="position-relative">
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.desc}</Card.Text>
           <span className="text-right">
