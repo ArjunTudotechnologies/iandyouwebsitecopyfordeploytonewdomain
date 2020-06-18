@@ -3,7 +3,9 @@ import { Card } from "react-bootstrap";
 export default function TestimonialsCard(props) {
   return (
     <Card className="testimonials-card mt-5 mb-5 ml-3 mr-3">
-      <p>{props.testimonial}</p>
+      <div className="testimonials">
+        <p>{props.testimonial}</p>
+      </div>
       <hr />
       <div className="content">
         <div className="br-1">

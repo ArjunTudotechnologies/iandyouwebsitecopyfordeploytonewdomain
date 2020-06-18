@@ -3,7 +3,6 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import CovidBanner from "../../components/CovidBanner/CovidBanner";
 import { WOW } from "wowjs";
-import EventsSection from "./Sections/EventsSection";
 import ProgramsSection from "./Sections/ProgramsSection";
 import VideoSection from "./Sections/VideoSection";
 import TestimonialsSection from "./Sections/TestimonialsSection";
@@ -11,6 +10,8 @@ import TwitterSection from "./Sections/TwitterSection";
 import UpcomingEventsSection from "./Sections/UpcomingEventsSection";
 import IandyouCard from "../../components/IandyouCard/IandyouCard";
 import IandyouCardMobile from "../../components/IandyouCardMobile/IandyouCardMobile";
+import UpcomingWorkshopsSection from "./Sections/UpcomingWorkshopsSection";
+import ScrollTop from "../../components/ScrollTop/ScrollTop";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -28,15 +29,15 @@ export default class Home extends Component {
         <Header />
         <IandyouCard />
         <IandyouCardMobile />
-        <EventsSection />
+        <UpcomingWorkshopsSection />
         <VideoSection />
         <UpcomingEventsSection />
-        {/* <ProjectsSection /> */}
         <TestimonialsSection />
         <TwitterSection />
         <ProgramsSection />
         <CovidBanner />
         <Footer />
+        <ScrollTop />
       </div>
     );
   }
