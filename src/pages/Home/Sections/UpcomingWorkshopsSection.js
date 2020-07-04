@@ -18,21 +18,8 @@ const slides = [
     location: "Banglore",
     link: "guru-puja",
   },
-
   {
     id: "2",
-    event_name: "Kala Bhairava Dhyana",
-    event_desc: "",
-    event_image: "kalabairava.jpg",
-    start_date: "07/12/2020",
-    end_date: "2020/05/14",
-    start_time: "15:01:27",
-    end_time: "15:01:27",
-    link: "kala-bhairava-dhyana",
-    location: "Banglore",
-  },
-  {
-    id: "3",
     event_name: "Sri Vidhya Eshwari Sadhana level 1",
     event_desc:
       "Sri Vidhya Eshwari Sadhana is theSadhana / Practice of the infinite order. As the name implies it is the Practice of 'SRI' who is the granter of wealth, wealth of both worldly and spiritual",
@@ -42,6 +29,18 @@ const slides = [
     start_time: "15:01:27",
     end_time: "15:01:27",
     link: "eshwari-srividhya-sadhana",
+    location: "Banglore",
+  },
+  {
+    id: "3",
+    event_name: "Kala Bhairava Dhyana",
+    event_desc: "",
+    event_image: "kalabairava.jpg",
+    start_date: "07/12/2020",
+    end_date: "2020/05/14",
+    start_time: "15:01:27",
+    end_time: "15:01:27",
+    link: "kala-bhairava-dhyana",
     location: "Banglore",
   },
   {

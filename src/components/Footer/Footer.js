@@ -60,7 +60,7 @@ export default function Footer() {
             </p>
           </Col>
           <Col xs={4} md={3} lg={2} xl={2}>
-            <h2>Usefull Links</h2>
+            <h2>Useful Links</h2>
             <ul className="menu-links">
               <li>
                 <Link style={linkText} to="/">
