@@ -79,10 +79,10 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           - Kala Bhairava Dhyana
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="guru-puja">
                           - Guru pooja
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="guru-puja">
                           - Eshwari shodhana kriya
                         </Nav.Link>
                       </div>
