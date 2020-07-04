@@ -22,6 +22,8 @@ import GuruPujaPage from "./pages/GuruPuja/GuruPuja";
 import ProjectsPage from "./pages/Projects/Projects";
 import UdgamanaPage from "./pages/Udgamana/Udgamana";
 import SriPage from "./pages/Sri/Sri";
+import SriYogPage from "./pages/SriYog/SriYog";
+import AstrologyPage from "./pages/Astrology/Astrology";
 
 var hist = createBrowserHistory();
 
@@ -49,6 +51,8 @@ ReactDOM.render(
       <Route path="/projects" exact component={ProjectsPage} />
       <Route path="/udgamana" exact component={UdgamanaPage} />
       <Route path="/sri" exact component={SriPage} />
+      <Route path="/sriyog" exact component={SriYogPage} />
+      <Route path="/astrology" exact component={AstrologyPage} />
     </Switch>
   </Router>,
   document.getElementById("root")
