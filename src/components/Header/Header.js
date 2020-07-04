@@ -243,7 +243,7 @@ export default class Header extends Component {
                         </div>
                         <NavDropdown.Divider />
 
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="sri">
                           <span>Sri-</span>Attract abundant of wealth
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
