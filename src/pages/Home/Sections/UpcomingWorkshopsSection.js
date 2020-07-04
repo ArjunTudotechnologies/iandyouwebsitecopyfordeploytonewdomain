@@ -11,7 +11,7 @@ const slides = [
     event_desc:
       "Anandha Bhirava - a young charismatic one who sat himself under a banyan tree  in estatic silence facing towards south. There where four seekers the 1st was in Misery , 2nd was willing to have progress and success, 3rd one was to know about the purpose of life and the 4th one was wise but still something was lacking in him.",
     event_image: "gurupooja-new.jpg",
-    start_date: "2020/05/14",
+    start_date: "05/07/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -22,14 +22,13 @@ const slides = [
   {
     id: "2",
     event_name: "Kala Bhairava Dhyana",
-    event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    event_desc: "",
     event_image: "kalabairava.jpg",
-    start_date: "2020/05/14",
+    start_date: "07/12/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
-    link: "guru-puja",
+    link: "kala-bhairava-dhyana",
     location: "Banglore",
   },
   {
@@ -38,24 +37,24 @@ const slides = [
     event_desc:
       "Sri Vidhya Eshwari Sadhana is theSadhana / Practice of the infinite order. As the name implies it is the Practice of 'SRI' who is the granter of wealth, wealth of both worldly and spiritual",
     event_image: "srividya.jpg",
-    start_date: "2020/05/14",
+    start_date: "07/11/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
-    link: "guru-puja",
+    link: "eshwari-srividhya-sadhana",
     location: "Banglore",
   },
   {
     id: "4",
     event_name: "Udgamana",
     event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_image: "srividya.jpg",
-    start_date: "2020/05/14",
+      "what is difference between you and others or me and you ? that is the level of awareness , some have less , some have moderate and some have more , the one possessing more, for such person the possibility of success is more",
+    event_image: "udgamana.jpg",
+    start_date: "07/09/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
-    link: "guru-puja",
+    link: "udgamana",
     location: "Banglore",
   },
   {
@@ -63,7 +62,7 @@ const slides = [
     event_name: "Immortal Process",
     event_desc:
       "The theory of 'karma and rebirth' raises numerous questions such as how, when, and why did the cycle start in the first place, what is the relative Karmic merit of one karma versus another and why, and what evidence is there that rebirth actually happens, among others.",
-    event_image: "importal_process.jpg",
+    event_image: "immortal.jpg",
     start_date: "2020/05/14",
     end_date: "2020/05/14",
     start_time: "15:01:27",

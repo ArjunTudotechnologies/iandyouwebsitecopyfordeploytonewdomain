@@ -31,7 +31,7 @@ export default class VideoSection extends Component {
                   Free Guided Meditation Eshwari Kriya Online
                 </h2>
                 <p
-                  className="wow fadeInUp"
+                  className="wow fadeInUp hide"
                   data-wow-delay="0.5s"
                   data-wow-duration="1s"
                 >

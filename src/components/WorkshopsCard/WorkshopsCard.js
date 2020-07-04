@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { MdPlace } from "react-icons/md";
+import { MdPlace, MdDateRange } from "react-icons/md";
 
 export default function WorkshopsCard(props) {
   return (
@@ -21,14 +21,19 @@ export default function WorkshopsCard(props) {
           <Link className="linkText" to={props.link}>
             <Card.Text className="textMinimum mb-3">{props.desc}</Card.Text>
           </Link>
-          <span className="text-right">
-            <Button variant="primary">Register</Button>
+          <span className="text-left">
+            <MdDateRange />
+            {props.date}
           </span>
-          <span className="pl-2 text-left">
+          <span className="text-right pl-2">
             <MdPlace />
             {props.location}
           </span>
+          <span className="text-right"></span>
         </Card.Body>
+        <Card.Footer>
+          <Button variant="primary">Register</Button>
+        </Card.Footer>
       </Card>
     </>
   );

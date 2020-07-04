@@ -120,11 +120,11 @@
 
 // ---------- Video Card ---------- //
 .video-section {
-  background-image: url("../../img/backgrounds/iandyou.png");
+  background-image: url("../../img/backgrounds/iandyou.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   height: auto;
-  background-size: 100%;
+  background-size: 120%;
 }
 
 .video-card {
@@ -996,6 +996,7 @@
     height: 100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    object-fit: cover;
   }
 
   .benifits-content {
@@ -1008,6 +1009,8 @@
 
     .title-small {
       color: $color-white;
+      letter-spacing: 0.5px;
+      line-height: 1.5;
     }
 
     ul {

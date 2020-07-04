@@ -73,7 +73,7 @@ export default class Header extends Component {
                         >
                           - Eshwari Srividhya sadhana- level 1&2
                         </Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="udgamana">
                           - Udgamana sadhana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
