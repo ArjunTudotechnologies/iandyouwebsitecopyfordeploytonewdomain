@@ -54,10 +54,26 @@
   border: 0;
   box-shadow: $shadow;
 
+  .textMinimum {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+
   .card-title {
     font-family: "Lora", serif;
     font-style: italic;
     font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+    height: 55px;
   }
 
   .card-text {
@@ -79,6 +95,11 @@
 
   .card-footer {
     background-color: #fff;
+  }
+
+  .eventCardImg {
+    height: 300px;
+    object-fit: cover;
   }
 }
 
