@@ -17,7 +17,8 @@ import EshwariKriyaPage from "./pages/EshwariKriya/EshwariKriya";
 import EshwariShakthiKendraSadhanaPage from "./pages/EshwariShakthiKendraSadhana/EshwariShakthiKendraSadhana";
 import EshwariSrividhyaSadhanaPage from "./pages/EshwariSrividhyaSadhana/EshwariSrividhyaSadhana";
 import JyothismathiPage from "./pages/Jyothishmathi/Jyothishmathi";
-import ImmortalProcessPage from "./pages/ImmortalProcess/ImmortalProcess"
+import ImmortalProcessPage from "./pages/ImmortalProcess/ImmortalProcess";
+import GuruPujaPage from "./pages/GuruPuja/GuruPuja";
 
 import ProjectsPage from "./pages/Projects/Projects";
 
@@ -42,15 +43,10 @@ ReactDOM.render(
         exact
         component={EshwariSrividhyaSadhanaPage}
       />
-       <Route
-        path="/jyothismathi"
-        exact
-        component={JyothismathiPage}
-      />
+      <Route path="/jyothismathi" exact component={JyothismathiPage} />
       <Route path="/immortal-process" exact component={ImmortalProcessPage} />
-
+      <Route path="/guru-puja" exact component={GuruPujaPage} />
       <Route path="/projects" exact component={ProjectsPage} />
-
     </Switch>
   </Router>,
   document.getElementById("root")
