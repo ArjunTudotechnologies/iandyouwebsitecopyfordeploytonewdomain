@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import FirstImg from "../../assets/img/cards/11.jpg";
+import FirstImg from "../../assets/img/cards/immortal.jpg";
 import SecondImg from "../../assets/img/cards/sri-prasad-guruji.jpeg";
 import ThirdImg from "../../assets/img/cards/1.jpg";
 import Line from "../../assets/img/others/line-2.png";
@@ -55,13 +55,30 @@ export default function IandyouCard() {
         </Row>
 
         <div className="text-center">
-          <h2 className="big-title text-center  mt-5 wow fadeInUp" data-wow-delay="0.5s">
-            I And You Being Together<br/>
+          <h2
+            className="big-title text-center  mt-5 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            I And You Being Together
+            <br />
             <span className="gradient-text">Let's move together</span>
           </h2>
-          <h3 className="special-title wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s"> - Sangachadwam</h3>
+          <h3
+            className="special-title wow fadeInUp"
+            data-wow-delay="0.5s"
+            data-wow-duration="1s"
+          >
+            {" "}
+            - Sangachadwam
+          </h3>
           <div className="text-center">
-            <img src={Line} alt="line" className="line wow fadeInUp" data-wow-delay="1s"  data-wow-duration="1s"/>
+            <img
+              src={Line}
+              alt="line"
+              className="line wow fadeInUp"
+              data-wow-delay="1s"
+              data-wow-duration="1s"
+            />
           </div>
         </div>
       </Container>
