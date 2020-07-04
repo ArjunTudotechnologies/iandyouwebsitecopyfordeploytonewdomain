@@ -127,10 +127,10 @@ export default class Header extends Component {
                         >
                           <span>Jyothismathi:</span>
                         </Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="astrology">
                           -Astrology / Vastu
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link className="dropdown-item" href="sriyog">
                           -Sri yog
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
