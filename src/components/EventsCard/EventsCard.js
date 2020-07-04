@@ -2,15 +2,25 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Banner1 from "../../assets/img/banners/banner-1.jpg";
 import { MdPlace, MdDateRange } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export default function EventsCard(props) {
   return (
     <>
       <Card className="events-card m-3 mb-4 wow fadeInUp">
-        <Card.Img variant="top" src={Banner1} />
+        <Link to={props.link}>
+          <Card.Img
+            variant="top"
+            src={process.env.PUBLIC_URL + "img/events/" + props.image}
+          />
+        </Link>
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.desc}</Card.Text>
+          <Link className="linkTitle" to={props.link}>
+            <Card.Title className="">{props.title}</Card.Title>
+          </Link>
+          <Link className="linkText" to={props.link}>
+            <Card.Text className="textMinimum">{props.desc}</Card.Text>
+          </Link>
           <span className="text-left">
             <MdDateRange />
             {props.date}

@@ -3,7 +3,7 @@ import Heading from "../../../components/Heading/Heading";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import WorkshopsCard from "../../../components/WorkshopsCard/WorkshopsCard";
-
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 const slides = [
   {
     id: "1",
@@ -61,7 +61,7 @@ const slides = [
     event_name: "Immortal Process",
     event_desc:
       "The theory of 'karma and rebirth' raises numerous questions such as how, when, and why did the cycle start in the first place, what is the relative Karmic merit of one karma versus another and why, and what evidence is there that rebirth actually happens, among others.",
-    event_image: "immortal.jpg",
+    event_image: "immortal_process.jpeg",
     start_date: "2020/05/14",
     end_date: "2020/05/14",
     start_time: "15:01:27",
@@ -97,6 +97,9 @@ export default class UpcomingWorkshops extends Component {
       autoplay: false,
       pauseOnHover: true,
       focusOnSelect: false,
+      nextArrow: <FaArrowLeft />,
+      prevArrow: <FaArrowRight />,
+      arrow: true,
       responsive: [
         {
           breakpoint: 1024,

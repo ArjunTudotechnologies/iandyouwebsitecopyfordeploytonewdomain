@@ -7,20 +7,12 @@ import Slider from "react-slick";
 const slides = [
   {
     id: "1",
-    event_name: "I And You green",
+    event_name: "Sri",
     event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_images: [
-      {
-        img_id: "1",
-        img_name: "img1.jpg",
-      },
-      {
-        img_id: "2",
-        img_name: "img2.jpg",
-      },
-    ],
-    start_date: "2020/05/14",
+      "Sukha or Happiness is the one thing that every person in this world strives for. Every action of human being is directly or indirectly aimed at achieving happiness. ",
+    event_image: "sri.jpg",
+    link: "sri",
+    start_date: "10/10/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -28,108 +20,45 @@ const slides = [
   },
   {
     id: "2",
-    event_name: "I And You Vidhya",
-    event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_images: [
-      {
-        img_id: "1",
-        img_name: "img1.jpg",
-      },
-      {
-        img_id: "2",
-        img_name: "img2.jpg",
-      },
-    ],
-    start_date: "2020/05/14",
-    end_date: "2020/05/14",
-    start_time: "15:01:27",
-    end_time: "15:01:27",
-    location: "Banglore",
-  },
-  {
-    id: "3",
-    event_name: "Sri",
-    event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_images: [
-      {
-        img_id: "1",
-        img_name: "img1.jpg",
-      },
-      {
-        img_id: "2",
-        img_name: "img2.jpg",
-      },
-    ],
-    start_date: "2020/05/14",
-    end_date: "2020/05/14",
-    start_time: "15:01:27",
-    end_time: "15:01:27",
-    location: "Banglore",
-  },
-  {
-    id: "4",
     event_name: "Nagara Panchami",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_images: [
-      {
-        img_id: "1",
-        img_name: "img1.jpg",
-      },
-      {
-        img_id: "2",
-        img_name: "img2.jpg",
-      },
-    ],
-    start_date: "2020/05/14",
+    event_image: "sri.jpg",
+
+    start_date: "10/08/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
     location: "Banglore",
+    link: "sri",
   },
   {
-    id: "5",
+    id: "3",
     event_name: "Navarathri",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_images: [
-      {
-        img_id: "1",
-        img_name: "img1.jpg",
-      },
-      {
-        img_id: "2",
-        img_name: "img2.jpg",
-      },
-    ],
-    start_date: "2020/05/14",
+    event_image: "sri.jpg",
+
+    start_date: "10/09/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
     location: "Banglore",
+    link: "sri",
   },
   {
     id: "6",
-    event_name: "Sri",
+    event_name: "Srikari",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_images: [
-      {
-        img_id: "1",
-        img_name: "img1.jpg",
-      },
-      {
-        img_id: "2",
-        img_name: "img2.jpg",
-      },
-    ],
-    start_date: "2020/05/14",
+    event_image: "sri.jpg",
+
+    start_date: "10/11/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
     location: "Banglore",
+    link: "sri",
   },
 ];
 
@@ -202,6 +131,8 @@ export default class UpcomingEventsSection extends Component {
                         title={slide.event_name}
                         location={slide.location}
                         date={slide.start_date}
+                        image={slide.event_image}
+                        link={slide.link}
                       />
                     </div>
                   );
