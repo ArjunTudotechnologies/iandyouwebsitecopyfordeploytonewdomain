@@ -11,7 +11,6 @@ import UpcomingEventsSection from "./Sections/UpcomingEventsSection";
 import IandyouCard from "../../components/IandyouCard/IandyouCard";
 import IandyouCardMobile from "../../components/IandyouCardMobile/IandyouCardMobile";
 import UpcomingWorkshopsSection from "./Sections/UpcomingWorkshopsSection";
-import ScrollTop from "../../components/ScrollTop/ScrollTop";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -37,7 +36,7 @@ export default class Home extends Component {
         <ProgramsSection />
         <CovidBanner />
         <Footer />
-        <ScrollTop />
+        {/* <ScrollTop /> */}
       </div>
     );
   }

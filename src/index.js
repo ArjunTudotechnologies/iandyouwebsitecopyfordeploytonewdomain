@@ -19,8 +19,8 @@ import EshwariSrividhyaSadhanaPage from "./pages/EshwariSrividhyaSadhana/Eshwari
 import JyothismathiPage from "./pages/Jyothishmathi/Jyothishmathi";
 import ImmortalProcessPage from "./pages/ImmortalProcess/ImmortalProcess";
 import GuruPujaPage from "./pages/GuruPuja/GuruPuja";
-
 import ProjectsPage from "./pages/Projects/Projects";
+import UdgamanaPage from "./pages/Udgamana/Udgamana";
 
 var hist = createBrowserHistory();
 
@@ -31,7 +31,6 @@ ReactDOM.render(
       <Route path="/about" exact component={AboutPage} />
       <Route path="/events" exact component={EventsPage} />
       <Route path="/components" exact component={ComponentsPage} />
-
       <Route path="/eshwari-kriya" exact component={EshwariKriyaPage} />
       <Route
         path="/eshwari-shakthi-kendra-sadhana"
@@ -47,6 +46,7 @@ ReactDOM.render(
       <Route path="/immortal-process" exact component={ImmortalProcessPage} />
       <Route path="/guru-puja" exact component={GuruPujaPage} />
       <Route path="/projects" exact component={ProjectsPage} />
+      <Route path="/udgamana" exact component={UdgamanaPage} />
     </Switch>
   </Router>,
   document.getElementById("root")
