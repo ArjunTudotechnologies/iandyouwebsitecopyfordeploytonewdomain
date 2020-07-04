@@ -33,30 +33,28 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/" exact component={HomePage} />
-      <Route path="/about" exact component={AboutPage} />
-      <Route path="/events" exact component={EventsPage} />
-      <Route path="/components" exact component={ComponentsPage} />
-      <Route path="/eshwari-kriya" exact component={EshwariKriyaPage} />
+      <Route path="/about" component={AboutPage} />
+      <Route path="/events" component={EventsPage} />
+      <Route path="/components" component={ComponentsPage} />
+      <Route path="/eshwari-kriya" component={EshwariKriyaPage} />
       <Route
         path="/eshwari-shakthi-kendra-sadhana"
-        exact
         component={EshwariShakthiKendraSadhanaPage}
       />
       <Route
         path="/eshwari-srividhya-sadhana"
-        exact
         component={EshwariSrividhyaSadhanaPage}
       />
-      <Route path="/jyothismathi" exact component={JyothismathiPage} />
-      <Route path="/immortal-process" exact component={ImmortalProcessPage} />
-      <Route path="/guru-puja" exact component={GuruPujaPage} />
-      <Route path="/projects" exact component={ProjectsPage} />
-      <Route path="/udgamana" exact component={UdgamanaPage} />
-      <Route path="/sri" exact component={SriPage} />
-      <Route path="/sriyog" exact component={SriYogPage} />
-      <Route path="/astrology" exact component={AstrologyPage} />
-      <Route path="/manah-prakshalya" exact component={ManahPrakshalyaPage} />
-      <Route path="/know-your-purpose" exact component={KnowYourPurposePage} />
+      <Route path="/jyothismathi" component={JyothismathiPage} />
+      <Route path="/immortal-process" component={ImmortalProcessPage} />
+      <Route path="/guru-puja" component={GuruPujaPage} />
+      <Route path="/projects" component={ProjectsPage} />
+      <Route path="/udgamana" component={UdgamanaPage} />
+      <Route path="/sri" component={SriPage} />
+      <Route path="/sriyog" component={SriYogPage} />
+      <Route path="/astrology" component={AstrologyPage} />
+      <Route path="/manah-prakshalya" component={ManahPrakshalyaPage} />
+      <Route path="/know-your-purpose" component={KnowYourPurposePage} />
     </Switch>
   </Router>,
   document.getElementById("root")
