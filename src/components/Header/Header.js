@@ -103,14 +103,20 @@ export default class Header extends Component {
                         >
                           - Immortal process
                         </Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link
+                          className="dropdown-item"
+                          href="know-your-purpose"
+                        >
                           - Know your purpose
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Amrut sadhana
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Mana prakshalya
+                        <Nav.Link
+                          className="dropdown-item"
+                          href="manah-prakshalya"
+                        >
+                          - Manah Prakshalya
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="#">
                           - Kala Bhairava Dhyana
