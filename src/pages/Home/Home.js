@@ -68,13 +68,13 @@ export default class Home extends Component {
         <TestimonialsSection />
         <TwitterSection />
         <ProgramsSection />
-        {/* <CovidBanner />
-        <div className="m-5 very-small-banner">
+        <CovidBanner />
+        {/* <div className="m-5 very-small-banner">
           <SmallBanner
             slides={slides}
             bannerClass="pt-0 small-banner-section"
           />
-        </div> */}
+        </div>   */}
         <Footer />
         {/* <ScrollTop /> */}
       </div>
