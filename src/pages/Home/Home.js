@@ -12,6 +12,7 @@ import IandyouCard from "../../components/IandyouCard/IandyouCard";
 import IandyouCardMobile from "../../components/IandyouCardMobile/IandyouCardMobile";
 import UpcomingWorkshopsSection from "./Sections/UpcomingWorkshopsSection";
 import SmallBanner from "../../components/SmallBanner/SmallBanner";
+import { Col, Row, Container, Button } from "react-bootstrap";
 
 const slides = [
   {
@@ -63,6 +64,36 @@ export default class Home extends Component {
         <IandyouCard />
         <IandyouCardMobile />
         <UpcomingWorkshopsSection />
+        <section className="iandyou-card-section">
+          <Container fluid>
+            <h2 className="big-title text-center mb-5">
+              <span className="">Guru Purnima 2020 Celebrations</span>
+            </h2>
+            <div className="row">
+              <div className="col-md-4">
+                <img
+                  src={process.env.PUBLIC_URL + "img/others/img1.jpg"}
+                  alt="Guru Puja"
+                  className="img-fluid shadow br-10"
+                />
+              </div>
+              <div className="col-md-4">
+                <img
+                  src={process.env.PUBLIC_URL + "img/others/img2.jpg"}
+                  alt="Guru Puja"
+                  className="img-fluid shadow br-10"
+                />
+              </div>
+              <div className="col-md-4">
+                <img
+                  src={process.env.PUBLIC_URL + "img/others/img3.jpg"}
+                  alt="Guru Puja"
+                  className="img-fluid shadow br-10"
+                />
+              </div>
+            </div>
+          </Container>
+        </section>
         <VideoSection />
         <UpcomingEventsSection />
         <TestimonialsSection />
