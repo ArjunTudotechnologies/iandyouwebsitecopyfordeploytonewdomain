@@ -42,7 +42,7 @@ export default class ProgramsSection extends Component {
                 </Col>
                 <Col md={12} className="p-0">
                   <ProgramsSmall
-                    image="blog-new.jpg"
+                    image="blog.jpg"
                     title="I And You Blog"
                     btnname="Read More"
                   />
