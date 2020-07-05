@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import CovidBanner from "../../components/CovidBanner/CovidBanner";
+import IandyouBanner from "../../components/IandyouBanner/IandyouBanner";
 import { WOW } from "wowjs";
 import ProgramsSection from "./Sections/ProgramsSection";
 import VideoSection from "./Sections/VideoSection";
@@ -35,6 +36,7 @@ export default class Home extends Component {
         <TwitterSection />
         <ProgramsSection />
         <CovidBanner />
+        <IandyouBanner />
         <Footer />
         {/* <ScrollTop /> */}
       </div>

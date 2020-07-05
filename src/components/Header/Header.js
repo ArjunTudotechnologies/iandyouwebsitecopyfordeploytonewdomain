@@ -59,25 +59,22 @@ export default class Header extends Component {
                           className="nav-link dropdown-item"
                           to="eshwari-kriya"
                         >
-                          -Eshwari Kriya
+                          - Eshwari Kriya
                         </Link>
                         <Link
                           className="nav-link dropdown-item"
                           to="eshwari-shakthi-kendra-sadhana"
                         >
-                          -Eshwari Shakthi kendra sadhana
+                          - Eshwari Shakthi kendra sadhana
                         </Link>
                         <Link
                           className="nav-link dropdown-item"
                           to="eshwari-srividhya-sadhana"
                         >
-                          - Eshwari Srividhya sadhana- level 1&2
+                          - Srividhya Eshwari sadhana- level 1&2
                         </Link>
                         <Nav.Link className="dropdown-item" href="udgamana">
                           - Udgamana sadhana
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          - Kala Bhairava Dhyana
                         </Nav.Link>
                         <Nav.Link className="dropdown-item" href="guru-puja">
                           - Guru pooja

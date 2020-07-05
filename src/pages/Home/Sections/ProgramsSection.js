@@ -11,7 +11,7 @@ export default class ProgramsSection extends Component {
           <Row>
             <Col md={6} className="p-0">
               <ProgramsBig
-                title="SriCare Shopee"
+                title="Sri Care"
                 titleOne="One stop shop for all your daily needs."
               />
             </Col>
