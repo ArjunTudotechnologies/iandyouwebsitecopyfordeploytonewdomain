@@ -31,18 +31,7 @@ const slides = [
     link: "eshwari-srividhya-sadhana",
     location: "Banglore",
   },
-  {
-    id: "3",
-    event_name: "Kala Bhairava Dhyana",
-    event_desc: "",
-    event_image: "kalabairava.jpg",
-    start_date: "12/07/2020",
-    end_date: "2020/05/14",
-    start_time: "15:01:27",
-    end_time: "15:01:27",
-    link: "kala-bhairava-dhyana",
-    location: "Banglore",
-  },
+
   {
     id: "4",
     event_name: "Udgamana",
@@ -67,6 +56,18 @@ const slides = [
     start_time: "15:01:27",
     end_time: "15:01:27",
     link: "immortal-process",
+    location: "Banglore",
+  },
+  {
+    id: "3",
+    event_name: "Kala Bhairava Dhyana",
+    event_desc: "",
+    event_image: "kalabairava.jpg",
+    start_date: "12/07/2020",
+    end_date: "2020/05/14",
+    start_time: "15:01:27",
+    end_time: "15:01:27",
+    link: "kala-bhairava-dhyana",
     location: "Banglore",
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import FirstImg from "../../assets/img/cards/immortal.jpg";
+import FirstImg from "../../assets/img/cards/11.jpg";
 import SecondImg from "../../assets/img/cards/sri-prasad-guruji.jpeg";
 import ThirdImg from "../../assets/img/cards/1.jpg";
 import Line from "../../assets/img/others/line-2.png";
