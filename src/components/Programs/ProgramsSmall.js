@@ -16,7 +16,7 @@ export default function ProgramsSmall(props) {
       <div className="program-content">
         <h2 className="program-small-title">{props.title}</h2>
         <Button variant="primary" size="lg">
-          Read More
+          {props.btnname}
         </Button>
       </div>
     </div>

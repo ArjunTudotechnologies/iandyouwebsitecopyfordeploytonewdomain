@@ -7,7 +7,7 @@ export default function ProgramsBig(props) {
       <div className="programs-image-overlay">
         <img
           className="program-big-img"
-          src={process.env.PUBLIC_URL + "img/others/Shop.jpg"}
+          src={process.env.PUBLIC_URL + "img/others/shop.jpg"}
           alt="program name"
         />
       </div>
