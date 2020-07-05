@@ -11,6 +11,7 @@ export default function EventsCard(props) {
         <Link to={props.link}>
           <Card.Img
             variant="top"
+            className="eventCardImgNew"
             src={process.env.PUBLIC_URL + "img/events/" + props.image}
           />
         </Link>

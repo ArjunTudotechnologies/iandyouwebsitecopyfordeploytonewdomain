@@ -12,7 +12,7 @@ const slides = [
       "Sukha or Happiness is the one thing that every person in this world strives for. Every action of human being is directly or indirectly aimed at achieving happiness. ",
     event_image: "sri.jpg",
     link: "sri",
-    start_date: "10/10/2020",
+    start_date: "24/07/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -20,45 +20,45 @@ const slides = [
   },
   {
     id: "2",
-    event_name: "Nagara Panchami",
+    event_name: "Nagarapanchami",
     event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_image: "sri.jpg",
+      "Naga Panchami is a day of traditional worship of Nagas or snakes observed by Hindus throughout India, Nepal, and other countries where Hindu adherents live.",
+    event_image: "nagarapanchami-new.jpg",
 
     start_date: "10/08/2020",
-    end_date: "2020/05/14",
+    end_date: "25/07/2020",
     start_time: "15:01:27",
     end_time: "15:01:27",
     location: "Banglore",
-    link: "sri",
+    link: "#",
   },
-  {
-    id: "3",
-    event_name: "Navarathri",
-    event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_image: "sri.jpg",
+  // {
+  //   id: "3",
+  //   event_name: "Navarathri",
+  //   event_desc:
+  //     "Navaratri is a Hindu festival that spans nine nights and is celebrated every year in the autumn. It is observed for different reasons and celebrated differently in various parts of the Indian cultural sphere.",
+  //   event_image: "sri.jpg",
 
-    start_date: "10/09/2020",
-    end_date: "2020/05/14",
-    start_time: "15:01:27",
-    end_time: "15:01:27",
-    location: "Banglore",
-    link: "sri",
-  },
+  //   start_date: "10/09/2020",
+  //   end_date: "17/10/2020",
+  //   start_time: "15:01:27",
+  //   end_time: "15:01:27",
+  //   location: "Banglore",
+  //   link: "sri",
+  // },
   {
     id: "6",
     event_name: "Srikari",
     event_desc:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    event_image: "sri.jpg",
+    event_image: "srikari-new.jpg",
 
     start_date: "10/11/2020",
-    end_date: "2020/05/14",
+    end_date: "19/12/2020",
     start_time: "15:01:27",
     end_time: "15:01:27",
     location: "Banglore",
-    link: "sri",
+    link: "#",
   },
 ];
 

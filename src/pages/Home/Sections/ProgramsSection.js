@@ -10,15 +10,21 @@ export default class ProgramsSection extends Component {
         <Container fluid className="position-relative">
           <Row>
             <Col md={6} className="p-0">
-              <ProgramsBig />
+              <ProgramsBig
+                title="SriCare Shopee"
+                titleOne="One stop shop for all your daily needs."
+              />
             </Col>
             <Col md={6}>
               <Row>
                 <Col md={12} className="p-0">
-                  <ProgramsSmall />
+                  <ProgramsSmall
+                    image="audio.jpg"
+                    title="Explore the Journey Within.. Listen to Guru Puja Audio"
+                  />
                 </Col>
                 <Col md={12} className="p-0">
-                  <ProgramsSmall />
+                  <ProgramsSmall image="vidya.jpg" title="I And You Vidya" />
                 </Col>
               </Row>
             </Col>

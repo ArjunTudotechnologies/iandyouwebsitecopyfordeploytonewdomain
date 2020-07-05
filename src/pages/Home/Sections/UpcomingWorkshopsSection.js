@@ -24,7 +24,7 @@ const slides = [
     event_desc:
       "Sri Vidhya Eshwari Sadhana is theSadhana / Practice of the infinite order. As the name implies it is the Practice of 'SRI' who is the granter of wealth, wealth of both worldly and spiritual",
     event_image: "srividya.jpg",
-    start_date: "07/11/2020",
+    start_date: "28/08/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -36,7 +36,7 @@ const slides = [
     event_name: "Kala Bhairava Dhyana",
     event_desc: "",
     event_image: "kalabairava.jpg",
-    start_date: "07/12/2020",
+    start_date: "12/07/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -49,7 +49,7 @@ const slides = [
     event_desc:
       "what is difference between you and others or me and you ? that is the level of awareness , some have less , some have moderate and some have more , the one possessing more, for such person the possibility of success is more",
     event_image: "udgamana.jpg",
-    start_date: "07/09/2020",
+    start_date: "21/08/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -62,7 +62,7 @@ const slides = [
     event_desc:
       "The theory of 'karma and rebirth' raises numerous questions such as how, when, and why did the cycle start in the first place, what is the relative Karmic merit of one karma versus another and why, and what evidence is there that rebirth actually happens, among others.",
     event_image: "immortal_process.jpeg",
-    start_date: "2020/05/14",
+    start_date: "06/07/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
