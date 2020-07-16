@@ -20,7 +20,7 @@ const slides = [
         img_name: "img2.jpg",
       },
     ],
-    start_date: "2020/05/14",
+    start_date: "26/07/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",

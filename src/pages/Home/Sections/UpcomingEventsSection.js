@@ -10,9 +10,9 @@ const slides = [
     event_name: "Sri",
     event_desc:
       "Sukha or Happiness is the one thing that every person in this world strives for. Every action of human being is directly or indirectly aimed at achieving happiness. ",
-    event_image: "sri.jpg",
+    event_image: "sri1.jpeg",
     link: "sri",
-    start_date: "24/07/2020",
+    start_date: "26/07/2020",
     end_date: "2020/05/14",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -25,7 +25,7 @@ const slides = [
       "Naga Panchami is a day of traditional worship of Nagas or snakes observed by Hindus throughout India, Nepal, and other countries where Hindu adherents live.",
     event_image: "nagarapanchami-new.jpg",
 
-    start_date: "10/08/2020",
+    start_date: "25/07/2020",
     end_date: "25/07/2020",
     start_time: "15:01:27",
     end_time: "15:01:27",
@@ -50,11 +50,11 @@ const slides = [
     id: "6",
     event_name: "Srikari",
     event_desc:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "Srikari event at 20 August 2020, For more details contact us at +91 9900022506 ",
     event_image: "srikari-new.jpg",
 
-    start_date: "10/11/2020",
-    end_date: "19/12/2020",
+    start_date: "20/12/2020",
+    end_date: "20/12/2020",
     start_time: "15:01:27",
     end_time: "15:01:27",
     location: "Banglore",
