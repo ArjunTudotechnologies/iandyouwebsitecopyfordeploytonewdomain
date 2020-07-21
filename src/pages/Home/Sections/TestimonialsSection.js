@@ -31,27 +31,19 @@ const slides = [
   },
   {
     id: "4",
-    client_name: "S.Indra",
-    designation: "CEO - eDatalabs",
+    client_name: "Shalini",
+    designation: "Homemaker",
     testimonial:
-      "A scientific process based simple way of gurujis  teaching, I was overwhelmed, he revealed answers making me understand of the queries which were stored in my heart for long, even without asking, as a short tempered person that I was, after initiation I could see noticeable changes in my temper & behaviour, i am experiencing joy, peace and more productivity in my work Jai guru dev",
-    client_images: "indra.jpg",
+      "I'm a complete homemaker since 20 years, and have  completely dedicated my life  befitting all the roles my family needed. In the process of being so and trying my best to fit into all the befitting roles while also keeping myself happy, i had been feeling lost somewhere.      Not to mistake, i do love my family and feel blessed to have them,i just felt empty like there was something more i yearned for. My emotions had grown too strong for me to bare and they had always gotten the better of me.",
+    client_images: "shalini.jpg",
   },
   {
     id: "5",
-    client_name: "Gangadhar C Uppin",
-    designation: "Associate Vice President - MICRO LABS LIMITED",
+    client_name: "Mrs. Aruna M G",
+    designation: "Associate Professor - M S Engineering College",
     testimonial:
-      "Eshwari Kriya has helped me to face many challenges with a balanced approach, cool and calm mind to a more responsive than reactive approach, at all levels like - personal, professional, emotional and as a whole in the society.",
-    client_images: "Gangadhar.jpg",
-  },
-  {
-    id: "6",
-    client_name: "Tina Pradeep Kale",
-    designation: "Cabin Supervisor - Emirates",
-    testimonial:
-      "My experience with Eshwari Kriya is basically that of Discovering Me... Finding out who I really am..Knowing what my existence on this Earth Plane is all about..and Why am I here...It is a Journey to the Inner Self...Connecting to the Cosmos through the Divine Feminine Energy whom we term as Mother or Amma..It is a practice of Self Healing and Self Realizing..I am truly Blessed and Grateful to.learn this Kriya through my Master Shri Prasad🙏and  incorporate it into my daily life..",
-    client_images: "person.jpg",
+      "Without any Experience and Knowledge about Eshwari Kriya, I joined and experienced a wonderfull journey within myself Physically, mentally and learnt how to balance my life journey. Eshwari Kriya really is a god’s gift to me and it has changed my lifestyle.   There are no words to explain.      I have now thought of doing Eshwari Kriya alone after experiencing its many benefits and have continued this journey to learn and experience and also attend all the workshops and courses. Sri Prasad Guruji's  teaching  is very simple, realistic,scientific and effective.",
+    client_images: "aruna.jpg",
   },
 ];
 

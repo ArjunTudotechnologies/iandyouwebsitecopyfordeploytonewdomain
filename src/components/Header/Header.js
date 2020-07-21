@@ -33,6 +33,9 @@ export default class Header extends Component {
                 <Link className="nav-link dropdown-item" to="about">
                   About
                 </Link>
+                <Link className="nav-link dropdown-item" to="iandyou">
+                  I And You
+                </Link>
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -115,7 +118,10 @@ export default class Header extends Component {
                         >
                           - Manah Prakshalya
                         </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
+                        <Nav.Link
+                          className="dropdown-item"
+                          href="kala-bhirava-dhyana"
+                        >
                           - Kala Bhairava Dhyana
                         </Nav.Link>
                       </div>
@@ -181,7 +187,6 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
@@ -358,7 +363,6 @@ export default class Header extends Component {
                     </div>
                   </div>
                 </li>
-
                 <li className="nav-item dropdown">
                   <Nav.Link
                     className="nav-link dropdown-toggle"
