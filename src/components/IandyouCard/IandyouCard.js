@@ -4,6 +4,7 @@ import FirstImg from "../../assets/img/cards/11.jpg";
 import SecondImg from "../../assets/img/cards/sri-prasad-guruji.jpeg";
 import ThirdImg from "../../assets/img/cards/1.jpg";
 import Line from "../../assets/img/others/line-2.png";
+import { Link } from "react-router-dom";
 
 export default function IandyouCard() {
   return (
@@ -13,42 +14,42 @@ export default function IandyouCard() {
           <Col xs={4} md={4} className="p-0">
             <div className="image-grid">
               <div className="image-grid__item">
-                <a href="/" className="grid-item">
+                <Link to="about" className="grid-item">
                   <div
                     className="grid-item__image"
                     style={{ backgroundImage: `url(${FirstImg})` }}
                   ></div>
                   <div className="grid-item__hover"></div>
                   <div className="title">I</div>
-                </a>
+                </Link>
               </div>
             </div>
           </Col>
           <Col xs={4} md={4} className="p-0">
             <div className="image-grid">
               <div className="image-grid__item center_item">
-                <a href="/" className="grid-item">
+                <Link to="iandyou" className="grid-item">
                   <div
                     className="grid-item__image"
                     style={{ backgroundImage: `url(${SecondImg})` }}
                   ></div>
                   <div className="grid-item__hover"></div>
                   <div className="title">You</div>
-                </a>
+                </Link>
               </div>
             </div>
           </Col>
           <Col xs={4} md={4} className="p-0">
             <div className="image-grid">
               <div className="image-grid__item">
-                <a href="/" className="grid-item">
+                <Link to="#" className="grid-item">
                   <div
                     className="grid-item__image"
                     style={{ backgroundImage: `url(${ThirdImg})` }}
                   ></div>
                   <div className="grid-item__hover"></div>
                   <div className="title">We</div>
-                </a>
+                </Link>
               </div>
             </div>
           </Col>

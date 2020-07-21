@@ -26,6 +26,8 @@ import SriYogPage from "./pages/SriYog/SriYog";
 import AstrologyPage from "./pages/Astrology/Astrology";
 import ManahPrakshalyaPage from "./pages/ManahPrakshalya/ManahPrakshalya";
 import KnowYourPurposePage from "./pages/KnowYourPurpose/KnowYourPurpose";
+import IandYouPage from "./pages/IandYou/IandYou";
+import KalaBhiravaPage from "./pages/KalaBhirava/KalaBhirava";
 
 var hist = createBrowserHistory();
 
@@ -34,6 +36,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/iandyou" component={IandYouPage} />
       <Route path="/events" component={EventsPage} />
       <Route path="/components" component={ComponentsPage} />
       <Route path="/eshwari-kriya" component={EshwariKriyaPage} />
@@ -55,6 +58,7 @@ ReactDOM.render(
       <Route path="/astrology" component={AstrologyPage} />
       <Route path="/manah-prakshalya" component={ManahPrakshalyaPage} />
       <Route path="/know-your-purpose" component={KnowYourPurposePage} />
+      <Route path="/kala-bhirava-dhyana" component={KalaBhiravaPage} />
     </Switch>
   </Router>,
   document.getElementById("root")
