@@ -16,9 +16,7 @@ export default function BlogDetails() {
               <img src={image} className="img-fluid shadow" />
             </div>
             <div class="col-md-6">
-              <h2 className="title mt-4 mb-4">
-                Ganesha means Knowledge, Acquire knowledge about Ganesha
-              </h2>
+              <h2 className="title mt-4 mb-4">Unfold Ganesh In You</h2>
 
               <p>
                 //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara

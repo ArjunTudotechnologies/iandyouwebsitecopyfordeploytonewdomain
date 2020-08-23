@@ -18,9 +18,7 @@ export default function Blog() {
                 <Card.Body>
                   <Link to="blogdetails">
                     <img src={image} className="img-fluid" />
-                    <h2 className="title mt-4 mb-4">
-                      Ganesha means Knowledge, Acquire knowledge about Ganesha
-                    </h2>
+                    <h2 className="title mt-4 mb-4">Unfold Ganesh In You</h2>
 
                     <p>
                       //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami
