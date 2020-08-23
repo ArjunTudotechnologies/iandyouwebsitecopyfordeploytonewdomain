@@ -45,6 +45,7 @@ export default class ProgramsSection extends Component {
                     image="blog.jpg"
                     title="I And You Blog"
                     btnname="Read More"
+                    link="blog"
                   />
                 </Col>
               </Row>
