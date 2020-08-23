@@ -10,6 +10,8 @@ import "../src/assets/scss/iandyou.scss";
 // pages
 import HomePage from "../src/pages/Home/Home.js";
 import AboutPage from "../src/pages/About/About.js";
+import BlogPage from "../src/pages/Blog/Blog.js";
+import BlogDetailsPage from "../src/pages/Blog/BlogDetails.js";
 import EventsPage from "../src/pages/Events/Events.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
 
@@ -36,6 +38,8 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/blog" component={BlogPage} />
+      <Route path="/blogdetails" component={BlogDetailsPage} />
       <Route path="/iandyou" component={IandYouPage} />
       <Route path="/events" component={EventsPage} />
       <Route path="/components" component={ComponentsPage} />

@@ -2,6 +2,7 @@ import React from "react";
 import Img2 from "../../assets/img/programs/img-2.jpg";
 
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function ProgramsSmall(props) {
   return (
@@ -15,9 +16,11 @@ export default function ProgramsSmall(props) {
       </div>
       <div className="program-content">
         <h2 className="program-small-title">{props.title}</h2>
-        <Button variant="primary" size="lg">
-          {props.btnname}
-        </Button>
+        <Link to="blog">
+          <Button variant="primary" size="lg">
+            {props.btnname}
+          </Button>
+        </Link>
       </div>
     </div>
   );
