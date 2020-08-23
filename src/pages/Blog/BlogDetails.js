@@ -16,9 +16,8 @@ export default function BlogDetails() {
               <img src={image} className="img-fluid shadow" />
             </div>
             <div class="col-md-6">
-              <h2 className="title mt-4 mb-4">Unfold Ganesh In You</h2>
-
-              <p>
+              <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
+             <p>
                 //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
                 paada pankajam// <br /> O! Lord of Elephant face, He who is
                 served by the Celestial beings ,He who eats the essence of
