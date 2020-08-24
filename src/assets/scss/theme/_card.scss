@@ -48,13 +48,10 @@
   }
 }
 
-
 // ---------- Events Card ---------- //
 .events-card {
   border: 0;
   box-shadow: $shadow;
-
-
 
   .textMinimum {
     overflow: hidden;
@@ -77,8 +74,6 @@
     -webkit-box-orient: vertical;
     height: 55px;
     color: $color-charcoal;
-
-
   }
 
   .linkTitle,
@@ -119,11 +114,10 @@
   }
 
   .eventCardImgNew {
-    height: 400px;
+    height: 350px;
     object-fit: cover;
   }
 }
-
 
 // ---------- Video Card ---------- //
 .video-section {
@@ -236,18 +230,14 @@
   height: 80px;
   top: -10px;
   left: -10px;
-  background: linear-gradient(-180deg,
-      rgba(255, 255, 255, 0.12) 0%,
-      rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(-180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.1) 100%);
   animation: grow-circles 4s linear infinite both;
 }
 
 .pulse-icon .circle-outer {
   width: 100px;
   height: 100px;
-  background: linear-gradient(-180deg,
-      rgba(255, 255, 255, 0.12) 0%,
-      rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(-180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.1) 100%);
   top: -20px;
   left: -20px;
   animation: grow-circles 4s linear infinite both;
@@ -348,7 +338,8 @@
 
   .testimonials {
     height: 200px;
-
+    overflow: hidden;
+    overflow-y: scroll;
   }
 
   .br-1 {
@@ -645,8 +636,7 @@
   -webkit-transition: text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
   transition: text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
   transition: transform 0.14s ease-in, text-shadow 0.1s ease-in;
-  transition: transform 0.14s ease-in, text-shadow 0.1s ease-in,
-    -webkit-transform 0.14s ease-in;
+  transition: transform 0.14s ease-in, text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
 }
 
 .image-grid__item:before {
@@ -659,8 +649,8 @@
   bottom: 0;
   background: none;
   border-radius: 3px;
-  box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.06),
-    0 8px 20px -2px rgba(0, 0, 0, 0.1), 0 6px 10px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.06), 0 8px 20px -2px rgba(0, 0, 0, 0.1),
+    0 6px 10px -6px rgba(0, 0, 0, 0.2);
   -webkit-transition: visibility 0.1s ease-out, opacity 0.1s ease-out;
   transition: visibility 0.1s ease-out, opacity 0.1s ease-out;
   opacity: 0;
@@ -739,8 +729,7 @@
   border-radius: 0;
   -webkit-transition: visibility 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
     opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: visibility 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-    opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: visibility 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   opacity: 0;
 }
 
@@ -766,14 +755,10 @@
   transform: scale(0.6);
   -webkit-transform-origin: center center;
   transform-origin: center center;
-  -webkit-transition: visibility 0.14s ease-out, opacity 0.14s ease-out,
-    -webkit-transform 0.24s ease;
-  transition: visibility 0.14s ease-out, opacity 0.14s ease-out,
-    -webkit-transform 0.24s ease;
-  transition: visibility 0.14s ease-out, opacity 0.14s ease-out,
-    transform 0.24s ease;
-  transition: visibility 0.14s ease-out, opacity 0.14s ease-out,
-    transform 0.24s ease, -webkit-transform 0.24s ease;
+  -webkit-transition: visibility 0.14s ease-out, opacity 0.14s ease-out, -webkit-transform 0.24s ease;
+  transition: visibility 0.14s ease-out, opacity 0.14s ease-out, -webkit-transform 0.24s ease;
+  transition: visibility 0.14s ease-out, opacity 0.14s ease-out, transform 0.24s ease;
+  transition: visibility 0.14s ease-out, opacity 0.14s ease-out, transform 0.24s ease, -webkit-transform 0.24s ease;
   opacity: 0;
 }
 
