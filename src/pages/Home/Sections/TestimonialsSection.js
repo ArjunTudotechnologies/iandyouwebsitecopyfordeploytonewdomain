@@ -45,6 +45,15 @@ const slides = [
       "Without any Experience and Knowledge about Eshwari Kriya, I joined and experienced a wonderfull journey within myself Physically, mentally and learnt how to balance my life journey. Eshwari Kriya really is a god’s gift to me and it has changed my lifestyle.   There are no words to explain.      I have now thought of doing Eshwari Kriya alone after experiencing its many benefits and have continued this journey to learn and experience and also attend all the workshops and courses. Sri Prasad Guruji's  teaching  is very simple, realistic,scientific and effective.",
     client_images: "aruna.jpg",
   },
+  {
+    id: "5",
+    client_name: "Dr Santhosh Kumar P",
+    designation:
+      "ENT, Head & Neck surgeon ( MS ENT, Fellowship in Rhinoloy and Anterior skull base surgery )",
+    testimonial:
+      "Jai Gurudev, I like to share my experience regarding Eshwari Kriya and other workshops with guruji. I had a strained lower back ( started with heavyweight lifting in gym) and the pain was persistent for longer duration( more than 4yrs) and it was diagnosed as piriformis syndrome and B/L Sacroilitis. Had tried all sorts of treatment ( medications, Physio therapy) but to no relief. This had hampered my day to day activities and it had made me lose my confidence. later in 2010 I met Sri Prasad guruji and he guided me through eshwari Kriya and intermittently he did Nirmalikarana Kriya. And those Experiences can be tasted and cannot be explained, one must experience ESHWARI KRIYA and Nirmalikarna Kriya to Taste the reality,it's nature and experiences. Benefits: There are a wholesome, the mind starts to kindle every aspect of its mechanism, accepting things the way they come  that keep it stress free and experience the inner joy, the physical body starts supporting you to the extent that it keeps you fit for ages and helps to work more than 16hrs a day. Eshwari Kriya alone is a stepping stone to experiencing the infinite and universal bliss. I am looking forward to attend more and more of gurujis workshops for knowledge, betterment and sprirtual upliftment.",
+    client_images: "santhosh.jpeg",
+  },
 ];
 
 export default class TestimonialsSection extends Component {
