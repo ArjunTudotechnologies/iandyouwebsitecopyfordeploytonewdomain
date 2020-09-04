@@ -217,7 +217,7 @@ export default class IandYou extends Component {
               Sidhaganga Matt, Tumkuru and are happy to inform that we have
               reached 1650+ children until (2020) the list includes Under
               poverty Girls, Blind, Dumb and Deaf children, our founder quotes
-              the project Vidhya- " Each one,
+              the project Vidhya- "EACH ONE, EDUCATE ONE"
             </p>
           </Container>
         </section>
@@ -318,7 +318,7 @@ export default class IandYou extends Component {
             </p>
             <p>
               Our founder’s quote -
-              <b>"The more we give, The happier we feel"</b>
+              <b>"THE MORE WE GIVE, THE HAPPIER WE LIVE"</b>
             </p>
             <p>
               The best way of expressing love is selfless service - Eshwari

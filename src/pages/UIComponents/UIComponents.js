@@ -16,6 +16,7 @@ export default function UIComponents() {
         <Button variant="link">Link</Button>
         <hr />
         <h2 className="title">I And You Foundation</h2>
+        <h2 className="sub-title">I And You Foundation</h2>
         <h2 className="special-title">Special title</h2>
         <h2 className="sub-small-title">Sub Small Title</h2>
         <p>

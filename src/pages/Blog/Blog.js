@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import image from "../../assets/img/blog/ganesha.jpeg";
+import image1 from "../../assets/img/blog/pitrupaksha.jpg";
 import { Container, Row, Card, Button, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CardBody } from "react-bootstrap";
@@ -11,16 +12,18 @@ export default function Blog() {
     <div>
       <Header />
       <Container>
-        <section>
+        <section className="blog-section">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-6">
               <Card classname="shadow">
                 <Card.Body>
                   <Link to="blogdetails">
                     <img src={image} className="img-fluid" />
 
-                    <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
-    <p>
+                    <h2 className="sub-title mt-4 mb-4">
+                      Unfold Ganesha In You
+                    </h2>
+                    <p>
                       //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami
                       Vighneshwara paada pankajam// <br /> O! Lord of Elephant
                       face, He who is served by the Celestial beings ,He who
@@ -28,7 +31,32 @@ export default function Blog() {
                     </p>
                   </Link>
                   <Link to="blogdetails">
-                    <Button variant="primary" size="lg">
+                    <Button className="mt-3" variant="primary" size="lg">
+                      Read More
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-md-6">
+              <Card classname="shadow">
+                <Card.Body>
+                  <Link to="pitrupaksha">
+                    <img src={image1} className="img-fluid" />
+                    <h2 className="sub-title mt-4 mb-4">
+                      what is the significance of Pithrupaksha , why should we
+                      perform such a ritual ?
+                    </h2>
+                    <p>
+                      I often keep telling that our Traditions and Cultures we
+                      follow in our country are based on Three fundamentals of
+                      living they are Celebrations, Realization and Liberation,
+                      the realization however is the way for celebration and
+                      liberation.
+                    </p>
+                  </Link>
+                  <Link to="pitrupaksha">
+                    <Button className="mt-3" variant="primary" size="lg">
                       Read More
                     </Button>
                   </Link>

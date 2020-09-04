@@ -12,6 +12,7 @@ import HomePage from "../src/pages/Home/Home.js";
 import AboutPage from "../src/pages/About/About.js";
 import BlogPage from "../src/pages/Blog/Blog.js";
 import BlogDetailsPage from "../src/pages/Blog/BlogDetails.js";
+import PitrupakshaPage from "../src/pages/Blog/Pitrupaksha.js";
 import EventsPage from "../src/pages/Events/Events.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
 
@@ -40,6 +41,7 @@ ReactDOM.render(
       <Route path="/about" component={AboutPage} />
       <Route path="/blog" component={BlogPage} />
       <Route path="/blogdetails" component={BlogDetailsPage} />
+      <Route path="/pitrupaksha" component={PitrupakshaPage} />
       <Route path="/iandyou" component={IandYouPage} />
       <Route path="/events" component={EventsPage} />
       <Route path="/components" component={ComponentsPage} />
