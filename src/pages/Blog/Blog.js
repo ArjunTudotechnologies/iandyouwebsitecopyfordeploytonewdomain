@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import image from "../../assets/img/blog/ganesha.jpeg";
-import image1 from "../../assets/img/blog/pitrupaksha.jpg";
+import image1 from "../../assets/img/blog/pitrupaksha.jpeg";
 import { Container, Row, Card, Button, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CardBody } from "react-bootstrap";
