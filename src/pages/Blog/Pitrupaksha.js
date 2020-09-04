@@ -10,18 +10,18 @@ export default function Pitrupaksha() {
     <div>
       <Header />
       <Container>
-        <section>
-          <h2 className="title mt-4 mb-4">
-            what is the significance of Pithrupaksha , why should we perform
-            such a ritual ?
-          </h2>
-          <div className="row  d-flex justify-content-center align-items-center ">
-            <div className="col-md-12">
-              <img src={image} className="img-blog-details shadow" />
-            </div>
-          </div>
+        <h2 className="title mt-4 mb-4">
+          what is the significance of Pithrupaksha , why should we perform such
+          a ritual ?
+        </h2>
+        <Row className="   d-flex justify-content-center align-items-center ">
+          <Col md={12}>
+            <img src={image} className="img-blog-details shadow" />
+          </Col>
+        </Row>
 
-          <div className="row mt-5">
+        <Row className="  mt-5">
+          <Col md={12}>
             <p>
               I often keep telling that our Traditions and Cultures we follow in
               our country are based on Three fundamentals of living they are
@@ -138,8 +138,8 @@ export default function Pitrupaksha() {
               <br />
               &nbsp;&nbsp;&nbsp;Jai Guru Dev
             </p>
-          </div>
-        </section>
+          </Col>
+        </Row>
       </Container>
       <Footer />
     </div>

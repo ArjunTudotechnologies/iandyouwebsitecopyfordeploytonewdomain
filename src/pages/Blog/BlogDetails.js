@@ -10,35 +10,34 @@ export default function BlogDetails() {
     <div>
       <Header />
       <Container>
-        <section>
-          <div className="row">
+        <Row>
+          <Col md={12}>
             <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
 
-            <div className="col-md-12">
-              <img src={image} className="img-blog-details shadow" />
-            </div>
-            <div class="col-md-12 mt-5">
-              <p>
-                //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
-                paada pankajam// <br /> O! Lord of Elephant face, He who is
-                served by the Celestial beings ,He who eats the essence of
-                the kaith-wood apple &amp; Jamun fruits ,O Son of Mother
-                Uma(Parvati), Destroyer of Suffering (Reason for the destruction
-                of suffering), We bow down to your Lotus feet O destroyer of
-                Obstacles
-              </p>
+            <img src={image} className="img-blog-details shadow" />
+          </Col>
+          <Col md={12} className="mt-5">
+            <p>
+              //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
+              paada pankajam// <br /> O! Lord of Elephant face, He who is served
+              by the Celestial beings ,He who eats the essence of the kaith-wood
+              apple &amp; Jamun fruits ,O Son of Mother Uma(Parvati), Destroyer
+              of Suffering (Reason for the destruction of suffering), We bow
+              down to your Lotus feet O destroyer of Obstacles
+            </p>
 
-              <p>
-                Most of us are unaware of the real meaning of Ganesha and his
-                role in our life, most of us have been happy listening the
-                stories and followed Celebration as an obligation, we do not
-                celebrate any of our festivals because we have taken them as
-                commitments or social compulsion.
-              </p>
-            </div>
-          </div>
+            <p>
+              Most of us are unaware of the real meaning of Ganesha and his role
+              in our life, most of us have been happy listening the stories and
+              followed Celebration as an obligation, we do not celebrate any of
+              our festivals because we have taken them as commitments or social
+              compulsion.
+            </p>
+          </Col>
+        </Row>
 
-          <div className="row mt-5">
+        <Row className="mt-5">
+          <Col md={12}>
             <p>
               A thought came by that made me write something which is of our
               culture and tradition, more than that it is inheriting the
@@ -266,8 +265,8 @@ export default function BlogDetails() {
               the other festivals.
             </p>
             Jai guru ganapathi deva
-          </div>
-        </section>
+          </Col>
+        </Row>
       </Container>
       <Footer />
     </div>

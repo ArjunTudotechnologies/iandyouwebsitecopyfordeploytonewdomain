@@ -3,10 +3,12 @@
 .programs-image-overlay {
   position: relative;
 }
+
 .programs-image-overlay img {
   width: 100%;
   vertical-align: top;
 }
+
 .programs-image-overlay:after {
   content: "\A";
   position: absolute;
@@ -21,24 +23,47 @@
   -webkit-transition: all 0.5s;
   opacity: 1;
 }
+
 .program-content {
   position: absolute;
   bottom: 50px;
   padding: 30px;
+
   &:hover {
     .program-big-title {
       color: $color-orange;
     }
+
     .program-small-title {
       color: $color-orange;
     }
   }
+
   .program-big-title {
     font-family: "Lora", serif;
-    font-size: 50px;
+    font-size: 30px;
     color: $color-white;
     margin-bottom: 30px;
+
+    @media (min-width: 576px) {
+      $map: (576px: 30px,
+          768px: 30px,
+        );
+      font-size: linear-interpolation($map);
+    }
+
+    @media (min-width: 768px) {
+      $map: (768px: 30px,
+          992px: 30px,
+        );
+      font-size: linear-interpolation($map);
+    }
+
+    @media (min-width: 992px) {
+      font-size: 50px;
+    }
   }
+
   .program-small-title {
     font-family: "Lora", serif;
     font-size: 35px;
@@ -47,16 +72,46 @@
     margin-bottom: 30px;
   }
 }
+
 .programs {
   height: 800px;
+
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {
+    height: 400px;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    height: 400px;
+  }
 }
+
 .program-big-img {
   height: 800px;
   width: 100%;
   object-fit: cover;
+
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {
+    height: 400px;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    height: 400px;
+  }
 }
+
 .program-small-img {
   height: 400px;
   width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+
+  .covid-banner-section {
+    display: none;
+  }
 }
