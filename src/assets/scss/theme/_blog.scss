@@ -3,6 +3,11 @@
         height: 400px;
         object-fit: cover;
         width: 100%;
+
+        @media (max-width: 575.98px) {
+
+            height: 250px;
+        }
     }
 
     h2 {

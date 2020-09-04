@@ -14,7 +14,7 @@ export default function Blog() {
       <Container>
         <section className="blog-section">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
                   <Link to="blogdetails">
@@ -38,7 +38,7 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
                   <Link to="pitrupaksha">
