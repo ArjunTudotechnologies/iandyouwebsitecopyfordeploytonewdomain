@@ -12,12 +12,13 @@ export default function BlogDetails() {
       <Container>
         <section>
           <div className="row">
-            <div className="col-md-6">
-              <img src={image} className="img-fluid shadow" />
+            <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
+
+            <div className="col-md-12">
+              <img src={image} className="img-blog-details shadow" />
             </div>
-            <div class="col-md-6">
-              <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
-             <p>
+            <div class="col-md-12 mt-5">
+              <p>
                 //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
                 paada pankajam// <br /> O! Lord of Elephant face, He who is
                 served by the Celestial beings ,He who eats the essence of
