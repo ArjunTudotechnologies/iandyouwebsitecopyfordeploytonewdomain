@@ -2,8 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import image from "../../assets/img/blog/pitrupaksha.jpeg";
-import { Container, Row, Button, Col, ModalTitle } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Pitrupaksha() {
   return (
@@ -16,7 +15,11 @@ export default function Pitrupaksha() {
         </h2>
         <Row className="   d-flex justify-content-center align-items-center ">
           <Col md={12}>
-            <img src={image} className="img-blog-details shadow" />
+            <img
+              alt="pitrupaksha"
+              src={image}
+              className="img-blog-details shadow"
+            />
           </Col>
         </Row>
 

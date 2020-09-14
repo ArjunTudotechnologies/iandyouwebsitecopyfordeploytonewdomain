@@ -11,41 +11,40 @@ import UpcomingEventsSection from "./Sections/UpcomingEventsSection";
 import IandyouCard from "../../components/IandyouCard/IandyouCard";
 import IandyouCardMobile from "../../components/IandyouCardMobile/IandyouCardMobile";
 import UpcomingWorkshopsSection from "./Sections/UpcomingWorkshopsSection";
-import SmallBanner from "../../components/SmallBanner/SmallBanner";
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-const slides = [
-  {
-    id: "1",
-    title: "Eshwari Kriya",
-    subTitle: "Celebrate Life",
-    desc: [],
-    bannerImg: "banner.png",
-  },
-  {
-    id: "2",
-    title: "Eshwari Kriya",
-    subTitle: "On the mind level",
-    desc: [
-      {
-        id: "1",
-        content: "Reduces mental fatigue (strain)",
-      },
-      {
-        id: "2",
-        content: "Improvises concentration drastically and keeps you focused",
-      },
-      {
-        id: "3",
-        content:
-          " Keeps you free of stress and psychosomatic disorders caused due to stress",
-      },
-      { id: "4", content: "Provides contentment and peace of mind" },
-      { id: "5", content: "Increases memory,skill and creativity." },
-    ],
-    bannerImg: "banner-2.png",
-  },
-];
+// const slides = [
+//   {
+//     id: "1",
+//     title: "Eshwari Kriya",
+//     subTitle: "Celebrate Life",
+//     desc: [],
+//     bannerImg: "banner.png",
+//   },
+//   {
+//     id: "2",
+//     title: "Eshwari Kriya",
+//     subTitle: "On the mind level",
+//     desc: [
+//       {
+//         id: "1",
+//         content: "Reduces mental fatigue (strain)",
+//       },
+//       {
+//         id: "2",
+//         content: "Improvises concentration drastically and keeps you focused",
+//       },
+//       {
+//         id: "3",
+//         content:
+//           " Keeps you free of stress and psychosomatic disorders caused due to stress",
+//       },
+//       { id: "4", content: "Provides contentment and peace of mind" },
+//       { id: "5", content: "Increases memory,skill and creativity." },
+//     ],
+//     bannerImg: "banner-2.png",
+//   },
+// ];
 
 export default class Home extends Component {
   componentDidMount() {

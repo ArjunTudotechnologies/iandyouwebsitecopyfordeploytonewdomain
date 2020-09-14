@@ -1,6 +1,4 @@
 import React from "react";
-import Img2 from "../../assets/img/programs/img-2.jpg";
-
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 

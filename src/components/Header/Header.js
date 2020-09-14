@@ -287,27 +287,42 @@ export default class Header extends Component {
                           Each one Educate one
                         </div>
                         <NavDropdown.Divider />
-                        <Link
+                        <a
                           className="nav-link dropdown-item"
-                          to="eshwari-kriya"
+                          href="http://iandyouvidhya.org/"
                         >
                           <span>I and you Vidhya </span>
-                        </Link>
-                        <Link className="nav-link dropdown-item" to="#">
+                        </a>
+                        <a
+                          className="nav-link dropdown-item"
+                          href="http://iandyouvidhya.org/"
+                        >
                           - Educate and Empower a girl child
-                        </Link>
-                        <Link className="nav-link dropdown-item" to="#">
+                        </a>
+                        <a
+                          className="nav-link dropdown-item"
+                          href="http://iandyouvidhya.org/"
+                        >
                           - Educate and Empower a dumb and deaf child
-                        </Link>
-                        <Link className="nav-link dropdown-item" to="#">
+                        </a>
+                        <a
+                          className="nav-link dropdown-item"
+                          href="http://iandyouvidhya.org/"
+                        >
                           - Educate and Empower a blind Chid
-                        </Link>
-                        <Link className="nav-link dropdown-item" to="#">
+                        </a>
+                        <a
+                          className="nav-link dropdown-item"
+                          href="http://iandyouvidhya.org/"
+                        >
                           - Educate and Empower a orphan child
-                        </Link>
-                        <Link className="nav-link dropdown-item" to="#">
+                        </a>
+                        <a
+                          className="nav-link dropdown-item"
+                          href="http://iandyouvidhya.org/"
+                        >
                           - Educate and Support government schools
-                        </Link>
+                        </a>
                       </div>
                       <div className="p-1">
                         <div className="dropdown-header p-2">

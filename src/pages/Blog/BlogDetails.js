@@ -2,8 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import image from "../../assets/img/blog/ganesha.jpeg";
-import { Container, Row, Button, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function BlogDetails() {
   return (
@@ -14,12 +13,16 @@ export default function BlogDetails() {
           <Col md={12}>
             <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
 
-            <img src={image} className="img-blog-details shadow" />
+            <img
+              alt="Unfold Ganesha"
+              src={image}
+              className="img-blog-details shadow"
+            />
           </Col>
           <Col md={12} className="mt-5">
             <p>
-              //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
-              paada pankajam// <br /> O! Lord of Elephant face, He who is served
+              Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
+              paada pankajam <br /> O! Lord of Elephant face, He who is served
               by the Celestial beings ,He who eats the essence of the kaith-wood
               apple &amp; Jamun fruits ,O Son of Mother Uma(Parvati), Destroyer
               of Suffering (Reason for the destruction of suffering), We bow

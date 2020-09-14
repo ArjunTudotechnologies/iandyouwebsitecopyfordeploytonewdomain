@@ -3,10 +3,7 @@ import Header from "../../components/Header/Header";
 import Heading from "../../components/Heading/Heading";
 import Footer from "../../components/Footer/Footer";
 import SmallBanner from "../../components/SmallBanner/SmallBanner";
-import RegisterDarkCard from "../../components/RegisterDarkCard/RegisterDarkCard";
-import { Container, Row, Col } from "react-bootstrap";
-import { FaBrain, FaUser, FaHeart } from "react-icons/fa";
-import EshawariKriya from "../../assets/img/small-banners/img-1.jpg";
+import { Container } from "react-bootstrap";
 
 const slides = [
   {
@@ -44,8 +41,8 @@ export default function Astrology() {
             </p>
             <p>
               <b>
-                //yatha pinde tatha brahmhande- as is the atom so is the
-                universe - as is the body so is the cosmic body //
+                "yatha pinde tatha brahmhande- as is the atom so is the universe
+                - as is the body so is the cosmic body"
               </b>
             </p>
             <p>
