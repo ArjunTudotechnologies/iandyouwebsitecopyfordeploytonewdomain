@@ -6,6 +6,7 @@ import {
   Nav,
   NavDropdown,
   Container,
+  Breadcrumb,
 } from "react-bootstrap";
 import Logo from "../../assets/img/logo.png";
 import Topbar from "../Topbar/Topbar";
@@ -224,6 +225,23 @@ export default class Header extends Component {
                         <Nav.Link className="dropdown-item" href="#">
                           Poornima Gurupooja with navavarana Dhyana
                         </Nav.Link>
+
+                        <div className="dropdown-header p-2 mt-5">
+                          Special events
+                        </div>
+                        <NavDropdown.Divider />
+
+                        <Nav.Link className="dropdown-item" href="sri">
+                          <span>Sri-</span>Attract abundant of wealth
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          <span>Sri Kari -</span> Manifest your intentions
+                        </Nav.Link>
+                        <Nav.Link className="dropdown-item" href="#">
+                          <span>Gratitude week -</span> Guruji's birthday
+                          <br />
+                          celebration through Seva
+                        </Nav.Link>
                       </div>
                       <div className="p-1">
                         <div className="dropdown-header p-2">Annul events</div>
@@ -243,23 +261,6 @@ export default class Header extends Component {
                           <span>Nagapanchami:</span>
                           <br />
                           Dosha Nivarana prasada
-                        </Nav.Link>
-                      </div>
-                      <div className="p-1">
-                        <div className="dropdown-header p-2">
-                          Special events
-                        </div>
-                        <NavDropdown.Divider />
-
-                        <Nav.Link className="dropdown-item" href="sri">
-                          <span>Sri-</span>Attract abundant of wealth
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          <span>Sri Kari -</span> Manifest your intentions
-                        </Nav.Link>
-                        <Nav.Link className="dropdown-item" href="#">
-                          <span>Gratitude week -</span> Guruji's birthday
-                          celebration through Seva
                         </Nav.Link>
                       </div>
                     </div>
@@ -323,6 +324,21 @@ export default class Header extends Component {
                         >
                           - Educate and Support government schools
                         </a>
+
+                        <div className="dropdown-header p-2 mt-5">
+                          She's Divine
+                        </div>
+                        <NavDropdown.Divider />
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Awards and honoring <br />
+                          women achivers every year
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Skilled job oriented workshops
+                        </Link>
+                        <Link className="nav-link dropdown-item" to="#">
+                          - Handicraft training
+                        </Link>
                       </div>
                       <div className="p-1">
                         <div className="dropdown-header p-2">
@@ -344,23 +360,10 @@ export default class Header extends Component {
                         <Link className="nav-link dropdown-item" to="#">
                           - farmers borewell recharge
                         </Link>
-                      </div>
-                      <div className="p-1">
-                        <div className="dropdown-header p-2">She's Divine</div>
-                        <NavDropdown.Divider />
                         <Link className="nav-link dropdown-item" to="#">
-                          - Awards and honoring <br />
-                          women achivers every year
+                          &nbsp;
                         </Link>
-                        <Link className="nav-link dropdown-item" to="#">
-                          - Skilled job oriented workshops
-                        </Link>
-                        <Link className="nav-link dropdown-item" to="#">
-                          - Handicraft training
-                        </Link>
-                      </div>
-                      <div className="p-1">
-                        <div className="dropdown-header p-2">
+                        <div className="dropdown-header p-2 mt-5">
                           Monuments restoration
                         </div>
                         <NavDropdown.Divider />
