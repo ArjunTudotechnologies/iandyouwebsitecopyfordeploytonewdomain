@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import CovidBanner from "../../components/CovidBanner/CovidBanner";
 import { WOW } from "wowjs";
 import ProgramsSection from "./Sections/ProgramsSection";
 import VideoSection from "./Sections/VideoSection";
@@ -98,7 +97,7 @@ export default class Home extends Component {
         <TestimonialsSection />
         <TwitterSection />
         <ProgramsSection />
-        <CovidBanner />
+        {/* <CovidBanner /> */}
         {/* <div className="m-5 very-small-banner">
           <SmallBanner
             slides={slides}

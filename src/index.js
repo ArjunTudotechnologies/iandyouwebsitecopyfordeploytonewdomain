@@ -15,6 +15,7 @@ import BlogDetailsPage from "../src/pages/Blog/BlogDetails.js";
 import PitrupakshaPage from "../src/pages/Blog/Pitrupaksha.js";
 import EventsPage from "../src/pages/Events/Events.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
+import DonatePage from "../src/pages/Donate/Donate.js";
 
 import EshwariKriyaPage from "./pages/EshwariKriya/EshwariKriya";
 import EshwariShakthiKendraSadhanaPage from "./pages/EshwariShakthiKendraSadhana/EshwariShakthiKendraSadhana";
@@ -40,6 +41,7 @@ ReactDOM.render(
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/blog" component={BlogPage} />
+      <Route path="/donate" component={DonatePage} />
       <Route path="/blogdetails" component={BlogDetailsPage} />
       <Route path="/pitrupaksha" component={PitrupakshaPage} />
       <Route path="/iandyou" component={IandYouPage} />
