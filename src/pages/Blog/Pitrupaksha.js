@@ -32,7 +32,7 @@ export default function Pitrupaksha() {
               is the way for celebration and liberation.
             </p>
             <h2 className="sub-title mt-3">
-              The Sri vidhya Tantra and Riligion :
+              The Sri vidhya Tantra and Religion :
             </h2>
             <p>
               The main goal of spiritual or religious way of living life is for
