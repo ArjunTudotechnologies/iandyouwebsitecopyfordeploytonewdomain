@@ -633,7 +633,7 @@ export default function Header() {
                     <Form.Row>
                       <Form.Group
                         as={Col}
-                        md="12"
+                        md="6"
                         controlId="validationCustom011"
                       >
                         <Form.Label>Enter an amount to give</Form.Label>
@@ -649,11 +649,10 @@ export default function Header() {
                           Please enter amount
                         </Form.Control.Feedback>
                       </Form.Group>
-                    </Form.Row>
-                    <Form.Row>
+
                       <Form.Group
                         as={Col}
-                        md="12"
+                        md="6"
                         controlId="validationCustom01"
                       >
                         <Form.Label>Name</Form.Label>
@@ -667,11 +666,10 @@ export default function Header() {
                           Please enter name
                         </Form.Control.Feedback>
                       </Form.Group>
-                    </Form.Row>
-                    <Form.Row>
+
                       <Form.Group
                         as={Col}
-                        md="12"
+                        md="6"
                         controlId="validationCustom02"
                       >
                         <Form.Label>Email</Form.Label>
@@ -685,11 +683,10 @@ export default function Header() {
                           Please enter valid email
                         </Form.Control.Feedback>
                       </Form.Group>
-                    </Form.Row>
-                    <Form.Row>
+
                       <Form.Group
                         as={Col}
-                        md="12"
+                        md="6"
                         controlId="validationCustom03"
                       >
                         <Form.Label>Phone</Form.Label>
