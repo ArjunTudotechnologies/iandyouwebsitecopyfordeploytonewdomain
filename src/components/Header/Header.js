@@ -1,54 +1,94 @@
 import React, { useState } from "react";
 import {
   Navbar,
-  Form,
   Button,
   Nav,
+  Form,
   NavDropdown,
   Container,
   Modal,
+  Col,
 } from "react-bootstrap";
 import Logo from "../../assets/img/logo.png";
 import Topbar from "../Topbar/Topbar";
 import { Link } from "react-router-dom";
 import { MdShoppingCart, MdSearch, MdPeople } from "react-icons/md";
-
-function payNow() {
-  var options = {
-    key: "rzp_test_BZW768t6Yakl8K", // Enter the Key ID generated from the Dashboard
-    amount: "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-    currency: "INR",
-    name: "Acme Corp",
-    description: "Test Transaction",
-    image: "https://example.com/your_logo",
-    // order_id: "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-    handler: function (response) {
-      alert(response.razorpay_payment_id);
-      alert(response.razorpay_order_id);
-      alert(response.razorpay_signature);
-    },
-    prefill: {
-      name: "Gaurav Kumar",
-      email: "gaurav.kumar@example.com",
-      contact: "9999999999",
-    },
-    notes: {
-      address: "Razorpay Corporate Office",
-    },
-    theme: {
-      color: "#F37254",
-    },
-  };
-  var rzp1 = new window.Razorpay(options);
-  rzp1.open();
-
-  // document.getElementById("rzp-button1").onclick = function (e) {
-  //   rzp1.open();
-  //   e.preventDefault();
-  // };
-}
+import emailjs from "emailjs-com";
+// import SweetAlert from "react-bootstrap-sweetalert";
 
 export default function Header() {
+  const inputRef = React.useRef(null);
+  const [validated, setValidated] = useState(false);
+  const [input, setInput] = useState(""); // '' is the initial state value
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    setValidated(true);
+    if (validated) {
+      payNow();
+    }
+  };
+
+  function clickBtn() {
+    inputRef.current.click();
+  }
+
+  function payNow() {
+    var amount = input;
+
+    var options = {
+      key: "rzp_live_G4KwwTnVzoUHX3", // Enter the Key ID generated from the Dashboard
+      amount: amount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+      currency: "INR",
+      name: "I And You Being Together",
+      description: "Donate",
+      image: "https://www.iandyou.org/static/media/logo.ab356877.png",
+      // order_id: "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+      handler: function (response) {
+        clickBtn();
+        setLgShow(false);
+        alert("Thank you for your generous donation!");
+      },
+      // prefill: {
+      //   name: "Gaurav Kumar",
+      //   email: "gaurav.kumar@example.com",
+      //   contact: "9999999999",
+      // },
+      notes: {
+        address: "Razorpay Corporate Office",
+      },
+      theme: {
+        color: "#f9a33b",
+      },
+    };
+    var rzp1 = new window.Razorpay(options);
+    rzp1.open();
+  }
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "kishanb",
+        "template_f4r2apt",
+        e.target,
+        "user_CvuIkc5QnnVDEGrRBSbRJ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
   const [lgShow, setLgShow] = useState(false);
   return (
     <div>
@@ -250,12 +290,10 @@ export default function Header() {
                       <Nav.Link className="dropdown-item" href="#">
                         Poornima Gurupooja with navavarana Dhyana
                       </Nav.Link>
-
                       <div className="dropdown-header p-2 mt-5">
                         Special events
                       </div>
                       <NavDropdown.Divider />
-
                       <Nav.Link className="dropdown-item" href="sri">
                         <span>Sri-</span>Attract abundant of wealth
                       </Nav.Link>
@@ -491,24 +529,76 @@ export default function Header() {
                 </Modal.Header>
                 <Modal.Body>
                   Whether it is through cash contributions or donations in kind,
-                  time or expertise, Isha Foundation offers a variety of
-                  opportunities for you to extend your support. Donations can be
-                  made directly to specific Isha projects of your choice or to
-                  the general fund of the Foundation that supports a host of
-                  activities.
+                  time or expertise, I And You Being Together Foundation offers
+                  a variety of opportunities for you to extend your support.
+                  Donations can be made directly to specific I And You Being
+                  Together projects of your choice or to the general fund of the
+                  Foundation that supports a host of activities.
                   <hr />
-                  <Form.Group controlId="exampleForm.ControlSelect1">
-                    <Form.Label>Select a campaign</Form.Label>
-                    <Form.Control as="select">
-                      <option value="I And You Vidhya">I And You Vidhya</option>
-                      <option value="I And You Green">I And You Green</option>
-                    </Form.Control>
-                  </Form.Group>
-                  <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Enter an amount</Form.Label>
-                    <Form.Control type="text" placeholder="Enter an amount" />
-                  </Form.Group>
-                  <Button
+                  {/* <Form
+                    noValidate
+                    validated={validated}
+                    className="contact-form"
+                    onSubmit={sendEmail}
+                  >
+                    <Form.Group controlId="exampleForm.ControlSelect1">
+                      <Form.Label>Select a campaign</Form.Label>
+                      <Form.Control as="select">
+                        <option value="I And You Vidhya">
+                          I And You Vidhya
+                        </option>
+                        <option value="I And You Green">I And You Green</option>
+                      </Form.Control>
+                    </Form.Group>
+                    <Form.Group controlId="validationCustom01">
+                      <Form.Label>Enter an amount</Form.Label>
+                      <Form.Control
+                        required
+                        type="text"
+                        placeholder="Enter an amount"
+                      />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicEmail">
+                      <Form.Label>Name</Form.Label>
+                      <Form.Control
+                        type="text"
+                        name="name"
+                        placeholder="Enter name"
+                      />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicEmail">
+                      <Form.Label>Email</Form.Label>
+                      <Form.Control
+                        type="text"
+                        name="email"
+                        placeholder="Enter email"
+                      />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicEmail" className="hide">
+                      <Form.Label>Message</Form.Label>
+                      <Form.Control
+                        type="text"
+                        name="message"
+                        value="Thank you for your generous Donation!!"
+                        placeholder="Enter email"
+                      />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicEmail">
+                      <Form.Label>Phone</Form.Label>
+                      <Form.Control type="text" placeholder="Enter phone" />
+                    </Form.Group>
+                    <Button
+                      // ref={inputRef}
+                      className="mt-4 mb-3 hide1"
+                      variant="primary"
+                      size="lg"
+                      block
+                      type="submit"
+                    >
+                      Submit form
+                    </Button>
+                  </Form> */}
+                  {/* <Button
                     className="mt-4 mb-3"
                     variant="primary"
                     size="lg"
@@ -517,7 +607,138 @@ export default function Header() {
                     onClick={payNow}
                   >
                     Submit
-                  </Button>
+                  </Button> */}
+                  <Form noValidate validated={validated} onSubmit={sendEmail}>
+                    <Form.Row>
+                      <Form.Group
+                        as={Col}
+                        md="12"
+                        controlId="exampleForm.ControlSelect1"
+                      >
+                        <Form.Label>Select a campaign</Form.Label>
+                        <Form.Control as="select">
+                          <option value="I And You Vidhya">
+                            I And You Vidhya
+                          </option>
+                          <option value="I And You Green">
+                            I And You Green
+                          </option>
+                        </Form.Control>
+                        <Form.Control.Feedback>
+                          Looks good!
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                    </Form.Row>
+
+                    <Form.Row>
+                      <Form.Group
+                        as={Col}
+                        md="12"
+                        controlId="validationCustom011"
+                      >
+                        <Form.Label>Enter an amount to give</Form.Label>
+                        <Form.Control
+                          required
+                          type="number"
+                          name="name"
+                          value={input}
+                          placeholder="Enter an amount to give"
+                          onInput={(e) => setInput(e.target.value)}
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          Please enter amount
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                    </Form.Row>
+                    <Form.Row>
+                      <Form.Group
+                        as={Col}
+                        md="12"
+                        controlId="validationCustom01"
+                      >
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control
+                          required
+                          type="text"
+                          name="name"
+                          placeholder="Enter Name"
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          Please enter name
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                    </Form.Row>
+                    <Form.Row>
+                      <Form.Group
+                        as={Col}
+                        md="12"
+                        controlId="validationCustom02"
+                      >
+                        <Form.Label>Email</Form.Label>
+                        <Form.Control
+                          required
+                          type="email"
+                          name="email"
+                          placeholder="Enter Email"
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          Please enter valid email
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                    </Form.Row>
+                    <Form.Row>
+                      <Form.Group
+                        as={Col}
+                        md="12"
+                        controlId="validationCustom03"
+                      >
+                        <Form.Label>Phone</Form.Label>
+                        <Form.Control
+                          type="number"
+                          placeholder="Phone"
+                          required
+                          name="phone"
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          Please provide a number
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                    </Form.Row>
+                    <Form.Row className="hide">
+                      <Form.Group as={Col} md="12">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control
+                          type="text"
+                          placeholder="Message"
+                          required
+                          value="Thank you for your generous donation."
+                          name="message"
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          Please provide a number
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                    </Form.Row>
+                    <Button
+                      type="button"
+                      size="lg"
+                      block
+                      className="mt-4 mb-2 "
+                      onClick={handleSubmit}
+                    >
+                      Submit
+                    </Button>
+                    <Button
+                      ref={inputRef}
+                      className="mt-4 mb-3 hide"
+                      variant="primary"
+                      size="lg"
+                      block
+                      type="submit"
+                    >
+                      Submit
+                    </Button>
+                  </Form>
                 </Modal.Body>
               </Modal>
               <ul className="shop-ul">
