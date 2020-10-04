@@ -19,18 +19,21 @@ import emailjs from "emailjs-com";
 export default function Header() {
   const inputRef = React.useRef(null);
   const [validated, setValidated] = useState(false);
-  const [input, setInput] = useState(""); // '' is the initial state value
+  const [input, setInput] = useState("");
+  const [phone, setInputPhone] = useState("");
+  const [email, setInputEmail] = useState("");
+  const [name, setInputName] = useState("");
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
+    if (validated) {
+      payNow();
+    }
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
     }
     setValidated(true);
-    if (validated) {
-      payNow();
-    }
   };
 
   function clickBtn() {
@@ -53,11 +56,11 @@ export default function Header() {
         setLgShow(false);
         alert("Thank you for your generous donation!");
       },
-      // prefill: {
-      //   name: "Gaurav Kumar",
-      //   email: "gaurav.kumar@example.com",
-      //   contact: "9999999999",
-      // },
+      prefill: {
+        name: name,
+        email: email,
+        contact: phone,
+      },
       notes: {
         address: "Razorpay Corporate Office",
       },
@@ -624,12 +627,8 @@ export default function Header() {
                             I And You Green
                           </option>
                         </Form.Control>
-                        <Form.Control.Feedback>
-                          Looks good!
-                        </Form.Control.Feedback>
                       </Form.Group>
                     </Form.Row>
-
                     <Form.Row>
                       <Form.Group
                         as={Col}
@@ -640,7 +639,7 @@ export default function Header() {
                         <Form.Control
                           required
                           type="number"
-                          name="name"
+                          name="amount"
                           value={input}
                           placeholder="Enter an amount to give"
                           onInput={(e) => setInput(e.target.value)}
@@ -660,6 +659,7 @@ export default function Header() {
                           required
                           type="text"
                           name="name"
+                          onInput={(e) => setInputName(e.target.value)}
                           placeholder="Enter Name"
                         />
                         <Form.Control.Feedback type="invalid">
@@ -678,6 +678,7 @@ export default function Header() {
                           type="email"
                           name="email"
                           placeholder="Enter Email"
+                          onInput={(e) => setInputEmail(e.target.value)}
                         />
                         <Form.Control.Feedback type="invalid">
                           Please enter valid email
@@ -694,6 +695,7 @@ export default function Header() {
                           type="number"
                           placeholder="Phone"
                           required
+                          onInput={(e) => setInputPhone(e.target.value)}
                           name="phone"
                         />
                         <Form.Control.Feedback type="invalid">
@@ -723,7 +725,7 @@ export default function Header() {
                       className="mt-4 mb-2 "
                       onClick={handleSubmit}
                     >
-                      Submit
+                      Submit Form
                     </Button>
                     <Button
                       ref={inputRef}
