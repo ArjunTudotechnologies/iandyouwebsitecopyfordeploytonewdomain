@@ -16,6 +16,7 @@ import PitrupakshaPage from "../src/pages/Blog/Pitrupaksha.js";
 import EventsPage from "../src/pages/Events/Events.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
 import DonatePage from "../src/pages/Donate/Donate.js";
+import EshwariShodhanaKriyaPage from "../src/pages/EshwariShodhanaKriya/EshwariShodhanaKriya.js";
 
 import EshwariKriyaPage from "./pages/EshwariKriya/EshwariKriya";
 import EshwariShakthiKendraSadhanaPage from "./pages/EshwariShakthiKendraSadhana/EshwariShakthiKendraSadhana";
@@ -48,6 +49,10 @@ ReactDOM.render(
       <Route path="/events" component={EventsPage} />
       <Route path="/components" component={ComponentsPage} />
       <Route path="/eshwari-kriya" component={EshwariKriyaPage} />
+      <Route
+        path="/eshwari-shodhana-kriya"
+        component={EshwariShodhanaKriyaPage}
+      />
       <Route
         path="/eshwari-shakthi-kendra-sadhana"
         component={EshwariShakthiKendraSadhanaPage}
