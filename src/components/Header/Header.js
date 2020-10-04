@@ -157,7 +157,10 @@ export default function Header() {
                       <Nav.Link className="dropdown-item" href="guru-puja">
                         - Guru pooja
                       </Nav.Link>
-                      <Nav.Link className="dropdown-item" href="guru-puja">
+                      <Nav.Link
+                        className="dropdown-item"
+                        href="eshwari-shodhana-kriya"
+                      >
                         - Eshwari shodhana kriya
                       </Nav.Link>
                     </div>
