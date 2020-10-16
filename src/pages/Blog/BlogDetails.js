@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import image from "../../assets/img/blog/ganesha.jpeg";
+import imageBhramhacharini from "../../assets/img/blog/brahmacharini.jpg";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function BlogDetails() {
@@ -13,23 +14,22 @@ export default function BlogDetails() {
           <Col md={12}>
             <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
 
-
-
             <img
-              alt="Unfold Ganesha"
-              src={image}
+              alt="Bhramhacharini"
+              src={imageBhramhacharini}
               className="img-blog-details shadow"
             />
-
           </Col>
           <Col md={12} className="mt-5">
             <p>
-              Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami Vighneshwara
-              paada pankajam <br /> O! Lord of Elephant face, He who is served
-              by the Celestial beings ,He who eats the essence of the kaith-wood
-              apple &amp; Jamun fruits ,O Son of Mother Uma(Parvati), Destroyer
-              of Suffering (Reason for the destruction of suffering), We bow
-              down to your Lotus feet O destroyer of Obstacles
+              The second day of Navarathri is dedicated to Goddess
+              Brahmacharini. The goddess walks bare feet with a rudraksh mala in
+              one hand and a sacred Kamandalu in the other. The meditative form
+              of this goddess symbolizes Goddess Parvati when she is engaged in
+              her deep meditation to please Lord Shiva.
+              <br />
+              <b>What to offer:</b> Goddess Brahmacharini is offered sugar for
+              the longevity of the family members.
             </p>
 
             <p>

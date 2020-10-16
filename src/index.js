@@ -33,6 +33,8 @@ import ManahPrakshalyaPage from "./pages/ManahPrakshalya/ManahPrakshalya";
 import KnowYourPurposePage from "./pages/KnowYourPurpose/KnowYourPurpose";
 import IandYouPage from "./pages/IandYou/IandYou";
 import KalaBhiravaPage from "./pages/KalaBhirava/KalaBhirava";
+import BrahmachariniPage from "./pages/Blog/Brahmacharini";
+import SharanNavarathriPage from "./pages/Blog/SharanNavarathri";
 
 var hist = createBrowserHistory();
 
@@ -42,6 +44,8 @@ ReactDOM.render(
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/blog" component={BlogPage} />
+      <Route path="/brahmacharini" component={BrahmachariniPage} />
+      <Route path="/sharan-navarathri" component={SharanNavarathriPage} />
       <Route path="/donate" component={DonatePage} />
       <Route path="/blogdetails" component={BlogDetailsPage} />
       <Route path="/pitrupaksha" component={PitrupakshaPage} />
