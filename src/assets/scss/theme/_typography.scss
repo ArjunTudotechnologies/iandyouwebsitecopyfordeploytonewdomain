@@ -257,3 +257,29 @@ section {
 .special-title {
   font-family: "Niconne", cursive;
 }
+
+.number-lists {
+  list-style: decimal;
+
+  li {
+    padding-bottom: 20px;
+
+  }
+}
+
+.dots-lists {
+  list-style: disc;
+
+  li {
+    padding-bottom: 20px;
+
+  }
+}
+
+p {
+  b {
+    font-weight: bolder;
+    color: #000;
+    letter-spacing: 1px;
+  }
+}

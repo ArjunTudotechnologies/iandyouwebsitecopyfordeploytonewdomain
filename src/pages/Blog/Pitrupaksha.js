@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import image from "../../assets/img/blog/pitrupaksha.jpg";
+
+import image from "../../assets/img/blog/pitrupaksha.jpeg";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Pitrupaksha() {
@@ -16,7 +17,7 @@ export default function Pitrupaksha() {
         <Row className="   d-flex justify-content-center align-items-center ">
           <Col md={12}>
             <img
-              alt="Pitrupaksha"
+              alt="pitrupaksha"
               src={image}
               className="img-blog-details shadow"
             />
@@ -32,7 +33,7 @@ export default function Pitrupaksha() {
               is the way for celebration and liberation.
             </p>
             <h2 className="sub-title mt-3">
-              The Sri vidhya Tantra and Riligion :
+              The Sri vidhya Tantra and Religion :
             </h2>
             <p>
               The main goal of spiritual or religious way of living life is for

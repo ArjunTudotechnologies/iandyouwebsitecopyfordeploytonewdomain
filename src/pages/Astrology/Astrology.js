@@ -41,8 +41,8 @@ export default function Astrology() {
             </p>
             <p>
               <b>
-                yatha pinde tatha brahmhande- as is the atom so is the universe
-                - as is the body so is the cosmic body
+                "yatha pinde tatha brahmhande- as is the atom so is the universe
+                - as is the body so is the cosmic body"
               </b>
             </p>
             <p>

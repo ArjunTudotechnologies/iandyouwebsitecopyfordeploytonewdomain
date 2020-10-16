@@ -6,6 +6,32 @@ import Slider from "react-slick";
 
 const slides = [
   {
+    id: "3",
+    event_name: "Eshwari Kriya",
+    event_desc:
+      "Management is the coordination and administration of tasks to achieve a goal. To achive success in life one should know internal management of body mind and emotion",
+    event_image: "event-1.jpeg",
+    link: "sri",
+    start_date: "11, 12 & 13th SEP 2020",
+    end_date: "2020/05/14",
+    start_time: "5 PM to 8 PM IST",
+    end_time: "15:01:27",
+    location: "ZOOM Meeting",
+  },
+  {
+    id: "4",
+    event_name: "Eshwari Dhyana",
+    event_desc:
+      "In the absence of all experiences lies the real experience of true existence - Jai Gurudev",
+    event_image: "event-2.jpeg",
+    link: "sri",
+    start_date: "2rd AUG 2020",
+    end_date: "2020/05/14",
+    start_time: "Sunday 5 PM to 8.30 PM IST",
+    end_time: "15:01:27",
+    location: "ZOOM Meeting",
+  },
+  {
     id: "1",
     event_name: "Sri",
     event_desc:

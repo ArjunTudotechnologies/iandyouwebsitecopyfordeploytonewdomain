@@ -13,7 +13,14 @@ export default function BlogDetails() {
           <Col md={12}>
             <h2 className="title mt-4 mb-4">Unfold Ganesha In You</h2>
 
-            <img alt="blog" src={image} className="img-blog-details shadow" />
+
+
+            <img
+              alt="Unfold Ganesha"
+              src={image}
+              className="img-blog-details shadow"
+            />
+
           </Col>
           <Col md={12} className="mt-5">
             <p>
