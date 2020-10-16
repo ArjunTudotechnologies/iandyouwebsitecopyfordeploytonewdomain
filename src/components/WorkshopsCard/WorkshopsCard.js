@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { MdPlace, MdDateRange, MdTimer } from "react-icons/md";
+import { MdPlace, MdDateRange } from "react-icons/md";
 
 export default function WorkshopsCard(props) {
   return (

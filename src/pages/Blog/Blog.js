@@ -3,9 +3,8 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import image from "../../assets/img/blog/ganesha.jpeg";
 import image1 from "../../assets/img/blog/pitrupaksha.jpg";
-import { Container, Row, Card, Button, Col } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { CardBody } from "react-bootstrap";
 
 export default function Blog() {
   return (
@@ -18,14 +17,14 @@ export default function Blog() {
               <Card classname="shadow">
                 <Card.Body>
                   <Link to="blogdetails">
-                    <img src={image} className="img-fluid" />
+                    <img alt="blog" src={image} className="img-fluid" />
 
                     <h2 className="sub-title mt-4 mb-4">
                       Unfold Ganesha In You
                     </h2>
                     <p>
-                      //Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami
-                      Vighneshwara paada pankajam// <br /> O! Lord of Elephant
+                      Om Gajaananam Bhoota Ganaadi Sevitam ....Namaami
+                      Vighneshwara paada pankajam <br /> O! Lord of Elephant
                       face, He who is served by the Celestial beings ,He who
                       eats the essence of the kaith-wood apple ...
                     </p>
@@ -42,7 +41,7 @@ export default function Blog() {
               <Card classname="shadow">
                 <Card.Body>
                   <Link to="pitrupaksha">
-                    <img src={image1} className="img-fluid" />
+                    <img alt="blog" src={image1} className="img-fluid" />
                     <h2 className="sub-title mt-4 mb-4">
                       what is the significance of Pithrupaksha , why should we
                       perform such a ritual ?

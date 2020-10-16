@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import Banner1 from "../../assets/img/banners/banner-1.jpg";
 import { MdPlace, MdDateRange } from "react-icons/md";
 import { Link } from "react-router-dom";
 
