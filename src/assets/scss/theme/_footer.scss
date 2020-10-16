@@ -40,6 +40,10 @@
     height: 60px;
   }
 
+  .iso-logo {
+    height: 50px;
+  }
+
   .logo-header {
     border-bottom: 1px solid #ffffff17;
     margin-bottom: 20px;
@@ -56,6 +60,10 @@
     p {
       color: $color-light-gray;
       font-size: 14px;
+
+      b {
+        color: #fff;
+      }
 
       span {
         padding-right: 10px;
