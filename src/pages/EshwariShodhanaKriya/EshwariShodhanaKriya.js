@@ -4,7 +4,6 @@ import Footer from "../../components/Footer/Footer";
 import SmallBanner from "../../components/SmallBanner/SmallBanner";
 import Heading from "../../components/Heading/Heading";
 import { Container, Row, Col } from "react-bootstrap";
-import lib from "react-modal-video";
 
 const slides = [
   {

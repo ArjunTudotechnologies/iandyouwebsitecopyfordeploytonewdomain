@@ -728,7 +728,7 @@ export default function Header() {
                       className="mt-4 mb-2 "
                       onClick={handleSubmit}
                     >
-                      Submit Form
+                      DONATE
                     </Button>
                     <Button
                       ref={inputRef}
