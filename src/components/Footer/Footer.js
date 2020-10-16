@@ -12,13 +12,14 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import Logo from "../../assets/img/logo.png";
+import ISO from "../../assets/img/iso-logo.png";
 
 export default function Footer() {
   return (
     <div className="footer">
       <Container className="footer-content">
         <Row className="logo-header">
-          <Col md={12}>
+          <Col md={8}>
             <h2>
               <img
                 src={Logo}
@@ -29,6 +30,20 @@ export default function Footer() {
                 I And You Being Together Foundation
               </span>
             </h2>
+          </Col>
+          <Col md={4}>
+            <Row className="jd-flex justify-content-center align-items-center  row">
+              <Col md={3}>
+                <img
+                  src={ISO}
+                  className="iso-logo pr-2"
+                  alt="I And You Foundation"
+                />
+              </Col>
+              <Col md={9}>
+                <p className="pb-0 mb-0">ISO 9001:2015/0821Q11720</p>
+              </Col>
+            </Row>
           </Col>
         </Row>
         <Row>

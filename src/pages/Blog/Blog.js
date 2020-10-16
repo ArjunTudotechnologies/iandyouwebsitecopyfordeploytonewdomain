@@ -6,6 +6,7 @@ import image from "../../assets/img/blog/ganesha.jpeg";
 import image1 from "../../assets/img/blog/pitrupaksha.jpeg";
 import imageBhramhacharini from "../../assets/img/blog/brahmacharini.jpg";
 import shailputri from "../../assets/img/blog/shailputri.jpg";
+import Chandraghanta from "../../assets/img/blog/chandraghanta.jpg";
 
 import { Container, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -62,6 +63,34 @@ export default function Blog() {
                     </p>
                   </Link>
                   <Link to="sharan-navarathri">
+                    <Button className="mt-3" variant="primary" size="lg">
+                      Read More
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-md-6 mb-3">
+              <Card classname="shadow">
+                <Card.Body>
+                  <Link to="chandraghanta">
+                    <img
+                      alt="blog"
+                      src={Chandraghanta}
+                      className="img-fluid -width"
+                    />
+
+                    <h2 className="sub-title mt-4 mb-4">
+                      Goddess Chandraghanta
+                    </h2>
+                    <p>
+                      The third day of Navarathri is of Goddess Chandraghanta.
+                      She is a fierce 10-armed goddess with a crescent moon on
+                      her forehead, which gives her the name Chandraghanta. She
+                      rides on a tiger to destroy all evil and wicked.
+                    </p>
+                  </Link>
+                  <Link to="chandraghanta">
                     <Button className="mt-3" variant="primary" size="lg">
                       Read More
                     </Button>
