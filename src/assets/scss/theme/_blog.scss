@@ -5,9 +5,12 @@
         width: 100%;
 
         @media (max-width: 575.98px) {
-
             height: 250px;
         }
+    }
+    .full-width {
+        height: 100%;
+        max-height: 750px;
     }
 
     h2 {
