@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+
 import image from "../../assets/img/blog/pitrupaksha.jpeg";
 import { Container, Row, Col } from "react-bootstrap";
 

@@ -2,7 +2,9 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import image from "../../assets/img/blog/ganesha.jpeg";
+
 import image1 from "../../assets/img/blog/pitrupaksha.jpeg";
+
 import { Container, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -18,6 +20,7 @@ export default function Blog() {
                 <Card.Body>
                   <Link to="blogdetails">
                     <img alt="blog" src={image} className="img-fluid" />
+
                     <h2 className="sub-title mt-4 mb-4">
                       Unfold Ganesha In You
                     </h2>
