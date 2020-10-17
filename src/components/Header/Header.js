@@ -167,10 +167,13 @@ export default function Header() {
                     <div className="p-1">
                       <div className="dropdown-header p-2">Dhanya prakriya</div>
                       <NavDropdown.Divider />
-                      <Nav.Link className="dropdown-item" href="#">
+                      <Nav.Link className="dropdown-item" href="eshwari-dhyana">
                         - Eshwari Dhyana
                       </Nav.Link>
-                      <Nav.Link className="dropdown-item" href="#">
+                      <Nav.Link
+                        className="dropdown-item"
+                        href="eshwari-dhyana-levels"
+                      >
                         - Eshwari Sidha Dhyana -level 1&2
                       </Nav.Link>
                       <Link
@@ -216,7 +219,10 @@ export default function Header() {
                       <Nav.Link className="dropdown-item" href="sriyog">
                         -Sri yog
                       </Nav.Link>
-                      <Nav.Link className="dropdown-item" href="#">
+                      <Nav.Link
+                        className="dropdown-item"
+                        href="eshwari-nirmalakarana-kriya"
+                      >
                         - Nirmali karana kriya- level 1&2
                       </Nav.Link>
                     </div>
