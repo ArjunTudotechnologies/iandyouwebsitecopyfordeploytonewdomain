@@ -17,8 +17,11 @@ import EventsPage from "../src/pages/Events/Events.js";
 import ComponentsPage from "../src/pages/UIComponents/UIComponents.js";
 import DonatePage from "../src/pages/Donate/Donate.js";
 import EshwariShodhanaKriyaPage from "../src/pages/EshwariShodhanaKriya/EshwariShodhanaKriya.js";
+import EshwariNirmalaKaranaKriyaPage from "../src/pages/EshwariNirmalikaranaKriya/EshwariNirmaliKaranaKriya";
 
 import EshwariKriyaPage from "./pages/EshwariKriya/EshwariKriya";
+import EshwariDhyanaPage from "./pages/EshwariDhyana/EshwariDhyana";
+import EshwariDhyanaLevelsPage from "./pages/EshwariDhyanaLevels/EshwariDhyanaLevels";
 import EshwariShakthiKendraSadhanaPage from "./pages/EshwariShakthiKendraSadhana/EshwariShakthiKendraSadhana";
 import EshwariSrividhyaSadhanaPage from "./pages/EshwariSrividhyaSadhana/EshwariSrividhyaSadhana";
 import JyothismathiPage from "./pages/Jyothishmathi/Jyothishmathi";
@@ -55,6 +58,15 @@ ReactDOM.render(
       <Route path="/events" component={EventsPage} />
       <Route path="/components" component={ComponentsPage} />
       <Route path="/eshwari-kriya" component={EshwariKriyaPage} />
+      <Route path="/eshwari-dhyana" component={EshwariDhyanaPage} />
+      <Route
+        path="/eshwari-nirmalakarana-kriya"
+        component={EshwariNirmalaKaranaKriyaPage}
+      />
+      <Route
+        path="/eshwari-dhyana-levels"
+        component={EshwariDhyanaLevelsPage}
+      />
       <Route
         path="/eshwari-shodhana-kriya"
         component={EshwariShodhanaKriyaPage}
