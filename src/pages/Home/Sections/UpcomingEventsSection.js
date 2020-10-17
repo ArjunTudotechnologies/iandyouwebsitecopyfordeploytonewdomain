@@ -143,7 +143,7 @@ export default class UpcomingEventsSection extends Component {
     };
     return (
       <>
-        <section>
+        <section id="eventsSection">
           <Container>
             <Heading smalltitle="Events" title="Upcoming Events" />
 
