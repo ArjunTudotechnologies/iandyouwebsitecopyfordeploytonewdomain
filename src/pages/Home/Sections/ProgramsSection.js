@@ -10,7 +10,7 @@ export default class ProgramsSection extends Component {
   }
   render() {
     return (
-      <section className="pb-0 pt-0">
+      <section className="pb-0 pt-0" id="programSection">
         <Container fluid className="position-relative">
           <Row>
             <Col md={6} className="p-0">

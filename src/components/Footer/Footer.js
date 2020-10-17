@@ -47,7 +47,7 @@ export default function Footer() {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={5} lg={3} xl={4}>
+          <Col xs={12} md={4} lg={3} xl={4}>
             <h2>Contact</h2>
             <p>
               <b>
@@ -74,7 +74,7 @@ export default function Footer() {
               +91 990 002 2506
             </p>
           </Col>
-          <Col xs={4} md={3} lg={2} xl={2}>
+          <Col xs={4} md={2} lg={2} xl={2}>
             <h2>Useful Links</h2>
             <ul className="menu-links">
               <li>
@@ -118,83 +118,47 @@ export default function Footer() {
             <h2>&nbsp;</h2>
             <ul className="menu-links">
               <li>
-                <Link style={linkText} to="/">
-                  Home
+                <a
+                  target="blank"
+                  style={linkText}
+                  href="http://iandyouvidhya.org/"
+                >
+                  I And You Vidhya
+                </a>
+              </li>
+              <li>
+                <Link style={linkText} to="#">
+                  I And You Green
                 </Link>
               </li>
               <li>
-                <Link style={linkText} to="/about">
-                  I And You
+                <Link style={linkText} to="#">
+                  She's Devine
                 </Link>
               </li>
               <li>
-                <Link style={linkText} to="/about">
-                  Events
+                <Link style={linkText} to="eshwari-kriya">
+                  Eshwari Kriya
                 </Link>
               </li>
               <li>
-                <Link style={linkText} to="/about">
-                  Blogs
+                <Link style={linkText} to="eshwari-dhyana">
+                  Eshwari Dhyana
                 </Link>
               </li>
               <li>
-                <Link style={linkText} to="/about">
-                  Shop
+                <Link style={linkText} to="udgamana">
+                  Udgamana Sadhana
                 </Link>
               </li>
               <li>
-                <Link style={linkText} to="/about">
-                  Donate
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Contact
+                <Link style={linkText} to="immortal-process">
+                  ImmortalProcess
                 </Link>
               </li>
             </ul>
           </Col>
-          <Col xs={4} md={2} lg={2} xl={2}>
-            <h2>&nbsp;</h2>
-            <ul className="menu-links">
-              <li>
-                <Link style={linkText} to="/">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Yoga & Meditation
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link style={linkText} to="/about">
-                  About
-                </Link>
-              </li>
-            </ul>
-          </Col>
-          <Col xs={8} md={12} lg={3} xl={2}>
+          <Col xs={8} md={4} lg={4} xl={4}>
             <h2>Social Media</h2>
             <ul className="socialMediaLinks">
               <li>
