@@ -9,6 +9,7 @@ import shailputri from "../../assets/img/blog/shailputri.jpg";
 import Chandraghanta from "../../assets/img/blog/chandraghanta.jpg";
 import skandmata from "../../assets/img/blog/skandmata.jpg";
 import kushmanda from "../../assets/img/blog/kushmanda.jpg";
+import noimage from "../../assets/img/blog/noimage.png";
 
 import { Container, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -20,6 +21,7 @@ export default function Blog() {
       <Container>
         <section className="blog-section">
           <div className="row">
+            {/* Sharan Navarathri */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
@@ -42,7 +44,7 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
-
+            {/* Brahmacharini */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
@@ -73,6 +75,7 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
+            {/* Chandraghanta */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
@@ -101,6 +104,7 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
+            {/* Kushmanda */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
@@ -123,6 +127,7 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
+            {/* Skandmata */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
@@ -147,7 +152,79 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
+            {/* Katyayani */}
+            <div className="col-md-6 mb-3">
+              <Card classname="shadow">
+                <Card.Body>
+                  <Link to="katyayani">
+                    <img alt="blog" src={noimage} className="full-width" />
 
+                    <h2 className="sub-title mt-4 mb-4">Eshwari Katyayani</h2>
+                    <p>
+                      The sixth day of Navarathri is dedicated to Goddess
+                      Katyayani, who is a form of Shakti. Also known as the
+                      warrior goddess, Katyayani is considered as one of the
+                      most violent forms of Goddess Parvati.
+                    </p>
+                  </Link>
+                  <Link to="katyayani">
+                    <Button className="mt-3" variant="primary" size="lg">
+                      Read More
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </div>
+            {/* Goddess Kaalrathri */}
+            <div className="col-md-6 mb-3">
+              <Card classname="shadow">
+                <Card.Body>
+                  <Link to="kaalrathri">
+                    <img alt="blog" src={noimage} className="full-width" />
+
+                    <h2 className="sub-title mt-4 mb-4"> Goddess Kaalrathri</h2>
+                    <p>
+                      Saptami or the seventh day of Navarathri is of Goddess
+                      Kaalrathri. As per legends she sacrificed her skin colour
+                      and embraced a dark complexion to kill demons. She is a
+                      four-armed deity who rides a donkey, carries a sword, a
+                      trident, and a noose. She has a third eye on her forehead
+                      that is believed to contain the entire universe.
+                    </p>
+                  </Link>
+                  <Link to="kaalrathri">
+                    <Button className="mt-3" variant="primary" size="lg">
+                      Read More
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </div>
+            {/* Goddess Mahagauri */}
+            <div className="col-md-6 mb-3">
+              <Card classname="shadow">
+                <Card.Body>
+                  <Link to="mahagauri">
+                    <img alt="blog" src={noimage} className="full-width" />
+
+                    <h2 className="sub-title mt-4 mb-4">Goddess Mahagauri</h2>
+                    <p>
+                      Durga Asthami or the eight-day of Navarathri is dedicated
+                      to Goddess Mahagauri. She is a four-armed deity who rides
+                      on a bull or a white elephant. She carries a Trishul and a
+                      damru in her hands.
+                    </p>
+                  </Link>
+                  <Link to="mahagauri">
+                    <Button className="mt-3" variant="primary" size="lg">
+                      Read More
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </div>
+
+            {/* Unfold Ganesha In You */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
@@ -172,6 +249,7 @@ export default function Blog() {
                 </Card.Body>
               </Card>
             </div>
+            {/* pitrupaksha */}
             <div className="col-md-6 mb-3">
               <Card classname="shadow">
                 <Card.Body>
