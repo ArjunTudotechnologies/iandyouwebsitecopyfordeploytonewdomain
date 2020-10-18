@@ -42,6 +42,10 @@ import ChandraghantaPage from "./pages/Blog/Chandraghanta";
 import SkandmataPage from "./pages/Blog/Skandmata";
 import KushmandaPage from "./pages/Blog/Kushmanda";
 
+import KaalrathriPage from "./pages/Blog/Kaalrathri";
+import KatyayaniPage from "./pages/Blog/Katyayani";
+import MahagauriPage from "./pages/Blog/Mahagauri";
+
 var hist = createBrowserHistory();
 
 ReactDOM.render(
@@ -57,6 +61,10 @@ ReactDOM.render(
       <Route path="/skandmata" component={SkandmataPage} />
 
       <Route path="/kushmanda" component={KushmandaPage} />
+
+      <Route path="/kaalrathri" component={KaalrathriPage} />
+      <Route path="/katyayani" component={KatyayaniPage} />
+      <Route path="/mahagauri" component={MahagauriPage} />
 
       <Route path="/donate" component={DonatePage} />
       <Route path="/blogdetails" component={BlogDetailsPage} />
