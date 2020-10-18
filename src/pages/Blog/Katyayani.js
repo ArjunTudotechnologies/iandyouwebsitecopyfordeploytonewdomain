@@ -70,8 +70,8 @@ export default function Katyayani() {
             </p>
             <p>So it is said in Sree Lalita Sahasranama Stotra</p>
             <h3 class="special-title">
-              //Dikshita daityashamani sarvaloka vashankari Sarvardhadatri
-              savitri sachidananda rupini // LSN:136
+              "Dikshita daityashamani sarvaloka vashankari Sarvardhadatri
+              savitri sachidananda rupini" LSN:136
             </h3>
             <p>
               This state of our own consciousness is capable of destroying the
