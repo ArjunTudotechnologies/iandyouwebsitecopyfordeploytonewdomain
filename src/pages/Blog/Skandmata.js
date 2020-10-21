@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import Chandraghanta from "../../assets/img/blog/chandraghanta.jpg";
+import skandmata from "../../assets/img/blog/skandmata.jpg";
+
 import Comment from "../Blog/Comment";
 
 import { Container, Row, Col } from "react-bootstrap";
@@ -15,8 +16,8 @@ export default function Skandmata() {
           <Col md={6}>
             <img
               alt="Chandraghanta"
-              src={Chandraghanta}
-              className="img-fluid  shadow"
+              src={skandmata}
+              className="img-fluid w-100 shadow"
             />
           </Col>
           <Col md={6} className=" ">
@@ -41,6 +42,8 @@ export default function Skandmata() {
               The energy which gives birth or makes it Materialize Intentions -
               Sankalpa of the Sadhaks
             </p>
+          </Col>
+          <Col md={12}>
             <p>
               The Intentions be it Material or Spiritual, it can be Bhoga or
               Moksha, what we sow she will make it reap or in other dimension,
@@ -59,8 +62,6 @@ export default function Skandmata() {
               have good Intentions, for that they need develop alertness and
               awareness.
             </p>
-          </Col>
-          <Col md={12}>
             <p>
               The bell and Kamandalu in her hands indicates alertness and
               awareness, when one has well trained mind or is Good in Tapasya,
