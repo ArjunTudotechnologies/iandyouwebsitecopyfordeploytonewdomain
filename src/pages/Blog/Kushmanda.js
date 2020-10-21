@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import Chandraghanta from "../../assets/img/blog/chandraghanta.jpg";
+import kushmanda from "../../assets/img/blog/kushmanda.jpg";
+
 import Comment from "../Blog/Comment";
 
 import { Container, Row, Col } from "react-bootstrap";
@@ -15,7 +16,7 @@ export default function Kushmanda() {
           <Col md={6}>
             <img
               alt="Chandraghanta"
-              src={Chandraghanta}
+              src={kushmanda}
               className="img-fluid  shadow"
             />
           </Col>

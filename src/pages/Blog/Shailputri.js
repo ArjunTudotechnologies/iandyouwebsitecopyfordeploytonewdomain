@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import imageBhramhacharini from "../../assets/img/blog/brahmacharini.jpg";
+import shailputri from "../../assets/img/blog/shailputri.jpg";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Shailputri() {
@@ -13,7 +14,7 @@ export default function Shailputri() {
           <Col md={6}>
             <img
               alt="Unfold Ganesha"
-              src={imageBhramhacharini}
+              src={shailputri}
               className="img-blog-details shadow"
             />
           </Col>
