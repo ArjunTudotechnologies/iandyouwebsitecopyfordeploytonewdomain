@@ -47,3 +47,19 @@
     width: 100%;
     object-fit: cover;
 }
+.rotate-slash {
+    transform: rotate(75deg);
+}
+.rotate-line {
+    transform: rotate(75deg);
+}
+.ml-m-20 {
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.mt-m-10 {
+    margin-top: -10px;
+}
+.max-height {
+    max-height: 580px !important;
+}
