@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import imageBhramhacharini from "../../assets/img/blog/brahmacharini.jpg";
 import { Container, Row, Col } from "react-bootstrap";
-
+import Comment from "../Blog/Comment";
 export default function Brahmacharini() {
   return (
     <div>
@@ -22,48 +22,72 @@ export default function Brahmacharini() {
               Eshwari Brahmacharini(Superficial meaning)
             </h2>
             <p>
-              The second day of Navrathri is dedicated to Goddess Brahmacharini.
-              The goddess walks bare feet with a rudraksh mala in one hand and a
-              sacred Kamandalu in the other. The meditative form of this goddess
-              symbolizes Goddess Parvati when she engaged in her deep meditation
-              to please Lord Shiva.
+              The second day of Navarathri is dedicated to Goddess
+              Brahmacharini. The goddess walks bare feet with a rudraksh mala in
+              one hand and a sacred Kamandalu in the other. The meditative form
+              of this goddess symbolizes Goddess Parvati when she is engaged in
+              her deep meditation to please Lord Shiva.
+            </p>
+            <h2 className="sub-title">What to offer:</h2>
+            <p>
+              Goddess Brahmacharini is offered sugar for the longevity of the
+              family members.
+            </p>
+            <h2 className="sub-title">The Antar artha:</h2>
+            <p>
+              Brahma means an absolute universal reality or consciousness ,
+              Chari means the one who walk towards such reality, that means a
+              Sadhak, A Sadhak must be a Brahma chari , the one who walks
+              towards it, the journey is called tapasya , tapasya means one who
+              is engaged in Body, Mind and Emotional management, such management
+              is called Tapasya, which I always impart to sadhaks during Eshwari
+              kriya workshop.
             </p>
             <p>
-              <b>What to offer:</b> Goddess Brahmacharini is offered sugar for
-              the longevity of the family members.
-            </p>
-
-            <p>
-              <b>The Antar artha:</b>
-            </p>
-
-            <p>
-              Brahma means absolute universal reality, Chari means the one who
-              walks towards such reality, that means a Sadhak here.
+              Devi Eshwari Bramhacharini symbolically holding Rudraksh and
+              Kamandalu which denotes Tapasya / Austerity , she is setting an
+              example to us that being a cosmic mother, the mother of cosmic
+              creation and the creator of trinity, she has come down to the
+              level of a sadhak to uplift him/her.
             </p>
             <p>
-              Rudraksh and Kamandalu symbolizes Tapasya / Austerity , Tapasya in
-              5 levels Physical, Verbal , Mental , Emotional and even in the
-              Energy level or the best simple method is being a sadhak one who
-              is regular in his/her sadhana, implementation of the knowledge
-              gained from Guru, having faith on his Guru and Sadhana and engages
-              oneself in self less service, Brahma charini blesses such a
-              sadhak, as she literally means the ability to perform austerity.
+              The Tapasya can be done in 5 levels or five ways those are
+              Physical, Verbal , Mental , Emotional and even on the Energy level
+              so in Sahasranama it said that Pancha Yagna Priya because Tapasya
+              is a Yagna, if you go through Bagavat Geeta Krishna speaks about
+              many types of Yagna or the simple best method to do Tapasya is to
+              be regular in your Sadhana, implement the knowledge which you have
+              gained by Sri Guru, have faith on Sri Guru and engage in self less
+              Service.
             </p>
+          </Col>
+          <Col md={12}>
             <p>
-              The Eshwari is your Mind , your Intellect, your Memory , your very
-              Ego and even Your Self , one need grace and blessings of Mother or
-              else one can't perform Tapasya - Austerity, the secret to which is
-              the Strength and Power to perform Austerity which is bestowed by
-              divine Mother, she is your 25 Tatvas.
+              So Brahma charini literally means the ability to perform
+              austerity, Eshwari is your Mind , Your Intellect, Your Memory ,
+              your very Ego and Even Your Self, one need grace and blessings of
+              Divine Mother or else one can't perform Tapasya, you should know
+              the secret the secret is The Strength and The Power to perform
+              Austerity and in the mean time she is your 25 shakthis + 11 Shivas
+              + 01 Para Shakti Tatvas, so
             </p>
-            <p>
-              <b>so it said in the Sree Lalitha Sahasranama Stotram</b>
-            </p>
-            <h3 className="special-title text-center">
-              "Mano-rupekshu kodanda pancha tanmatra sayaka Nijaruna prabha-pura
-              majabhramhanda mandala" LSN-03
-            </h3>
+            <b>
+              The ability to perform Tapasya is possible with the blessings of
+              Bramhacharini or in other dimension The Tapasya itself is Divine
+              Mother Eshwari Brahma charini
+            </b>
+            <br />
+            <br />
+            <b>So it is said in the Sree Lalitha Sahasranama Stotram</b>
+            <br />
+            <br />
+            <h2 className="special-title text-center">
+              <Comment />
+              Mano-rupekshu kodanda pancha tanmatra sayaka Nijaruna prabha-pura
+              majabhramhanda mandala
+              <Comment />
+              LSN-03
+            </h2>
             <p>
               <b>
                 <span
