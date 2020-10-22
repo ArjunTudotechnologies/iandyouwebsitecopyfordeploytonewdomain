@@ -38,7 +38,6 @@ const slides = [
       { id: "5", content: "Increases memory,skill and creativity." },
     ],
     bannerImg: "eshwari-shakthi-kendra-sadhana.png",
-
   },
   {
     id: "3",
@@ -66,7 +65,6 @@ const slides = [
       { id: "5", content: "Strengthens Immunity" },
     ],
     bannerImg: "kids.png",
-
   },
 ];
 
@@ -342,7 +340,7 @@ export default function EshwariKriya() {
                 </span>
               </b>
               <br />
-              &nbsp;&nbsp;&nbsp;Jai Guru Dev
+              &nbsp;&nbsp;&nbsp;Jai Guru Dev...
             </p>
           </div>
         </Container>

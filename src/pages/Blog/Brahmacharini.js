@@ -22,26 +22,26 @@ export default function Brahmacharini() {
               Eshwari Brahmacharini(Superficial meaning)
             </h2>
             <p>
-              The second day of Navarathri is dedicated to Goddess
-              Brahmacharini. The goddess walks bare feet with a rudraksh mala in
-              one hand and a sacred Kamandalu in the other. The meditative form
-              of this goddess symbolizes Goddess Parvati when she is engaged in
-              her deep meditation to please Lord Shiva.
+              The second day of Navaratri is dedicated to Eshwari Brahmacharini.
+              The goddess walks bare feet with a rudraksh mala in one hand and a
+              sacred Kamandalu in the other. The meditative form of this goddess
+              symbolizes Goddess Parvati when she is engaged in deep meditation
+              to please Lord Shiva.
             </p>
             <h2 className="sub-title">What to offer:</h2>
             <p>
-              Goddess Brahmacharini is offered sugar for the longevity of the
+              Eshwari Brahmacharini is offered sugar for the longevity of the
               family members.
             </p>
             <h2 className="sub-title">The Antar artha:</h2>
             <p>
-              Brahma means an absolute universal reality or consciousness ,
-              Chari means the one who walk towards such reality, that means a
-              Sadhak, A Sadhak must be a Brahma chari , the one who walks
-              towards it, the journey is called tapasya , tapasya means one who
-              is engaged in Body, Mind and Emotional management, such management
-              is called Tapasya, which I always impart to sadhaks during Eshwari
-              kriya workshop.
+              Brahma means absolute universal reality or consciousness, Chari
+              means the one who walk towards that reality meaning a Sadhak. A
+              Sadhak must be a Brahmachari, the one who walks towards the
+              absolute reality, the journey is called tapasya. Tapasya means one
+              who is engaged in Body, Mind and Emotion management, such
+              management is called Tapasya, which I have imparted to all my
+              sadhaks during the basic Eshwari kriya workshop.
             </p>
             <p>
               Devi Eshwari Bramhacharini symbolically holding Rudraksh and
@@ -50,35 +50,40 @@ export default function Brahmacharini() {
               creation and the creator of trinity, she has come down to the
               level of a sadhak to uplift him/her.
             </p>
-            <p>
-              The Tapasya can be done in 5 levels or five ways those are
-              Physical, Verbal , Mental , Emotional and even on the Energy level
-              so in Sahasranama it said that Pancha Yagna Priya because Tapasya
-              is a Yagna, if you go through Bagavat Geeta Krishna speaks about
-              many types of Yagna or the simple best method to do Tapasya is to
-              be regular in your Sadhana, implement the knowledge which you have
-              gained by Sri Guru, have faith on Sri Guru and engage in self less
-              Service.
-            </p>
           </Col>
-          <Col md={12}>
+          <Col md={12} className="mt-5">
             <p>
-              So Brahma charini literally means the ability to perform
-              austerity, Eshwari is your Mind , Your Intellect, Your Memory ,
-              your very Ego and Even Your Self, one need grace and blessings of
+              Devi Eshwari Bramhacharini symbolically holding a Rudraksh and
+              Kamandalu symbolizes Tapasya / Austerity, she is setting an
+              example to us that being a cosmic mother, the mother of cosmic
+              creation and also the creator of the trinities, she has come down
+              to the level of a sadhak and is setting example for us to follow.
+              The Tapasya can be done in 5 levels or five ways those are
+              Physical, Verbal , Mental , Emotional and even in Energy level, so
+              in Sahasranama it said she is Pancha Yagna Priya because Tapasya
+              is a Yagna, if you go through Bagavat Geeta Krishna speaks about
+              many types of Yagnas and the simple best method to do Tapasya is
+              to be regular in Sadhana, implement the knowledge which gained by
+              Sri Guru, having faith on Sri Guru, Sadhana and engage in self
+              less service .
+            </p>
+            <p>
+              So Brahmacharini literally means the ability to perform austerity,
+              Eshwari is your Mind, your Intellect, your Memory, your very Ego
+              and even your own Self, one needs the grace and blessings of
               Divine Mother or else one can't perform Tapasya, you should know
-              the secret the secret is The Strength and The Power to perform
-              Austerity and in the mean time she is your 25 shakthis + 11 Shivas
-              + 01 Para Shakti Tatvas, so
+              the secret and the secret is the Strength and Power to perform
+              Austerity which also is the divine Mother and meanwhile she is
+              your 25 shakthi + 11 Shiva + 01 Para Shakti Tatvas, so
             </p>
             <b>
               The ability to perform Tapasya is possible with the blessings of
-              Bramhacharini or in other dimension The Tapasya itself is Divine
-              Mother Eshwari Brahma charini
+              Bramhacharini or in another dimension Tapasya itself is Divine
+              Mother, Eshwari Brahmacharini.
             </b>
             <br />
             <br />
-            <b>So it is said in the Sree Lalitha Sahasranama Stotram</b>
+            <b>As is mentioned in the Sree Lalitha Sahasranama Stotram</b>
             <br />
             <br />
             <h2 className="special-title text-center">
@@ -98,7 +103,7 @@ export default function Brahmacharini() {
                 </span>
               </b>
               <br />
-              &nbsp;&nbsp;&nbsp;Jai Guru Dev
+              &nbsp;&nbsp;&nbsp;Jai Guru Dev...
             </p>
           </Col>
         </Row>

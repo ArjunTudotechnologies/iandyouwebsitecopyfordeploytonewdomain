@@ -215,7 +215,7 @@ export default function SriYog() {
                 </span>
               </b>
               <br />
-              &nbsp;&nbsp;&nbsp;Jai Guru Dev
+              &nbsp;&nbsp;&nbsp;Jai Guru Dev...
             </p>
           </div>
         </Container>
