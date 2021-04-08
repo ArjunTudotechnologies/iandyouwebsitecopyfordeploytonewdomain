@@ -46,67 +46,67 @@ import { Container } from "react-bootstrap";
 // ];
 
 export default class Home extends Component {
-  componentDidMount() {
-    const wow = new WOW({
-      offset: 100,
-      mobile: false,
-      live: true,
-    });
+	componentDidMount() {
+		const wow = new WOW({
+			offset: 100,
+			mobile: false,
+			live: true,
+		});
 
-    wow.init();
-  }
-  render() {
-    return (
-      <div>
-        <Header />
-        <IandyouCard />
-        <IandyouCardMobile />
-        <UpcomingWorkshopsSection />
-        <section className="iandyou-card-section">
-          <Container fluid>
-            <h2 className="big-title text-center mb-5">
-              <span className="">Guru Purnima 2020 Celebrations</span>
-            </h2>
-            <div className="row">
-              <div className="col-md-4">
-                <img
-                  src={process.env.PUBLIC_URL + "img/others/img1.jpg"}
-                  alt="Guru Puja"
-                  className="img-fluid shadow br-10"
-                />
-              </div>
-              <div className="col-md-4">
-                <img
-                  src={process.env.PUBLIC_URL + "img/others/img2.jpg"}
-                  alt="Guru Puja"
-                  className="img-fluid shadow br-10"
-                />
-              </div>
-              <div className="col-md-4">
-                <img
-                  src={process.env.PUBLIC_URL + "img/others/img3.jpg"}
-                  alt="Guru Puja"
-                  className="img-fluid shadow br-10"
-                />
-              </div>
-            </div>
-          </Container>
-        </section>
-        <VideoSection />
-        <UpcomingEventsSection />
-        <TestimonialsSection />
-        <TwitterSection />
-        <ProgramsSection />
-        {/* <CovidBanner /> */}
-        {/* <div className="m-5 very-small-banner">
+		wow.init();
+	}
+	render() {
+		return (
+			<div>
+				<Header />
+				<IandyouCard />
+				<IandyouCardMobile />
+				<UpcomingWorkshopsSection />
+				<section className="iandyou-card-section">
+					<Container fluid>
+						<h2 className="big-title text-center mb-5">
+							<span className="">Guru Purnima 2020 Celebrations</span>
+						</h2>
+						<div className="row">
+							<div className="col-md-4">
+								<img
+									src={process.env.PUBLIC_URL + "img/others/img1.jpg"}
+									alt="Guru Puja"
+									className="img-fluid shadow br-10"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									src={process.env.PUBLIC_URL + "img/others/img2.jpg"}
+									alt="Guru Puja"
+									className="img-fluid shadow br-10"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									src={process.env.PUBLIC_URL + "img/others/img3.jpg"}
+									alt="Guru Puja"
+									className="img-fluid shadow br-10"
+								/>
+							</div>
+						</div>
+					</Container>
+				</section>
+				<VideoSection />
+				<UpcomingEventsSection />
+				<TestimonialsSection />
+				<TwitterSection />
+				<ProgramsSection />
+				{/* <CovidBanner /> */}
+				{/* <div className="m-5 very-small-banner">
           <SmallBanner
             slides={slides}
             bannerClass="pt-0 small-banner-section"
           />
         </div>   */}
-        <Footer />
-        {/* <ScrollTop /> */}
-      </div>
-    );
-  }
+				<Footer />
+				{/* <ScrollTop /> */}
+			</div>
+		);
+	}
 }
