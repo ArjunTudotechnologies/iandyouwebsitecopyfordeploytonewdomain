@@ -16,7 +16,7 @@ const slides = [
 		end_date: "2020/05/14",
 		start_time: "5 PM to 8 PM IST",
 		end_time: "15:01:27",
-		location: "ZOOM Meeting",
+		location: "Banglore",
 	},
 	{
 		id: "3",
@@ -29,7 +29,7 @@ const slides = [
 		end_date: "2020/05/14",
 		start_time: "5 PM to 8 PM IST",
 		end_time: "15:01:27",
-		location: "ZOOM Meeting",
+		location: "Banglore",
 	},
 	{
 		id: "4",
@@ -42,7 +42,7 @@ const slides = [
 		end_date: "2020/05/14",
 		start_time: "Sunday 5 PM to 8.30 PM IST",
 		end_time: "15:01:27",
-		location: "ZOOM Meeting",
+		location: "Banglore",
 	},
 	{
 		id: "1",
