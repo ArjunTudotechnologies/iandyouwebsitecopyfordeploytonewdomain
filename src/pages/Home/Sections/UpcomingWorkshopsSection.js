@@ -24,12 +24,12 @@ const slides = [
 		event_desc:
 			"Most people say that their act was Crying and i hope most of us will agree with that but if you ask me, I would say it’s a big No, do you know why ? because the 1st immediate act which we perform was Breathing , we inhale the air to our system, the air which we inhale is not only the oxygen , in our yogic science we call it as Prana,",
 		event_image: "eshwari_kriya.jpg",
-		start_date: "17/07/2021 to 19/07/2021",
+		start_date: "09/04/2021 to 11/04/2021",
 
 		end_date: "2021/05/14",
 		start_time: "5PM to 8PM ISD Time",
 		end_time: "15:01:27",
-		location: "Banglore",
+		location: "Banglore (ofline & online)",
 		link: "eshwari-kriya",
 	},
 	{
@@ -38,11 +38,11 @@ const slides = [
 		event_desc:
 			"Eshwari dhyana is come from a good old Shaktha tradition, Eshwari Dhyana is described as a simple, natural, effortless Dhyana technique that doesn&#39;t involve much concentration. One uses a Powerful Energized Dhyana mantra as a vehicle to let the mind settle down naturally in its source .",
 		event_image: "eshwari_dhyana.jpg",
-		start_date: "24/07/2021",
+		start_date: "11/04/2021",
 		end_date: "2021/05/14",
 		start_time: "",
 		end_time: "15:01:27",
-		location: "Banglore",
+		location: "Online",
 		link: "#",
 	},
 
@@ -52,12 +52,12 @@ const slides = [
 		event_desc:
 			"The theory of 'karma and rebirth' raises numerous questions such as how, when, and why did the cycle start in the first place, what is the relative Karmic merit of one karma versus another and why, and what evidence is there that rebirth actually happens, among others.",
 		event_image: "immortal_process.jpeg",
-		start_date: "31/07/2021 to 02/08/2021",
+		start_date: "02/04/2021 to 04/04/2021",
 		end_date: "2021/05/14",
 		start_time: "15:01:27",
 		end_time: "15:01:27",
 		link: "immortal-process",
-		location: "Banglore",
+		location: " (inhouse - Past lives Karma clearing process )",
 	},
 	{
 		id: "2",
@@ -65,40 +65,67 @@ const slides = [
 		event_desc:
 			"Sri Vidhya Eshwari Sadhana is theSadhana / Practice of the infinite order. As the name implies it is the Practice of 'SRI' who is the granter of wealth, wealth of both worldly and spiritual",
 		event_image: "srividya.jpg",
-		start_date: "28/07/2021 to 30/07/2021  ",
+		start_date: "April",
 		end_date: "2021/05/14",
 		start_time: "15:01:27",
 		end_time: "15:01:27",
 		link: "eshwari-srividhya-sadhana",
 		location: "Banglore",
 	},
-
-	{
-		id: "4",
-		event_name: "Udgamana",
-		event_desc:
-			"what is difference between you and others or me and you ? that is the level of awareness , some have less , some have moderate and some have more , the one possessing more, for such person the possibility of success is more",
-		event_image: "udgamana.jpg",
-		start_date: "21/08/2021 to 23/08/2021",
-		end_date: "2021/05/14",
-		start_time: "15:01:27",
-		end_time: "15:01:27",
-		link: "udgamana",
-		location: "Banglore",
-	},
-
 	{
 		id: "3",
-		event_name: "Kala Bhairava Dhyana",
-		event_desc: "",
-		event_image: "kalabairava.jpg",
-		start_date: "12/07/2021",
+		event_name: "Eshwari Nirmalikarana kriya - Level 01 & 02",
+		event_desc:
+			" Målā means the impurities or negative energy or Black energy , this Målā is neither formless nor has form, there are three types, Physical , Mental and Emotional, there are many reasons that..",
+		event_image: "guruji-1.jpeg",
+		start_date:
+			"17th & 18th April ( Body, mind & emotions cleanings workshop / Kali sadhana Deeksha)",
 		end_date: "2021/05/14",
 		start_time: "15:01:27",
 		end_time: "15:01:27",
-		link: "kala-bhairava-dhyana",
+		link: "eshwari-nirmalakarana-kriya",
 		location: "Banglore",
 	},
+	{
+		id: "4",
+		event_name: "Jyothishmathi - A besic Astrology",
+		event_desc:
+			"The school of Jyothishmathi - Astro/Vastu solutions is founded by Guruji Sri Prasad, a profound Srividhya Yoga Tantra Master , who is fully established in the Self. Our school seeks to expand the world’s understanding of yoga through an education and training that are steeped in the Shaktha tradition, the original roots of yoga tantra, Astrology and Vastu , a long lineage of masters while making yoga tantra, Astrology and Vastu accessible and applicable for modern day use for people of all ages, abilities, cultures and religions.",
+		event_image: "horoscope.jpeg",
+		start_date: "24th & 25th april ( offline and online )",
+		end_date: "2021/05/14",
+		start_time: "15:01:27",
+		end_time: "15:01:27",
+		link: "eshwari-nirmalakarana-kriya",
+		location: "Banglore",
+	},
+
+	// {
+	// 	id: "4",
+	// 	event_name: "Udgamana",
+	// 	event_desc:
+	// 		"what is difference between you and others or me and you ? that is the level of awareness , some have less , some have moderate and some have more , the one possessing more, for such person the possibility of success is more",
+	// 	event_image: "udgamana.jpg",
+	// 	start_date: "21/08/2021 to 23/08/2021",
+	// 	end_date: "2021/05/14",
+	// 	start_time: "15:01:27",
+	// 	end_time: "15:01:27",
+	// 	link: "udgamana",
+	// 	location: "Banglore",
+	// },
+
+	// {
+	// 	id: "3",
+	// 	event_name: "Kala Bhairava Dhyana",
+	// 	event_desc: "",
+	// 	event_image: "kalabairava.jpg",
+	// 	start_date: "12/07/2021",
+	// 	end_date: "2021/05/14",
+	// 	start_time: "15:01:27",
+	// 	end_time: "15:01:27",
+	// 	link: "kala-bhairava-dhyana",
+	// 	location: "Banglore",
+	// },
 ];
 
 export default class UpcomingWorkshops extends Component {
@@ -123,8 +150,8 @@ export default class UpcomingWorkshops extends Component {
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			speed: 1000,
-			autoplaySpeed: 4000,
-			autoplay: false,
+			autoplaySpeed: 2000,
+			autoplay: true,
 			pauseOnHover: true,
 			focusOnSelect: false,
 			nextArrow: <FaArrowLeft />,
@@ -162,7 +189,6 @@ export default class UpcomingWorkshops extends Component {
 				<section className="bg-color-2">
 					<Container>
 						<Heading smalltitle="Workshops" title="Upcoming Workshops" />
-
 						<div>
 							<Slider {...settings}>
 								{this.state.slides.map(function (slide) {
