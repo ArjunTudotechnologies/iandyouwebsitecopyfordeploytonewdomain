@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import FirstImg from "../../assets/img/cards/11.jpg";
-import SecondImg from "../../assets/img/cards/sri-prasad-guruji.jpeg";
-import ThirdImg from "../../assets/img/cards/1.jpg";
+import FirstImg from "../../assets/img/cards/1st.jpeg";
+import SecondImg from "../../assets/img/cards/2nd.jpeg";
+import ThirdImg from "../../assets/img/cards/3rd.jpeg";
 import Line from "../../assets/img/others/line-2.png";
 import { Link } from "react-router-dom";
 
