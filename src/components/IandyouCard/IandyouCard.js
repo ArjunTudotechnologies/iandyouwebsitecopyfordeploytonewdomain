@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import FirstImg from "../../assets/img/cards/1st.jpeg";
-import SecondImg from "../../assets/img/cards/3rd.jpeg";
+import SecondImg from "../../assets/img/cards/6__01.jpeg";
 import ThirdImg from "../../assets/img/cards/3rd-1.jpeg";
 import Line from "../../assets/img/others/line-2.png";
 import { Link } from "react-router-dom";
