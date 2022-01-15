@@ -47,71 +47,73 @@ import KatyayaniPage from "./pages/Blog/Katyayani";
 import MahagauriPage from "./pages/Blog/Mahagauri";
 import ShailputriPage from "./pages/Blog/Shailputri";
 import SiddhidatriPage from "./pages/Blog/Siddhidatri";
+import Sankranthi from "./pages/Blog/Sankranthi";
 
 var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={hist}>
-    <Switch>
-      <Route path="/" exact component={HomePage} />
-      <Route path="/about" component={AboutPage} />
-      <Route path="/blog" component={BlogPage} />
-      <Route path="/brahmacharini" component={BrahmachariniPage} />
-      <Route path="/sharan-navarathri" component={SharanNavarathriPage} />
-      <Route path="/chandraghanta" component={ChandraghantaPage} />
+	<Router history={hist}>
+		<Switch>
+			<Route path="/" exact component={HomePage} />
+			<Route path="/about" component={AboutPage} />
+			<Route path="/blog" component={BlogPage} />
+			<Route path="/brahmacharini" component={BrahmachariniPage} />
+			<Route path="/sharan-navarathri" component={SharanNavarathriPage} />
+			<Route path="/sankranthi" component={Sankranthi} />
+			<Route path="/chandraghanta" component={ChandraghantaPage} />
 
-      <Route path="/skandmata" component={SkandmataPage} />
+			<Route path="/skandmata" component={SkandmataPage} />
 
-      <Route path="/kushmanda" component={KushmandaPage} />
-      <Route path="/shailputri" component={ShailputriPage} />
+			<Route path="/kushmanda" component={KushmandaPage} />
+			<Route path="/shailputri" component={ShailputriPage} />
 
-      <Route path="/kaalrathri" component={KaalrathriPage} />
-      <Route path="/katyayani" component={KatyayaniPage} />
-      <Route path="/mahagauri" component={MahagauriPage} />
+			<Route path="/kaalrathri" component={KaalrathriPage} />
+			<Route path="/katyayani" component={KatyayaniPage} />
+			<Route path="/mahagauri" component={MahagauriPage} />
 
-      <Route path="/donate" component={DonatePage} />
-      <Route path="/blogdetails" component={BlogDetailsPage} />
-      <Route path="/pitrupaksha" component={PitrupakshaPage} />
-      <Route path="/iandyou" component={IandYouPage} />
-      <Route path="/events" component={EventsPage} />
-      <Route path="/components" component={ComponentsPage} />
-      <Route path="/eshwari-kriya" component={EshwariKriyaPage} />
-      <Route path="/eshwari-dhyana" component={EshwariDhyanaPage} />
-      <Route path="/siddhidatri" component={SiddhidatriPage} />
-      <Route
-        path="/eshwari-nirmalakarana-kriya"
-        component={EshwariNirmalaKaranaKriyaPage}
-      />
-      <Route
-        path="/eshwari-dhyana-levels"
-        component={EshwariDhyanaLevelsPage}
-      />
-      <Route
-        path="/eshwari-shodhana-kriya"
-        component={EshwariShodhanaKriyaPage}
-      />
-      <Route
-        path="/eshwari-shakthi-kendra-sadhana"
-        component={EshwariShakthiKendraSadhanaPage}
-      />
-      <Route
-        path="/eshwari-srividhya-sadhana"
-        component={EshwariSrividhyaSadhanaPage}
-      />
-      <Route path="/jyothismathi" component={JyothismathiPage} />
-      <Route path="/immortal-process" component={ImmortalProcessPage} />
-      <Route path="/guru-puja" component={GuruPujaPage} />
-      <Route path="/projects" component={ProjectsPage} />
-      <Route path="/udgamana" component={UdgamanaPage} />
-      <Route path="/sri" component={SriPage} />
-      <Route path="/sriyog" component={SriYogPage} />
-      <Route path="/astrology" component={AstrologyPage} />
-      <Route path="/manah-prakshalya" component={ManahPrakshalyaPage} />
-      <Route path="/know-your-purpose" component={KnowYourPurposePage} />
-      <Route path="/kala-bhirava-dhyana" component={KalaBhiravaPage} />
-    </Switch>
-  </Router>,
-  document.getElementById("root")
+			<Route path="/donate" component={DonatePage} />
+			<Route path="/blogdetails" component={BlogDetailsPage} />
+			<Route path="/pitrupaksha" component={PitrupakshaPage} />
+			<Route path="/iandyou" component={IandYouPage} />
+			<Route path="/events" component={EventsPage} />
+			<Route path="/components" component={ComponentsPage} />
+			<Route path="/eshwari-kriya" component={EshwariKriyaPage} />
+			<Route path="/eshwari-dhyana" component={EshwariDhyanaPage} />
+			<Route path="/siddhidatri" component={SiddhidatriPage} />
+			<Route
+				path="/eshwari-nirmalakarana-kriya"
+				component={EshwariNirmalaKaranaKriyaPage}
+			/>
+			<Route
+				path="/eshwari-dhyana-levels"
+				component={EshwariDhyanaLevelsPage}
+			/>
+			<Route
+				path="/eshwari-shodhana-kriya"
+				component={EshwariShodhanaKriyaPage}
+			/>
+			<Route
+				path="/eshwari-shakthi-kendra-sadhana"
+				component={EshwariShakthiKendraSadhanaPage}
+			/>
+			<Route
+				path="/eshwari-srividhya-sadhana"
+				component={EshwariSrividhyaSadhanaPage}
+			/>
+			<Route path="/jyothismathi" component={JyothismathiPage} />
+			<Route path="/immortal-process" component={ImmortalProcessPage} />
+			<Route path="/guru-puja" component={GuruPujaPage} />
+			<Route path="/projects" component={ProjectsPage} />
+			<Route path="/udgamana" component={UdgamanaPage} />
+			<Route path="/sri" component={SriPage} />
+			<Route path="/sriyog" component={SriYogPage} />
+			<Route path="/astrology" component={AstrologyPage} />
+			<Route path="/manah-prakshalya" component={ManahPrakshalyaPage} />
+			<Route path="/know-your-purpose" component={KnowYourPurposePage} />
+			<Route path="/kala-bhirava-dhyana" component={KalaBhiravaPage} />
+		</Switch>
+	</Router>,
+	document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
